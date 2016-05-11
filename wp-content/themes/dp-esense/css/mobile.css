@@ -1,0 +1,312 @@
+/**
+ *
+ * -------------------------------------------
+ * Mobile CSS file
+ * -------------------------------------------
+ * 
+ **/
+ 
+/*
+ *
+ * 11. Mobile code
+ *
+ *
+------------------------------------ */
+ 
+/* 11.1. Base elements
+==================================== */ 
+.esense-subheader {text-align:left; padding-left:20px;}
+.esense-breadcrumbs {
+	float: left;
+}
+#esense-mainbody > div {
+	width: 100%;
+}
+/* archive / page 404 */
+.page404 .widget,
+.archivepage .widget {
+	margin: 0!important;
+	width: 100%!important;
+}
+
+/* images fix */
+#esense-mainbody img {
+}
+
+
+
+/* column rules */
+#esense-sidebar {
+	padding: 20px 0!important;
+}
+
+#esense-sidebar .box {
+	float: none!important;
+	width: 100%!important;
+}
+
+.widget-area .col1,
+.widget-area .col2,
+.widget-area .col3,
+.widget-area .col4,
+.widget-area .col5,
+.widget-area .col6,
+.widget-area .box.last1,
+.widget-area .box.last2,
+.widget-area .box.last3,
+.widget-area .box.last4,
+.widget-area .box.last5 { 
+	float: none!important;
+	margin: 0 auto 20px auto!important; 
+	max-width: 320px; 
+	width: 100%; 
+}
+
+.widget-area .nth1,
+.widget-area .nth2,
+.widget-area .nth3,
+.widget-area .nth4,
+.widget-area .nth5,
+.widget-area .nth6 {
+	clear: both;
+}
+
+#esense-sidebar .box {
+	width: 100%;
+	clear: both!important;
+	float: none!important;
+	margin: 0 auto!important;
+	max-width: 320px!important;
+}
+
+
+#esense-footer .box {
+	width: 100%;
+	clear: both!important;
+	float: none!important;
+	margin: 0 auto!important;
+	max-width: 320px!important;
+}
+
+#esense-sidebar .box {
+	float: none;
+	margin-top: 0!important;
+	margin-bottom: 12px!important;
+	width: 100%;
+}
+#esense-sidebar .box:nth-child(2n+1) {
+	clear: both!important;}
+
+#esense-sidebar .box:nth-child(odd) {
+	padding-right: 0px;	
+}
+#esense-sidebar .box:nth-child(even) {
+	padding-left: 0px;
+}
+
+#esense-mainbody-columns > section {
+	clear: both!important;
+	width: 100%!important;	
+}
+
+
+/* 11.2. Header elements
+==================================== */
+
+/* 11.3. Posts
+==================================== */
+
+article.post, 
+article.page {
+	padding-left: 0!important;
+}
+
+
+.tag-page article hgroup h1,
+.category-page article hgroup h1,
+.search-page article hgroup h1,
+.home article hgroup h1,
+.archive article hgroup h1 {
+	margin-top: 0!important;
+}
+
+#comments {
+	margin-left: 0!important;
+}
+
+
+/* 11.4. Other elements
+==================================== */
+
+#esense-social-icons {
+	display: none;
+}
+.esense-columns > div {
+	padding: 10px 0!important;
+	width: 100%!important;
+}
+
+/* 11.5. Device classes
+==================================== */
+
+.onlyDesktop {
+	display: none!important;
+}
+
+.onlyTablets {
+	display: none!important;
+}
+
+.onlySmartphones {
+	display: block!important;
+}
+
+.onlyTabltetsAndSmartphones {
+	display: block!important;}
+	
+/* 13.4. Widgets
+==================================== */
+
+/* Tabs adjustments */
+.esense-tabs-nav {
+	height: auto!important;
+	overflow: hidden;
+}
+
+.esense-tabs-nav li {
+	padding: 5px 0!important;
+	width: 100%!important;
+}
+
+
+
+
+/* GK Tabs */
+.esense-tabs-wrap > ol.esense-tabs-nav > li,
+.esense-tabs-wrap > ol.esense-tabs-nav > li.active, 
+.esense-tabs-wrap > ol.esense-tabs-nav > li.active:hover {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid #e5e5e5!important;
+	border-right: none!important;
+	border-top: none!important;
+	width: 100%;
+}
+
+/* Search */
+#esense-search .field {
+	width: 120px!important;
+}
+
+
+
+
+@media only screen and (max-width: 320px), only screen and (max-device-width: 320px) and (-moz-max-device-pixel-ratio: 1.5), only screen and (max-device-width: 320px) and (-o-max-device-pixel-ratio: 1.5/1), only screen  and (max-device-width: 320px) and (-webkit-max-device-pixel-ratio: 1.5), only screen and (max-device-width: 320px) and (max-device-pixel-ratio: 1.5), only screen and (max-device-width: 640px) and (-moz-min-device-pixel-ratio: 2), only screen and (max-device-width: 640px) and (-o-min-device-pixel-ratio: 2/1), only screen and (max-device-width: 640px) and (-webkit-min-device-pixel-ratio: 2), only screen and (max-device-width: 640px) and (min-device-pixel-ratio: 2) {
+	#esense-mainbody table {
+		width: 260px!important;
+	}
+	portfolio-three .portfolio-item, .portfolio-four .portfolio-item, .portfolio-six .portfolio-item {
+	width:100%;
+}
+.portfolio-wrapper {}
+
+}
+
+@media only screen and (max-width: 480px) and (orientation:landscape), only screen and (max-device-width: 480px) and (-moz-max-device-pixel-ratio: 1.5) and (orientation:landscape), only screen and (max-device-width: 480px) and (-o-max-device-pixel-ratio: 1.5/1) and (orientation:landscape), only screen  and (max-device-width: 480px) and (-webkit-max-device-pixel-ratio: 1.5) and (orientation:landscape), only screen and (max-device-width: 480px) and (max-device-pixel-ratio: 1.5) and (orientation:landscape), only screen and (max-device-width: 960px) and (-moz-min-device-pixel-ratio: 2) and (orientation:landscape), only screen and (max-device-width: 960px) and (-o-min-device-pixel-ratio: 2/1) and (orientation:landscape), only screen and (max-device-width: 960px) and (-webkit-min-device-pixel-ratio: 2) and (orientation:landscape), only screen and (max-device-width: 960px) and (min-device-pixel-ratio: 2) and (orientation:landscape) {
+	#esense-mainbody table {
+		width: 420px!important;
+	}
+}
+
+
+
+
+/* 11.5. Device classes
+==================================== */
+
+
+.onlyDesktop {
+	display: none!important;
+}
+
+
+.onlyTablets {
+	display: none!important;
+}
+
+
+.onlySmartphones {
+	display: block!important;
+}
+
+
+.onlyTabltetsAndSmartphones {
+	display: block!important;
+}
+
+
+/* 11.6. RTL Support
+==================================== */
+
+
+html[dir="rtl"] article.post, 
+html[dir="rtl"] article.page {
+	padding-right: 0!important;
+}
+
+
+html[dir="rtl"] #comments {
+	margin-right: 0!important;
+}
+
+.button-group {
+	width:280px;
+	overflow:visible;
+}
+.button-group .title { font-size:12px!important}
+.button-group .subtitle { font-size:9px!important}
+
+.item12 .portfolio-item, .item16 .portfolio-item, .item20 .portfolio-item, .item25 .portfolio-item, .item33 .portfolio-item, .item50 .portfolio-item {width:100%!important; margin:0!important}
+
+
+.gbutton.icononleft .bt-text {
+padding: .5em 1.2em .5em .5em;
+}
+.gbutton.icononright .bt-text {
+padding: .5em .5em .5em 1.2em;
+}
+.gbutton.noicon .bt-text {
+padding: .5em 1.2em .4em 1.2em;
+}
+.gbutton.dropdown-bt .bt-text {
+padding: .5em .5em .5em 1.2em;
+}
+
+ul.products li.product {
+	width: 100%!important;
+}
+ul.products.product-columns-2 li.product, .columns-2 ul.products li.product  {
+	width: 100%!important;
+}
+ul.products.product-columns-3 li.product, .columns-3 ul.products li.product {
+	width: 100%!important;
+}
+ul.products.product-columns-4 li.product, .columns-4 ul.products li.product {
+	width: 100%!important;
+}
+ul.products.product-columns-5 li.product, .columns-5 ul.products li.product {
+	width: 100%!important;
+}
+ul.products.product-columns-6 li.product, .columns-6 ul.products li.product {
+	width: 100%!important;
+}
+ul.products.product-columns-8 li.product, .columns-8 ul.products li.product {
+	width: 100%!important;
+}
+ul.products li.first {
+	clear: none;
+}
+.responsive-counter .digit {font-size:35px!important;}
+.updown .count-container {padding:6px;}
+.units {font-size:13px!important;}

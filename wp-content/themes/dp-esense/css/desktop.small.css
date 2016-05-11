@@ -1,0 +1,60 @@
+/**
+ *
+ * -------------------------------------------
+ * Small Desktop CSS file
+ * -------------------------------------------
+ * 
+ **/
+ 
+/*
+ *
+ * 10. Small Desktop code
+ *
+ *
+------------------------------------ */
+ 
+/* 10.1. Base elements
+==================================== */ 
+
+body #esense-footer, {
+	width: auto;
+}
+
+#top-menu {
+	width: 100%;
+}
+#esense-social-icons {
+	clear: both;
+	margin-top: 10px;
+}
+
+#esense-search {
+	float: left;
+}
+
+.box {
+	padding: 10px!important;
+}
+
+.box.menu li {
+	margin: 0;
+}
+
+
+
+
+#footer-menu {
+	display: inline-block;
+	float: none;
+	text-align: center;
+}
+
+#footer-menu li {
+	display: inline-block;
+	float: none;
+}
+
+.owl-theme .owl-controls .owl-buttons .owl-prev { left:-10px;}
+.owl-theme .owl-controls .owl-buttons .owl-next { right:-10px;}
+.top-contact-bar {display:none}
+.esense-page.vc {padding-left:10px!important; padding-right:10px!important; box-sizing:border-box;}

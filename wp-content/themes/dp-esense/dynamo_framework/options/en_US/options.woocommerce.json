@@ -1,0 +1,217 @@
+[
+	{
+		"groupname": "Woocommerce General Settings",
+		"groupdesc": "Settings for the Woocommerce pages.",
+		"fields": [
+			{
+				"name": "woocommerce_pages_title",
+				"type": "Text",
+				"label": "Title for woocommerce pages",
+				"tooltip": "Here you can set title which will be displayed on all Woocommerce pages.",
+				"default": "Shop",
+				"class": ""
+			},
+			{
+				"name": "woocommerce_pages_subtitle",
+				"type": "Text",
+				"label": "Subtitle for woocommerce pages",
+				"tooltip": "Here you can set subtitle which will be displayed on all Woocommerce pages.",
+				"default": "",
+				"class": ""
+			},
+			{
+				"name": "wc_subheader_area_bgimage",
+				"type": "Media",
+				"label": "Subheader area image",
+				"tooltip": "Select the image for the subheader area.",
+				"default": "",
+				"class": ""
+			},
+			{
+				"name": "woocommerce_show_sidebar",
+				"type": "Switcher",
+				"label": "Display sidebar on woocommerce pages",
+				"tooltip": "You can enable/disable showing the sidebar on woocommerce pages",
+				"default": "N"
+			},
+			{
+				"name": "woocommerce_catalog",
+				"type": "Switcher",
+				"label": "Catalog Mode",
+				"tooltip": "Enabling catalog mode will hide the shopping cart and add to cart options.",
+				"default": "N"
+			},
+			{
+				"name": "woocommerce_hide_prices",
+				"type": "Switcher",
+				"label": "Hide Prices?",
+				"tooltip": "Select if you would like to hide prices. Note: Catalog mode must also be enabled if you wish to hide prices.",
+				"default": "N"
+			}
+			
+		]
+	},
+	{
+		"groupname": "Product List Settings",
+		"groupdesc": "Settings for product listings/catalog pages.",
+		"fields": [
+			{
+				"name": "woocommerce_list_prefered_view",
+				"type": "Select",
+				"label": "Grid or List Layout",
+				"tooltip": "Specify which type of layout you prefer for your product listings. User can switch it on listing page.",
+				"default": "grid",
+				"visibility": "",
+				"class": "",
+				"other": {
+					"options": {
+						"grid": "Grid Layout",
+						"list": "List Layout"
+					}
+				}
+			},
+			{
+				"name": "woocommerce_list_view_switcher",
+				"type": "Switcher",
+				"label": "Display view switcher on catalog pages",
+				"tooltip": "You can enable showing view switcher on woocommerce listings(category, shop)",
+				"default": "Y"
+			},
+			{
+				"name": "woocommerce_list_columns",
+				"type": "Slider",
+				"label": "Number of columns in grid layout",
+				"tooltip": "Select a count of columns in grid layout.",
+				"default": "3",
+				"other": {
+					"options": {
+						"2": "2",
+						"3": "3",
+						"4": "4",
+						"5": "5",
+						"6": "6"
+					}
+				}
+
+			},
+			{
+				"name": "woocommerce_list_perpage",
+				"type": "Text",
+				"label": "Number of items per page",
+				"tooltip": "Specify items count per page.",
+				"default": "9",
+				"class": "",
+				"visibility": ""
+			},
+			{
+				"name": "woocommerce_list_categories",
+				"type": "Switcher",
+				"label": "Display categories on catalog pages",
+				"tooltip": "You can enable showing categories on woocommerce listings(category, shop)",
+				"default": "Y"
+			},
+			{
+				"name": "woocommerce_list_rating",
+				"type": "Switcher",
+				"label": "Display rating on catalog pages",
+				"tooltip": "You can enable showing rating on woocommerce listings(category, shop)",
+				"default": "Y"
+			},
+			{
+				"name": "woocommerce_list_compare",
+				"type": "Switcher",
+				"label": "Display compare link on catalog pages",
+				"tooltip": "You can enable showing compare link on woocommerce listings (category, shop)",
+				"default": "Y"
+			},
+			{
+				"name": "woocommerce_list_wishlist",
+				"type": "Switcher",
+				"label": "Display add to wishlist link on catalog pages",
+				"tooltip": "You can enable showing add to wishlist link on woocommerce listings (category, shop)",
+				"default": "Y"
+			},
+			{
+				"name": "woocommerce_short_description",
+				"type": "Switcher",
+				"label": "Display short description on catalog pages",
+				"tooltip": "You can enable showing short description on woocommerce listings in grid view (category, shop)",
+				"default": "N"
+			},
+			{
+				"name": "woocommerce_short_desc_count",
+				"type": "Text",
+				"label": "Count characters of short description:",
+				"tooltip": "Specifies count characters of short description",
+				"default": "",
+				"visibility": "woocommerce_short_description=Y"
+			},
+			{
+				"name": "woocommerce_list_cart_button",
+				"type": "Switcher",
+				"label": "Display add to cart buton on catalog pages",
+				"tooltip": "You can enable showing add to cart buton on woocommerce listings (category, shop)",
+				"default": "Y"
+			}
+			
+		]
+	},
+	{
+		"groupname": "Single Product Settings",
+		"groupdesc": "Settings for single product view.",
+		"fields": [
+			{
+				"name": "woocommerce_upsells_title",
+				"type": "Text",
+				"label": "Up-sell products block title",
+				"tooltip": "You can change the default title of up-sells block",
+				"default": "Products that you might like",
+				"visibility": ""
+			},
+			{
+				"name": "woocommerce_related_title",
+				"type": "Text",
+				"label": "Related products block title",
+				"tooltip": "You can change the default title of related products block",
+				"default": "Related products",
+				"visibility": ""
+			},
+			{
+				"name": "woocommerce_related_columns",
+				"type": "Slider",
+				"label": "Number of columns for upsels and related products",
+				"tooltip": "Select a count of columns for related products.",
+				"default": "4",
+				"other": {
+					"options": {
+						"2": "2",
+						"3": "3",
+						"4": "4",
+						"5": "5",
+						"6": "6"
+					}
+				}
+
+			},
+			{
+				"name": "woocommerce_upsells_perpage",
+				"type": "Text",
+				"label": "Number of up-sells items per page",
+				"tooltip": "Specify up-sells items count per page.",
+				"default": "4",
+				"class": "",
+				"visibility": ""
+			},
+			{
+				"name": "woocommerce_related_perpage",
+				"type": "Text",
+				"label": "Number of related items per page",
+				"tooltip": "Specify items count per page.",
+				"default": "8",
+				"class": "",
+				"visibility": ""
+			}
+	
+		]
+	}
+]

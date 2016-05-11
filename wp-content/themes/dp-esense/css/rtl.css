@@ -1,0 +1,548 @@
+/**
+ *
+ * -------------------------------------------
+ * RTL Support
+ * -------------------------------------------
+ *
+ **/
+
+
+/*
+ *
+ * 14. RTL Support
+ *
+ * 
+------------------------------------ */
+
+
+/* 14.1. Changed elements
+==================================== */
+
+
+/* template.css */
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+
+.box ul ul,
+.box ol ol {
+	padding: 0 20px 0 0;
+}
+
+
+#esense-mainbody-columns > section {
+	float: right;
+	padding: 0;
+}
+
+
+#esense-mainbody-columns > aside {
+	float: left;
+	padding: 0 20px 0 0;
+}
+
+
+#esense-mainbody-columns.esense-column-left > section {
+	float: left;
+}
+
+
+#esense-mainbody-columns.esense-column-left > aside {
+	float: right;
+	padding: 0 0 20px 0;
+}
+
+
+#esense-head h2 {
+	float: right!important;
+}
+
+
+#esense-head a.textLogo {
+	padding: 7px 10px 0 0;
+}
+#esense-head a.cssLogo {
+	margin: 30px 0 10px 15px;
+}
+
+#footer-menu {
+	float: right;
+}
+
+
+#footer-menu li {
+	float: right;
+}
+
+
+#esense-top-link {
+	margin-left: 0;
+	margin-right: 20px;
+}
+
+
+
+/* wp.css */
+
+.main-top-menu {float: left}
+.sf-menu li.root {
+	margin-left:0;
+margin-right:40px;
+}
+
+#comments ol.children {
+	margin-left: 0;
+	margin-right: 5%;
+}
+
+
+#comments li article > .content {
+	margin-left: 0;
+}
+
+
+#comments .children article > .content {
+	margin-left: 0;
+}
+
+
+#comments article footer .edit,
+#comments article footer .reply {
+	margin-left: 0;
+	margin-right: 10px;
+}
+
+
+#comments li.bypostauthor article aside {
+	left: 0;
+	right: 2%;
+}
+
+
+#comments li article code {
+	border-left: inherit;
+	border-right: 4px solid #eee;
+}
+
+
+article.post,
+article.page {
+	padding-left: 0;
+}
+
+
+article.post.no-sidebar,
+article.page.no-sidebar {
+	padding-right: 0;
+}
+
+
+article.no-title,
+article.page-fullwidth {
+	padding-right: 0;
+}
+
+
+section#comments {
+	margin-left: 0;
+	margin-right: 120px;
+}
+
+
+article.no-sidebar + section#comments {
+	margin-right: 0;
+}
+
+
+article.no-title + section#comments,
+article.page-fullwidth + section#comments {
+	margin-right: 0;
+}
+
+
+
+#esense-social-api > * {
+	float: right!important;
+	margin-left: 5px!important;
+	margin-right: 0px!important;
+}
+
+
+/* stuff.css */
+
+
+#esense-font-size {
+	float: left;
+}
+
+
+#esense-font-size > a {
+	margin-left: 0;
+	margin-right: 5px;
+}
+
+
+.contactpage input[type="submit"] {
+	float: left;
+}
+
+
+.archivepage .widget {
+    float: right;
+}
+
+
+.archivepage .widget.first {
+	margin-left: 2%;
+    margin-right: 0;
+}
+
+
+.archivepage .widget.last {
+    margin-left: 0;
+    margin-right: 2%;
+}
+
+
+.archivepage .widget.first li a {
+    padding-left: 0;
+    padding-right: 54px;
+}
+
+
+.archivepage .widget li small {
+    left: inherit;
+  	right: 0;
+}
+
+
+.loginpage .login-remember {
+	float: right;
+}
+
+
+.loginpage .login-submit {
+	float: left;
+}
+
+
+.loginpage nav.small ul li {
+	float: right;
+	margin-left: 10px;
+	margin-right: 0;
+	padding-left: inherit;
+	padding-right: 0;
+}
+
+
+.esense-format-aside,
+.esense-format-audio,
+.esense-format-chat,
+.esense-format-gallery,
+.esense-format-image,
+.esense-format-link,
+.esense-format-quote,
+.esense-format-status,
+.esense-format-video {
+	left: auto;
+	right: 0;
+	text-align: right!important;
+}
+
+
+.pagenav .nav-prev {
+	float: right;
+}
+
+
+.pagenav .nav-next {
+	float: left;
+}
+
+
+.author-info > aside {
+	left: auto;
+	right: 20px;
+}
+
+
+.author-info > div {
+	padding: 0 84px 0 0;
+}
+
+
+.attachment-page > aside {
+	left: auto;
+	right: 0;
+}
+
+
+.attachment-page > aside ~ section,
+.attachment-page > aside ~ footer {
+	margin-left: 0;
+	margin-right: 140px;
+}
+
+
+.nav-prev {
+	float: right;
+}
+
+
+.nav-next {
+	float: left;
+}
+
+
+article section table th {
+	text-align: right;
+}
+.esense-button-area {position:absolute; left:0;top:0;}
+.esense-header-search {float:left!important;}
+
+/* wp.extensions.css */
+.box h3.box-title .rsswidget {
+	float: right;
+	margin-left: 10px;
+	margin-right: 0;
+}
+
+
+.box .rss-date {
+	text-align: left;
+}
+
+
+.tagcloud a {
+	float: right;
+	margin: 0 0 5px 5px;
+}
+
+
+/* extensions.css */
+.widget_esense_comments li > img,
+.widget_esense_comments li > strong,
+.widget_esense_comments li > small {
+	float: right;
+}
+
+
+.widget_esense_comments li > img {
+	margin-left: 10px;
+	margin-right: 0;
+}
+
+
+.widget_esense_comments li > p {
+	background-position: 95% 100%!important;
+}
+
+.esense-tabs-wrap > ol li {
+	float: right;
+	margin: 0 -1px 0 0;
+}
+
+
+.esense-tabs-wrap > ol li.active::after {
+	float: right;
+	margin-left: 0;
+	margin-right: -14px;
+}
+
+
+/* gallery.css */
+
+
+#gallery figure {
+	left: auto;
+	right: 0;
+}
+
+
+#gallery figcaption {
+	left: auto;
+	right: 0;
+}
+
+
+#gallery figcaption small {
+	text-align: left;
+}
+
+
+/* shortoces.typography.css */
+.esense-warning,
+.esense-notice,
+.esense-info,
+.esense-error,
+.esense-thanks { /* Common rules for all these types */
+	padding: 8px 14px 8px 35px;
+}
+
+
+pre.esense-code[data-style="style2"] {
+	border-left: 0!important;
+	border-right: 4px solid #5990de!important;
+}
+
+
+.esense-numblock span,
+.esense-numblock[data-style="style1"] span {
+	float: right!important;
+	margin: 0 0 10px 10px!important;
+}
+
+
+blockquote.esense-quote cite {
+	float: left;
+}
+
+
+article ol {
+	margin-left: 0;
+	margin-right: 10px;
+}
+
+
+article ul li,
+article ol li {
+	padding-left: 0;
+	padding-right: 20px;
+}
+
+
+article ol li {
+	padding-right: 0;
+}
+
+
+article ul li:before {
+	float: right;
+	left: auto;
+	right: 8px;
+}
+
+
+.esense-legend > strong:first-child {
+	left: auto!important;
+	right: 20px;
+}
+
+
+.esense-columns > div {
+	float: right;
+}
+
+
+.esense-columns > div:first-child {
+	padding-left: 12px;
+	padding-right: 0;
+}
+
+
+.esense-columns > div:last-child {
+	padding-left: 0;
+	padding-right: 12px;
+}
+
+
+/* shortcodes.elements.css */
+.esense-rss > i {
+	margin-left: 5px;
+	margin-right: 0;
+}
+
+
+.esense-pdf > i {
+	margin-left: 5px;
+	margin-right: 0;
+}
+
+
+.esense-note:before,
+.esense-members > strong:first-child {
+	left: auto;
+	right: 10px;
+}
+
+
+.esense-toggle.opened > h3:after,
+.esense-toggle.closed > h3:after {
+	left: 0;
+	right: auto;
+}
+
+
+.esense-toggle > h3 {
+	padding: 10px 32px 10px 0!important;
+}
+
+
+.box.heading-pattern .box-title  span {
+	padding-right:0px;
+	padding-left:10px;
+}
+.tabs li {
+	float:right;
+}
+.vtabs {
+	width:20%;
+	float:right;
+}
+.portfolio-tabs {float:left}
+.portfolio-tabs li{
+	float:right;margin-right:3px;
+}
+.pagination span, .pagination a, .pagination {float:right;}
+.box.badge-video .box-title::after,
+.box.badge-audio .box-title::after,
+.box.badge-gallery .box-title::after {
+	left: 0;
+	right:auto;
+}
+.box.badge-new .box-title::after,
+.box.badge-popular .box-title::after,
+.box.badge-top .box-title::after,
+.box.badge-hot .box-title::after {
+	right: auto;
+	left:0;
+}
+
+#searchform #searchsubmit {
+left: 0;
+border-top-left-radius: 2px;
+border-bottom-left-radius: 2px;
+border-top-right-radius: 0px;
+border-bottom-rigt-radius: 0px;
+}
+.nsu-form .nsu-submit {
+	left:0;
+	-webkit-border-top-left-radius: 2px;
+-webkit-border-bottom-left-radius: 2px;
+	-webkit-border-top-right-radius: 0px;
+-webkit-border-bottom-right-radius: 0px;
+-moz-border-radius-topleft: 2px;
+-moz-border-radius-bottomleft: 2px;
+-moz-border-radius-topright: 0px;
+-moz-border-radius-bottomright: 0px;
+border-top-left-radius: 2px;
+border-bottom-left-radius: 2px;
+border-top-right-radius: 0px;
+border-bottom-right-radius: 0px;
+}
+.recent-post-widget .thumbnail {
+float: right;
+margin: 0 0 0 10px;
+}
+
+.shifted-content {
+padding-left: 0px;
+padding-right: 90px;
+}
+
+.main-top-menu .menu-title.hot::after, .main-top-menu .menu-title.new::after, .main-top-menu .menu-title.top::after, .main-top-menu .menu-title.popular::after {
+left:-30px;
+right: auto;
+}

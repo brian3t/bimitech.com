@@ -1,0 +1,1453 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: DP Esense\n"
+"POT-Creation-Date: 2016-04-26 23:09+0200\n"
+"PO-Revision-Date: 2016-04-26 23:09+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:19
+msgid "404"
+msgstr ""
+
+#: 404.php:23
+msgid "Back to home page"
+msgstr ""
+
+#: archive.php:25 author.php:36 category.php:41 index.php:27 search.php:75
+#: search.php:86 tag.php:34 template.latest_big_thumb.php:33
+#: template.latest_big_thumb_full.php:33 template.latest_small_thumb.php:33
+#: template.latest_small_thumb_full.php:33
+msgid "Nothing Found"
+msgstr ""
+
+#: archive.php:27 author.php:40 category.php:45 index.php:31 tag.php:38
+#: template.latest_big_thumb.php:37 template.latest_big_thumb_full.php:37
+#: template.latest_small_thumb.php:37 template.latest_small_thumb_full.php:37
+msgid ""
+"Apologies, but no results were found for the requested archive. Perhaps "
+"searching will help find a related post."
+msgstr ""
+
+#: article-blog-large.php:102 article-blog-medium-column-2.php:17
+#: content-aside.php:47 content-audio.php:47 content-chat.php:47
+#: content-gallery.php:82 content-image.php:29 content-link.php:47
+#: content-quote.php:47 content-status.php:47 content-video.php:47
+#: content.php:51 dynamo_framework/helpers/helpers.layout.fragments.php:1224
+#: dynamo_framework/helpers/helpers.layout.fragments.php:1445
+#: layouts/content.post.header.php:26 layouts/content.post.header.php:44
+#: search.php:24 search.php:31
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: article-blog-large.php:107 article-blog-medium-column-2.php:22
+#: content-aside.php:52 content-audio.php:52 content-chat.php:52
+#: content-gallery.php:87 content-image.php:34 content-link.php:52
+#: content-quote.php:52 content-status.php:52 content-video.php:52
+#: content.php:56 layouts/content.portfolio.header.php:25
+#: layouts/content.post.header.php:34 layouts/content.post.header.php:53
+msgid "Featured"
+msgstr ""
+
+#: attachment.php:19
+#, php-format
+msgid "Return to %s"
+msgstr ""
+
+#: attachment.php:20
+#, php-format
+msgid "<span>&larr;</span> %s"
+msgstr ""
+
+#: attachment.php:64 content-aside.php:61 content-audio.php:61
+#: content-chat.php:61 content-image.php:43 content-link.php:61
+#: content-quote.php:61 content-status.php:61 content-vc.php:50
+#: content-video.php:61 content.php:65
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: author.php:20
+#, php-format
+msgid "Author archives: %s %s"
+msgstr ""
+
+#: comments.php:12
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:21
+#, php-format
+msgid ""
+"Comments <span class=\"comments-amount\">(<i class=\"icon-chat\"></i>%1$s)</"
+"span>"
+msgstr ""
+
+#: comments.php:26 comments.php:41
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:29 comments.php:44
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:53
+msgid "Comments are closed."
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:333
+msgid "Install Required Plugins"
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:334
+msgid "Install Plugins"
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:335
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:336
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:338
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:348
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:353
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:358
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:363
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %1$s plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:368
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:378
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:383
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:388
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:393
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:397
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:398
+msgid "Return to the dashboard"
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:399
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:3027
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:400
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:2830
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:402
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:403
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:404
+msgid "Dismiss this notice"
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:405
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:520
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:521
+msgid "Update Required"
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:635
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:826
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:3436
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:933
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:933
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:936
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:936
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:1114
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:2826
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:1879
+#, php-format
+msgctxt "%s = version number"
+msgid "TGMPA v%s"
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:2165
+msgid "Required"
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:2168
+msgid "Recommended"
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:2184
+msgid "WordPress Repository"
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:2187
+msgid "External Source"
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:2190
+msgid "Pre-Packaged"
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:2207
+msgid "Not Installed"
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:2211
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:2213
+msgid "Active"
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:2219
+msgid "Required Update not Available"
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:2222
+msgid "Requires Update"
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:2225
+msgid "Update recommended"
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:2233
+#, php-format
+msgctxt "%1$s = install status, %2$s = update status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:2278
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:2281
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:2284
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:2287
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:2369
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:2377
+msgid "Installed version:"
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:2385
+msgid "Minimum required version:"
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:2397
+msgid "Available version:"
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:2420
+#, php-format
+msgid ""
+"No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
+"Dashboard</a>"
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:2434
+msgid "Plugin"
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:2435
+msgid "Source"
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:2436
+msgid "Type"
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:2440
+msgid "Version"
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:2441
+msgid "Status"
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:2489
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Install %2$s"
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:2493
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Update %2$s"
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:2498
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Activate %2$s"
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:2568
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:2601
+msgid "Install"
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:2607
+msgid "Update"
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:2610
+msgid "Activate"
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:2641
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:2643
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:2679
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:2681
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:2786
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:2812
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:3026
+msgid "Plugin activation failed."
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:3360
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:3362
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:3363
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:3367
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:3368
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:3368
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:3374
+msgid "Show Details"
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:3368
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:3374
+msgid "Hide Details"
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:3369
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:3370
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:3373
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:3374
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:3375
+msgid "All installations have been completed."
+msgstr ""
+
+#: dynamo_framework/classes/class-tgm-plugin-activation.php:3376
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: dynamo_framework/classes/class.menu.walker.edit.php:74
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#: dynamo_framework/classes/class.menu.walker.edit.php:78
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: dynamo_framework/classes/class.menu.walker.edit.php:102
+msgid "Move up"
+msgstr ""
+
+#: dynamo_framework/classes/class.menu.walker.edit.php:115
+msgid "Move down"
+msgstr ""
+
+#: dynamo_framework/classes/class.menu.walker.edit.php:117
+#: dynamo_framework/classes/class.menu.walker.edit.php:119
+msgid "Edit Menu Item"
+msgstr ""
+
+#: dynamo_framework/classes/class.menu.walker.edit.php:128
+msgid "URL"
+msgstr ""
+
+#: dynamo_framework/classes/class.menu.walker.edit.php:135
+msgid "Navigation Label"
+msgstr ""
+
+#: dynamo_framework/classes/class.menu.walker.edit.php:141
+msgid "Title Attribute"
+msgstr ""
+
+#: dynamo_framework/classes/class.menu.walker.edit.php:148
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: dynamo_framework/classes/class.menu.walker.edit.php:153
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: dynamo_framework/classes/class.menu.walker.edit.php:159
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: dynamo_framework/classes/class.menu.walker.edit.php:165
+#: single-portfolio.php:176 single-portfolio.php:339
+msgid "Description"
+msgstr ""
+
+#: dynamo_framework/classes/class.menu.walker.edit.php:167
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: dynamo_framework/classes/class.menu.walker.edit.php:174
+msgid "Additional menu item setting"
+msgstr ""
+
+#: dynamo_framework/classes/class.menu.walker.edit.php:177
+msgid "Subtitle"
+msgstr ""
+
+#: dynamo_framework/classes/class.menu.walker.edit.php:184
+msgid "Item width (px)"
+msgstr ""
+
+#: dynamo_framework/classes/class.menu.walker.edit.php:195
+msgid "Icon"
+msgstr ""
+
+#: dynamo_framework/classes/class.menu.walker.edit.php:212
+msgid "Custom CSS class for menu item"
+msgstr ""
+
+#: dynamo_framework/classes/class.menu.walker.edit.php:223
+msgid "Menu item type"
+msgstr ""
+
+#: dynamo_framework/classes/class.menu.walker.edit.php:226
+msgid "Standard dropdown"
+msgstr ""
+
+#: dynamo_framework/classes/class.menu.walker.edit.php:227
+msgid "Megamenu"
+msgstr ""
+
+#: dynamo_framework/classes/class.menu.walker.edit.php:228
+msgid "Megamenu full width"
+msgstr ""
+
+#: dynamo_framework/classes/class.menu.walker.edit.php:234
+msgid "Megamenu allignment (only for megamenu auto width)"
+msgstr ""
+
+#: dynamo_framework/classes/class.menu.walker.edit.php:237
+msgid "To left edge (default)"
+msgstr ""
+
+#: dynamo_framework/classes/class.menu.walker.edit.php:238
+msgid "Center"
+msgstr ""
+
+#: dynamo_framework/classes/class.menu.walker.edit.php:239
+msgid "To right edge"
+msgstr ""
+
+#: dynamo_framework/classes/class.menu.walker.edit.php:246
+msgid "Columns (only for full width megamenu)"
+msgstr ""
+
+#: dynamo_framework/classes/class.menu.walker.edit.php:259
+msgid "Display item as column header (only megamenu's)"
+msgstr ""
+
+#: dynamo_framework/classes/class.menu.walker.edit.php:269
+msgid "Custom Content <small><i>(only for 1st level in megemenu)</i></small>"
+msgstr ""
+
+#: dynamo_framework/classes/class.menu.walker.edit.php:272
+#: dynamo_framework/helpers/helpers.layout.php:629
+msgid "Image"
+msgstr ""
+
+#: dynamo_framework/classes/class.menu.walker.edit.php:278
+#: dynamo_framework/form_elements/standard.php:356
+msgid "Upload Image"
+msgstr ""
+
+#: dynamo_framework/classes/class.menu.walker.edit.php:279
+#: dynamo_framework/form_elements/standard.php:357
+msgid "Remove Image"
+msgstr ""
+
+#: dynamo_framework/classes/class.menu.walker.edit.php:283
+msgid "Content"
+msgstr ""
+
+#: dynamo_framework/classes/class.menu.walker.edit.php:292
+msgid "Widget (select widget to display as custom content)"
+msgstr ""
+
+#: dynamo_framework/classes/class.menu.walker.edit.php:296
+msgid "Megamenu Widget 1"
+msgstr ""
+
+#: dynamo_framework/classes/class.menu.walker.edit.php:297
+msgid "Megamenu Widget 2"
+msgstr ""
+
+#: dynamo_framework/classes/class.menu.walker.edit.php:308
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: dynamo_framework/classes/class.menu.walker.edit.php:321
+msgid "Remove"
+msgstr ""
+
+#: dynamo_framework/classes/class.menu.walker.edit.php:322
+msgid "Cancel"
+msgstr ""
+
+#: dynamo_framework/filters.php:17
+msgid "Google Profile URL"
+msgstr ""
+
+#: dynamo_framework/form_elements/Fonts/fonts.php:56
+msgid "Standard fonts"
+msgstr ""
+
+#: dynamo_framework/form_elements/Fonts/fonts.php:57
+msgid "Fonts Squirrel"
+msgstr ""
+
+#: dynamo_framework/form_elements/Fonts/fonts.php:58
+msgid "Google Web Fonts"
+msgstr ""
+
+#: dynamo_framework/form_elements/Fonts/fonts.php:61
+msgid "Font family: "
+msgstr ""
+
+#: dynamo_framework/form_elements/Fonts/fonts.php:87
+msgid "Fonts Squirrel: "
+msgstr ""
+
+#: dynamo_framework/form_elements/Fonts/fonts.php:96
+msgid "You have no fonts in fonts/ directory"
+msgstr ""
+
+#: dynamo_framework/form_elements/Fonts/fonts.php:102
+msgid "Google Web Fonts URL: "
+msgstr ""
+
+#: dynamo_framework/form_elements/Fonts/fonts.php:116
+msgid "Selectors:"
+msgstr ""
+
+#: dynamo_framework/form_elements/Menu/menu.php:52
+msgid "Enable"
+msgstr ""
+
+#: dynamo_framework/form_elements/Menu/menu.php:53
+msgid "You can enable or disable showing the menu in the template."
+msgstr ""
+
+#: dynamo_framework/form_elements/Menu/menu.php:57
+#: dynamo_framework/form_elements/standard.php:322
+msgid "Enabled"
+msgstr ""
+
+#: dynamo_framework/form_elements/Menu/menu.php:58
+#: dynamo_framework/form_elements/standard.php:321
+msgid "Disabled"
+msgstr ""
+
+#: dynamo_framework/form_elements/Menu/menu.php:59
+#: dynamo_framework/form_elements/Menu/menu.php:66
+msgid "Conditional rule"
+msgstr ""
+
+#: dynamo_framework/form_elements/Menu/menu.php:67
+msgid "You can enable showing the menu in the specific pages."
+msgstr ""
+
+#: dynamo_framework/form_elements/Menu/menu.php:75
+msgid "Depth of "
+msgstr ""
+
+#: dynamo_framework/form_elements/Menu/menu.php:76
+msgid "You can specify the menu depth."
+msgstr ""
+
+#: dynamo_framework/form_elements/Menu/menu.php:80
+msgid "All levels"
+msgstr ""
+
+#: dynamo_framework/form_elements/standard.php:358
+msgid "Enter an URL or upload an image."
+msgstr ""
+
+#: dynamo_framework/form_elements/standard.php:467
+#: dynamo_framework/form_elements/standard.php:503
+msgid "--Select--"
+msgstr ""
+
+#: dynamo_framework/functions.php:99
+msgid "read more"
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.contentcarousel.php:58
+#: dynamo_framework/helpers/helpers.contentslideshow.php:65
+msgid "You don't have any Slides to display."
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.customizer.php:54
+msgid "Responsive Design Settings"
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.customizer.php:62
+msgid "Dimensions"
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.customizer.php:69
+msgid "Layout"
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.customizer.php:138
+msgid "Sidebar Position"
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.customizer.php:142
+msgid "Sidebar on the left"
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.customizer.php:143
+msgid "Sidebar on the right"
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.customizer.php:144
+msgid "Sidebar disabled"
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.customizer.php:154
+msgid "Theme width (px)"
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.customizer.php:164
+msgid "Sidebar % width"
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.customizer.php:174
+msgid "Tablet width (px)"
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.customizer.php:184
+msgid "Small Tablet width (px)"
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.customizer.php:194
+msgid "Mobile width (px)"
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.features.php:358
+msgid "Search for a suitable icon.."
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.layout.fragments.php:103
+msgid "Pingback:"
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.layout.fragments.php:105
+#: dynamo_framework/helpers/helpers.layout.fragments.php:143
+msgid "Edit"
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.layout.fragments.php:118
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.layout.fragments.php:127
+#, php-format
+msgid "%1$s on %2$s"
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.layout.fragments.php:136
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.layout.fragments.php:150
+msgid "Reply"
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.layout.fragments.php:181
+#: dynamo_framework/helpers/helpers.layout.fragments.php:210
+#: dynamo_framework/helpers/helpers.layout.fragments.php:246
+msgid ", "
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.layout.fragments.php:201
+#: dynamo_framework/helpers/helpers.layout.fragments.php:265 search.php:34
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.layout.fragments.php:221
+#: dynamo_framework/helpers/helpers.layout.fragments.php:277 search.php:44
+msgid "No Comments"
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.layout.fragments.php:223
+#: dynamo_framework/helpers/helpers.layout.fragments.php:279 search.php:46
+msgid " Comments"
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.layout.fragments.php:225
+#: dynamo_framework/helpers/helpers.layout.fragments.php:281 search.php:48
+msgid "1 Comment"
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.layout.fragments.php:229
+#: dynamo_framework/helpers/helpers.layout.fragments.php:285 search.php:52
+msgid "Comments are off for this post."
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.layout.fragments.php:312
+msgid "Pages:"
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.layout.fragments.php:385
+msgid "Name"
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.layout.fragments.php:387
+msgid "Email"
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.layout.fragments.php:389
+msgid "Website"
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.layout.fragments.php:393
+#, php-format
+msgid "Required fields are marked %s"
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.layout.fragments.php:396
+msgctxt "noun"
+msgid "Comment"
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.layout.fragments.php:397
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.layout.fragments.php:398
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.layout.fragments.php:399
+msgid "Your email address will not be published."
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.layout.fragments.php:400
+#, php-format
+msgid ""
+"You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags "
+"and attributes: %s"
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.layout.fragments.php:403
+msgid "Post your comments here"
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.layout.fragments.php:404
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.layout.fragments.php:405
+msgid "Cancel reply"
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.layout.fragments.php:406
+msgid "Post comment"
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.layout.fragments.php:534
+msgid "Tweet"
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.layout.fragments.php:556
+msgid "Pin it"
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.layout.fragments.php:644
+msgid "Google Profile"
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.layout.fragments.php:849
+#: template.portfolio-fullwidth.php:132 template.portfolio-nosidebar.php:131
+#: template.portfolio.php:128
+msgid "All"
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.layout.fragments.php:1656
+msgid "Share on Facebook"
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.layout.fragments.php:1657
+msgid "Share on Twitter"
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.layout.fragments.php:1658
+msgid "Share on Google+"
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.layout.fragments.php:1659
+msgid "Share on LinkedIn"
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.layout.fragments.php:1660
+msgid "Share on Pinterest"
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.layout.fragments.php:1661
+msgid "Share on Reddit"
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.layout.fragments.php:1662
+msgid "Hey, thought you might enjoy this! Check it out when you have a chance:"
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.layout.fragments.php:1662
+msgid "Share via Email"
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.layout.php:494
+msgid "Tag: "
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.layout.php:500
+msgid "Published by: "
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.layout.php:503
+msgid "Page not found"
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.layout.php:505
+msgid "Archives"
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.layout.php:508
+msgid "Searching for: "
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.layout.php:627
+msgid "Next >"
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.layout.php:628
+msgid "< Prev"
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.layout.php:630
+msgid "of"
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.layout.php:631
+msgid "Close"
+msgstr ""
+
+#: dynamo_framework/helpers/helpers.layout.php:632
+msgid ""
+"This feature requires inline frames. You have iframes disabled or your "
+"browser does not support them."
+msgstr ""
+
+#: dynamo_framework/hooks.php:265
+msgid "Display slideshow?"
+msgstr ""
+
+#: dynamo_framework/hooks.php:269
+msgid "Yes"
+msgstr ""
+
+#: dynamo_framework/hooks.php:272
+msgid "No"
+msgstr ""
+
+#: dynamo_framework/hooks.php:275
+msgid ""
+"By default bellow category title is displayed featured images slideshow. "
+"Here can be disabled for this category."
+msgstr ""
+
+#: dynamo_framework/metaboxes/portfolio_meta_box.php:44
+msgid ""
+"Define item short description <span>Will be used as subtitle in portfolio "
+"grid view</span>"
+msgstr ""
+
+#: dynamo_framework/metaboxes/portfolio_meta_box.php:48
+msgid ""
+"Define media holder size <span>This settings have no affect when you select "
+"custom item type bellow</span>"
+msgstr ""
+
+#: dynamo_framework/metaboxes/portfolio_meta_box.php:51
+msgid "Medium"
+msgstr ""
+
+#: dynamo_framework/metaboxes/portfolio_meta_box.php:52
+msgid "Full width"
+msgstr ""
+
+#: dynamo_framework/metaboxes/portfolio_meta_box.php:55
+msgid ""
+"Define the type of portfolio item <span>(This choice determines the type of "
+"displayable content)</span>"
+msgstr ""
+
+#: dynamo_framework/metaboxes/portfolio_meta_box.php:60
+msgid "Single Image"
+msgstr ""
+
+#: dynamo_framework/metaboxes/portfolio_meta_box.php:61
+msgid "Multiple image"
+msgstr ""
+
+#: dynamo_framework/metaboxes/portfolio_meta_box.php:62
+msgid "Gallery"
+msgstr ""
+
+#: dynamo_framework/metaboxes/portfolio_meta_box.php:63
+msgid "Embeded media"
+msgstr ""
+
+#: dynamo_framework/metaboxes/portfolio_meta_box.php:64
+msgid "Custom"
+msgstr ""
+
+#: dynamo_framework/metaboxes/portfolio_meta_box.php:70
+msgid ""
+"Item additional images <span>(only for multiple images item type)</span>"
+msgstr ""
+
+#: dynamo_framework/metaboxes/portfolio_meta_box.php:71
+msgid "<span>Enter additional images for this item using media button.</span>"
+msgstr ""
+
+#: dynamo_framework/metaboxes/portfolio_meta_box.php:78
+msgid "Date of project <span>(optional)</span>"
+msgstr ""
+
+#: dynamo_framework/metaboxes/portfolio_meta_box.php:82
+msgid "Client name <span>(optional)</span>"
+msgstr ""
+
+#: dynamo_framework/metaboxes/portfolio_meta_box.php:86
+msgid "WWW <span>(optional)</span>"
+msgstr ""
+
+#: dynamo_framework/metaboxes/portfolio_meta_box.php:90
+msgid "Launch project URL <span>(optional)</span>"
+msgstr ""
+
+#: dynamo_framework/metaboxes/sidebar_meta_box.php:8
+msgid ""
+"Add an optional description. Will be displayed when adding widgets to this "
+"widget area."
+msgstr ""
+
+#: dynamo_framework/metaboxes/slide_meta_box.php:34
+msgid ""
+"Define the type of slide <span>(This choice determines the type of "
+"displayable content)</span>"
+msgstr ""
+
+#: dynamo_framework/metaboxes/slide_meta_box.php:36
+msgid ""
+"<i><b>Note!</b><br/>An ''<b>Content Slide</b>'' will output the post content "
+"entered above in the main content. <br/>An ''<b>Image Slide</b>'' will use "
+"the featured image for the slide area. Post content above will be completely "
+"ignored. But you can enter in the fields that will appear below if you "
+"choose this type of slide, a description of the image and a link. </i> "
+msgstr ""
+
+#: dynamo_framework/metaboxes/slide_meta_box.php:39
+msgid "Image Slide"
+msgstr ""
+
+#: dynamo_framework/metaboxes/slide_meta_box.php:40
+msgid "Content Slide"
+msgstr ""
+
+#: dynamo_framework/metaboxes/slide_meta_box.php:45
+msgid "Description <span>(optional)</span>"
+msgstr ""
+
+#: dynamo_framework/metaboxes/slide_meta_box.php:49
+msgid ""
+"<span>Enter in a description you want to show over the image. Leave blank if "
+"you do not want a description to show.</span>"
+msgstr ""
+
+#: dynamo_framework/metaboxes/slide_meta_box.php:51
+msgid "Image Link <span>(optional)</span>"
+msgstr ""
+
+#: dynamo_framework/metaboxes/slide_meta_box.php:55
+msgid ""
+"<span>Enter where you'd like this image slide to link to. Leave this option "
+"blank if you do not want this slide to be clickable.</span>"
+msgstr ""
+
+#: dynamo_framework/options.template.php:147
+msgid "Settings saved"
+msgstr ""
+
+#: dynamo_framework/options.template.php:151
+msgid "You don't have sufficient permissions to access this page!"
+msgstr ""
+
+#: layouts/before.php:175
+msgid "404 Page"
+msgstr ""
+
+#: layouts/before.php:177
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: layouts/before.php:185
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: layouts/before.php:187
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: layouts/before.php:189
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: layouts/before.php:191
+msgid "Blog Archives"
+msgstr ""
+
+#: layouts/main-nav-aside.php:51 layouts/main-nav.php:35
+#: layouts/main-nav.php:85 layouts/main-nav.php:119
+msgid "No menu assigned!"
+msgstr ""
+
+#: layouts/search.php:15
+msgid "Start typing..."
+msgstr ""
+
+#: layouts/wc_dropdown_cart.php:54 woocommerce/woocommerce-functions.php:163
+msgid "No products in the cart."
+msgstr ""
+
+#: layouts/wc_dropdown_cart.php:63 woocommerce/woocommerce-functions.php:172
+msgid "VIEW CART"
+msgstr ""
+
+#: layouts/wc_dropdown_cart.php:64 woocommerce/woocommerce-functions.php:173
+msgid "Total"
+msgstr ""
+
+#: search.php:80 search.php:92
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: searchform.php:12 searchform.php:13 searchform.php:15
+msgid "Search"
+msgstr ""
+
+#: single-portfolio.php:49
+msgid "All items"
+msgstr ""
+
+#: single-portfolio.php:208 single-portfolio.php:353
+msgid "LAUNCH PROJECT"
+msgstr ""
+
+#: single-portfolio.php:404
+msgid "Related Projects"
+msgstr ""
+
+#: template.archive.php:26
+msgid "Latest posts"
+msgstr ""
+
+#: template.archive.php:38
+msgid "Categories"
+msgstr ""
+
+#: template.archive.php:51
+msgid "Monthly Archives"
+msgstr ""
+
+#: template.login.php:30
+msgid "Hi, "
+msgstr ""
+
+#: template.login.php:31 template.login.php:32
+msgid "Logout"
+msgstr ""
+
+#: template.login.php:43
+msgid "Username"
+msgstr ""
+
+#: template.login.php:44
+msgid "Password"
+msgstr ""
+
+#: template.login.php:45
+msgid "Remember Me"
+msgstr ""
+
+#: template.login.php:46
+msgid "Log In"
+msgstr ""
+
+#: template.login.php:61
+msgid "Password Lost and Found"
+msgstr ""
+
+#: template.login.php:61
+msgid "Lost your password?"
+msgstr ""
+
+#: template.login.php:64
+msgid "Not a member? Register"
+msgstr ""
+
+#: template.login.php:64
+msgid "Register"
+msgstr ""
+
+#: tribe-events/functions.php:16 tribe-events/functions.php:17
+msgid "Add to Google Calendar"
+msgstr ""
+
+#: tribe-events/functions.php:16
+msgid "Export the Map"
+msgstr ""
+
+#: tribe-events/functions.php:17
+msgid "Export to Calendar"
+msgstr ""
+
+#: tribe-events/functions.php:47
+#, php-format
+msgid "Month's %s"
+msgstr ""
+
+#: tribe-events/functions.php:50
+#, php-format
+msgid "Week's %s"
+msgstr ""
+
+#: tribe-events/functions.php:53
+#, php-format
+msgid "Day's %s"
+msgstr ""
+
+#: tribe-events/functions.php:56
+#, php-format
+msgid "Listed %s"
+msgstr ""
+
+#: tribe-events/functions.php:60
+msgid "Export"
+msgstr ""
+
+#: tribe-events/functions.php:61
+msgid ""
+"Use this to share calendar data with Google Calendar, Apple iCal and other "
+"compatible apps"
+msgstr ""
+
+#: tribe-events/single-event.php:26
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: tribe-events/single-event.php:35 tribe-events/single-event.php:65
+#, php-format
+msgid "%s Navigation"
+msgstr ""
+
+#: woocommerce/woocommerce-functions.php:205
+msgid "Add to Wishlist"
+msgstr ""
+
+#: woocommerce/woocommerce-functions.php:209
+msgid "View Wishlist"
+msgstr ""
+
+#: woocommerce/woocommerce-functions.php:247
+msgid "Product added!"
+msgstr ""
+
+#: woocommerce/woocommerce-functions.php:248
+msgid "The product is already in the wishlist!"
+msgstr ""
+
+#: woocommerce/woocommerce-functions.php:248
+msgid "Browse Wishlist"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "DP Esense"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://www.dynamicpress.eu"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Responsive Multipurpose Wordpress Theme."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "DynamicPress"
+msgstr ""

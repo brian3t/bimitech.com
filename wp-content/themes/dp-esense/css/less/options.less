@@ -1,0 +1,959 @@
+.box-shadow(@x, @y, @blur, @color) {
+  box-shadow: @arguments;
+  -webkit-box-shadow: @arguments;
+  -moz-box-shadow: @arguments;
+}
+.islogo(@arg) when (@arg = image) {
+  width: @branding_logo_image_width !important; 
+  height:@branding_logo_image_height !important; 
+}
+.noboxed(@arg) when (@arg = streched) {
+  background: none; 
+}
+.isboxed(@arg) when (@arg = boxed) {
+  background: @page_bgcolor url(@{url}/images/patterns/@{page_pattern}.png) 50% 0;
+}
+.isbgimage(@a, @b) when (@a = Y) and (@b = boxed) {
+  background: url(@body_bg_image) no-repeat center center fixed; 
+-webkit-background-size: cover; 
+-moz-background-size: cover; 
+-o-background-size: cover; 
+background-size: cover;
+}
+
+.nobgimage(@a, @b) when (@a = N) and (@b = boxed) {
+background: @body_bgcolor url(@{url}/images/patterns/@{body_pattern}.png) 50% 0;
+}
+.isfooterpattern(@arg) when (@arg = p) {
+background:@footer_bg_color url(@{url}/images/patterns/@{footer_pattern}.png) 50% 0;
+}
+.isfooterbgimage(@arg) when (@arg = i) {
+background:url(@footer_bg_image);
+background-size:cover;
+}
+.isexpanderpattern(@arg) when (@arg = p) {
+background:@expander_bgcolor url(@{url}/images/patterns/@{expander_pattern}.png) 50% 0;
+}
+.isexpanderbgimage(@arg) when (@arg = i) {
+background:url(@expander_bgimage);
+background-size:cover;
+}
+
+//Boxed page
+
+body.boxed {
+.isbgimage(@body_bg_image_state,@page_wrap_state);
+}
+body.boxed, body.page-template-template-boxedpage-php {
+.nobgimage(@body_bg_image_state,@page_wrap_state);
+}
+#esense-page-box {
+.noboxed(@page_wrap_state);
+}
+
+#esense-page-box {
+.isboxed(@page_wrap_state);
+}
+.error404 #esense-page-box {
+background-color:transparent !important;
+} 
+// Paspartu
+.paspartu-enabled .paspartu-top, .paspartu-enabled .paspartu-left, .paspartu-enabled .paspartu-right, .paspartu-enabled .paspartu-bottom {
+background-color:@paspartu_bg_color!important;
+}
+//Logos
+
+#esense-head.top-navigation a.imageLogo img {
+.islogo(@branding_logo_type);
+}
+#esense-head.top-navigation a.imageLogo {
+padding-top: @branding_logo_top_margin;
+margin-bottom: @branding_logo_bottom_margin;
+}
+.esense-sticky-navigation-wrapper #esense-head.top-navigation a.imageLogo {
+padding-top:@sticky_logo_top_margin;
+}
+.aside-logo {
+  width: @aside_logo_image_width !important; 
+  height:@aside_logo_image_height !important; 
+
+}
+
+//Typography
+
+body, article > .content {
+  font-size:@fontsize_body;
+  color:@maincontent_text_color;
+}
+h1 {
+  font-size:@fontsize_h1;
+  color:@maincontent_headers_color;
+}
+h2 {
+  font-size:@fontsize_h2;
+  color:@maincontent_headers_color;
+}
+h3 {
+  font-size:@fontsize_h3;
+  color:@maincontent_headers_color;
+}
+h4 {
+  font-size:@fontsize_h4;
+  color:@maincontent_headers_color;
+}
+h5 {
+  font-size:@fontsize_h5;
+  color:@maincontent_headers_color;
+}
+h6 {
+  font-size:@fontsize_h6;
+  color:@maincontent_headers_color;
+}
+//Top Bar
+#esense-top-bar {
+background:@top_bar_bg_color;
+}
+.top-bar-adress, .top-bar-phone, .top-bar-email, {
+color:@top_bar_text_color;
+}
+.top-bar-email a {color:@top_bar_link_color;}
+.top-bar-email a:hover {color:@top_bar_hlink_color;}
+.esense_usermenu_button i {color:@top_bar_icon_color;}
+#esense-top-bar .esense_language_switcher_button i, #esense-top-bar .esense_shopping_cart_btn i {color:@top_bar_icon_color!important;}
+#esense-top-bar .social-bar a:before {color:@top_bar_icon_color;}
+#esense-top-bar a:before {color:@top_bar_icon_color;}
+//Navigation
+
+#esense-navigation-wrapper {
+  background-color:@menu_top_bg_color;
+}
+.esense-sticky-navigation-wrapper, .page-template-template-contact-php #esense-head-wrap.semi-transparent {
+  background-color:@sticky_header_bgcolor !important;
+}
+#esense-navigation-wrapper .sf-menu li.root a, .esense-button-area a, .esense-header-search, .esense_shopping_cart .esense_shopping_cart_btn i,.top_menu_lang_switcher .top_menu_lang_switcher_btn i , .esense-overlay-menu-toggle {
+  color:@top_mainmenu_link_color;
+}
+.esense-button-area a:hover {
+  color:@top_mainmenu_link_color !important;
+}
+
+#esense-navigation-wrapper .sf-menu li.root a:hover, #esense-navigation-wrapper .sf-menu li.root.current-menu-item a, a.esense-overlay-menu-toggle:hover  {
+  color:@top_mainmenu_hlink_color;
+}
+
+.header-overlapping #esense-navigation-wrapper {
+background-color:@overlapping_header_bgcolor;
+}
+.overlapping-dark #esense-navigation-wrapper .sf-menu li.root a, .overlapping-dark .esense-button-area a, .overlapping-dark .esense-header-search, .overlapping-dark .esense_shopping_cart .esense_shopping_cart_btn i,.overlapping-dark .top_menu_lang_switcher .top_menu_lang_switcher_btn i , .overlapping-dark .esense-overlay-menu-toggle, .overlapping-dark .esense-overlay-menu-toggle:hover{
+  color:@overlapping_mainmenu_link_color_dark;
+}
+.overlapping-dark #esense-navigation-wrapper .sf-menu li.root a:hover, .overlapping-dark #esense-navigation-wrapper .sf-menu li.root.current-menu-item a, .esense-overlay-menu-toggle:hover {
+  color:@overlapping_mainmenu_hlink_color_dark;
+}
+
+.overlapping-light #esense-navigation-wrapper .sf-menu li.root a, .overlapping-light .esense-button-area a, .overlapping-light .esense-header-search, .overlapping-light .esense_shopping_cart .esense_shopping_cart_btn i,  .overlapping-light .top_menu_lang_switcher .top_menu_lang_switcher_btn i, .overlapping-light .esense-overlay-menu-toggle, .overlapping-light .esense-overlay-menu-toggle:hover  {
+  color:@overlapping_mainmenu_link_color_light;
+}
+.overlapping-light #esense-navigation-wrapper .sf-menu li.root a:hover, .overlapping-light #esense-navigation-wrapper .sf-menu li.root.current-menu-item a, .esense-overlay-menu-toggle:hover {
+  color:@overlapping_mainmenu_hlink_color_light;
+}
+
+.esense-overlay-menu {
+	background: @overlay_mainmenu_bg_color;
+}
+.overlay-menu li a {
+color:@overlay_mainmenu_link_color;
+}
+.overlay-menu li a:hover {
+color:@overlay_mainmenu_hlink_color;
+}
+
+
+.esense-aside-navigation-wrapper {
+  background-color:@aside_mainmenu_bg_color;
+}
+.esense-aside-navigation-wrapper .sf-menu li.root a {
+  color:@aside_mainmenu_link_color;
+}
+
+.esense-aside-navigation-wrapper  .sf-menu li.root a:hover, .esense-aside-navigation-wrapper .sf-menu li.root.current-menu-item a {
+  color:@aside_mainmenu_hlink_color;
+}
+
+#esense-navigation-wrapper.esense-sticky-navigation-wrapper .sf-menu li.root a, .esense-sticky-navigation-wrapper .esense-header-search, .esense-sticky-navigation-wrapper .esense-button-area a, .esense-sticky-navigation-wrapper .esense_shopping_cart_btn i, .overlapping-light .esense-sticky-navigation-wrapper .esense_shopping_cart_btn i, .overlapping-dark .esense-sticky-navigation-wrapper .esense_shopping_cart_btn i, #esense-navigation-wrapper.esense-sticky-navigation-wrapper .esense-overlay-menu-toggle{
+color:@sticky_mainmenu_link_color;
+}
+
+#esense-navigation-wrapper.esense-sticky-navigation-wrapper .sf-menu li.root a:hover, #esense-navigation-wrapper.esense-sticky-navigation-wrapper .sf-menu li.root.current-menu-item a {
+  color:@sticky_mainmenu_hlink_color;
+}
+
+
+.sf-menu ul li,.sf-menu ul, .sf-menu ul ul li, .sf-menu ul ul, .sf-menu ul ul ul li, .sf-menu ul ul ul, .sf-menu > li.megamenu-full > ul  {
+background-color:@submenu_bgcolor;
+}
+.sf-menu ul li a,.sf-menu ul ul li a,.sf-menu ul ul ul li a {
+color:@submenu_link_color!important;
+}
+.sf-menu ul li a:hover,.sf-menu ul ul li a:hover,.sf-menu ul ul ul li a:hover {
+color:@submenu_hlink_color!important;
+background-color:@submenu_hbg_color;
+}
+
+.sf-menu ul li a.column-header:hover,
+.sf-menu ul ul li a.column-header:hover,
+.sf-menu ul ul ul li a.column-header:hover {
+color:@submenu_link_color!important;
+}
+//Headers
+.headline.big-centered h3:after, .esense_shopping_cart .esense_shopping_cart_btn span {
+background-color:@maincontent_accent_color;
+}
+
+//Subheaders
+.esense-subheader-wraper {background-color:@subheader_bgcolor}
+.esense-subheader .main-title, .esense-subheader .sub-title, .esense-subheader .esense-breadcrumbs a,.esense-subheader .esense-breadcrumbs span {color:@subheader_text_color;}
+//
+//Content
+.esense-page-wrap { color:@maincontent_text_color;} 
+.esense-page-wrap {
+   .esense-nsp-text {
+    color:@maincontent_text_color;
+  }
+ 
+  a:hover {
+    color:@maincontent_hlink_color;
+  }
+}
+a {
+  color:@maincontent_link_color;
+}
+
+a:hover
+{
+  color:@maincontent_hlink_color;
+}
+
+.esense-page-wrap .esense-recent-post-widget a:hover, .esense-page-wrap .widget_esense_comments a:hover, .esense-page-wrap header h2 a:hover, .esense-page-wrap .esense-nsp-header a:hover, .comment-reply-link:hover {
+}
+
+//Expander
+#esense-dynamic-sidebar {
+   background-color:@expander_bgcolor;
+   color: @expanderbgtype;
+}
+#esense-dynamic-sidebar {
+.isexpanderpattern(@expanderbgtype);
+}
+
+#esense-dynamic-sidebar {
+.isexpanderbgimage(@expanderbgtype);
+}
+#esense-dynamic-sidebar {
+  font-size:99% !important;
+  color:@expander_text_color;
+  h1, h3, h4, h5, li {
+    font-size:99% !important;
+  }
+  h2 {
+    font-size:99% !important;
+    color:@expander_text_color;
+  }
+  .box-title {
+    color:@expander_text_color;
+  }
+  .box {
+    a:active, a:focus, a:hover {
+      color:@expander_hlink_color!important;
+    }
+    a {
+      color:@expander_link_color;
+    }
+  }
+}
+#esense-dynamic-sidebar .esense-recent-post-widget a, #esense-dynamic-sidebar.widget_dp_comments a {
+  color:@footer_text_color !important;
+}
+
+//Footer
+#esense-footer-wrap {
+   background-color:@footer_bg_color;
+}
+#esense-footer-wrap {
+.isfooterpattern(@footerbgtype);
+}
+
+#esense-footer-wrap {
+.isfooterbgimage(@footerbgtype);
+}
+#esense-footer {
+  color:@footer_text_color;
+  h2 {
+    color:@footer_header_color;
+  }
+  .box-title {
+    color:@footer_header_color;
+  }
+  .box {
+    a:active, a:focus, a:hover {
+      color:@footer_hlink_color!important;
+    }
+    a {
+      color:@footer_link_color;
+    }
+  }
+}
+#esense-footer .esense-recent-post-widget a, #esense-footer.widget_dp_comments a, #esense-footer2 .esense-page-wrap .widget_dp_comments a {
+  color:@footer_text_color !important;
+}
+#footer-menu li a {
+  color:@footer_text_color;
+}
+#footer-menu li a:hover {
+  color:@footer_hlink_color!important;
+}
+#esense-copyright-wrap {
+background-color: @copyrightbgcolor;
+}
+#esense-copyright {
+color:@copyrighttextcolor;
+}
+#esense-copyright a {
+color:@copyrightlinkcolor;
+}
+#esense-copyright a:active,#esense-copyright a:focus,#esense-copyright a:hover {
+color:@copyrighthlinkcolor;
+}
+#esense-copyright-wrap {border-top-color: @copyrightbordercolor;}
+#esense-copyright .social-bar a:before {color:@copyrighttextcolor !important;}
+#esense-copyright .social-bar a:hover:before {color:@maincontent_accent_color !important;}
+#esense-copyright .social-bar a:hover {border-color:@maincontent_accent_color!important}
+
+//Accent colors dynamic css addition
+button,a.esense-button,input[type=button],input[type=submit], .woocommerce-page .button, ul.products li.product .onsale,
+.onsale {
+background-color:@maincontent_accent_color;
+}
+.pagination a:hover,.pagination .current {
+background:@maincontent_accent_color;
+border:1px solid @maincontent_accent_color;
+}
+#back-to-top:hover {
+background-color:@maincontent_accent_color;
+}
+.comment-reply-link:hover, .blog-item-wrap h2 a:hover, .portfolio-tabs li.active a, .blog-tabs li.active a {
+color:@maincontent_accent_color!important;
+}
+#respond input[type=submit] {
+background-color:@maincontent_accent_color;
+}
+div.meta a:hover {
+color:@maincontent_accent_color!important;
+}
+article header h1 sup,article.sticky header h1 sup,article header h2 sup,article.sticky header h2 sup {
+background:@maincontent_accent_color;
+}
+.summary.link:hover,.summary.quote:hover,.summary.status:hover {
+background:@maincontent_accent_color;
+border-color: @maincontent_accent_color;
+}
+.esense-aside-menu-toggle {position:absolute; top:12px; left:12px; font-size:18px;color:@maincontent_accent_color!important;}
+.esense-overlay-menu .esense-overlay-menu-close:hover {color:@maincontent_accent_color}
+.accent-color-1 {
+color:@maincontent_accent_color;
+}
+.accent-bg-1 {
+background-color:@maincontent_accent_color;
+}
+.accent-border-1 {
+border-color:@maincontent_accent_color;
+}
+.accent-underline {
+border-bottom:1px solid @maincontent_accent_color;
+}
+#esense-sidebar ul.menu li a:hover {
+color:@maincontent_accent_color!important;
+}
+.item-description a:hover h5 {
+color:@maincontent_accent_color;
+}
+ul.item-nav li.prev a:hover,ul.item-nav li.next a:hover,ul.item-nav li.all a:hover {
+border-color:@maincontent_accent_color;
+background-color:@maincontent_accent_color;
+}
+.spin {
+border-right:3px solid @maincontent_accent_color!important;
+border-bottom:3px solid @maincontent_accent_color!important;
+border-top:3px solid @maincontent_accent_color!important;
+}
+.blog-grid .meta a:hover {
+color:@maincontent_accent_color!important;
+}
+.readon  {
+background-color:@maincontent_accent_color;
+border-color:@maincontent_accent_color;
+}
+.blog-grid .esense-readon:hover span {
+color:@maincontent_accent_color!important;
+}
+.box #wp-calendar #today {
+background:@maincontent_accent_color;
+}
+.box #wp-calendar td#prev a,.box #wp-calendar td#next a {
+color:@maincontent_accent_color;
+}
+#searchform #searchsubmit:hover {
+background-color:@maincontent_accent_color;
+}
+.widget_categories ul li span {
+background:@maincontent_accent_color;
+}
+.tagcloud a:active,.tagcloud a:focus,.tagcloud a:hover {
+background-color:@maincontent_accent_color;
+border:1px solid @maincontent_accent_color;
+}
+.box ul li a:hover {
+color:@maincontent_accent_color;
+}
+.box.dark a:active,.box.dark a:focus,.box.dark a:hover {
+color:@maincontent_accent_color;
+}
+.box.accented-bg {
+background:@maincontent_accent_color!important;
+}
+.box.menu li:hover {
+background-color:@maincontent_accent_color;
+}
+.box.accented-title .box-title, .accented {
+color:@maincontent_accent_color;
+}
+.wpcf7 input[type=submit] {
+background-color:@maincontent_accent_color;
+}
+.lang_code {background:@maincontent_accent_color;}
+.top_menu_lang_switcher .top_menu_lang_switcher_btn span{
+    background-color: @maincontent_accent_color;
+}
+.newsline a:hover {
+color:@maincontent_accent_color;
+}
+.dark .newsline a:hover {
+color:@maincontent_accent_color;
+}
+.list.color li:before,.list-1.color li:before,.list-2.color li:before,.list-3.color li:before,.list-4.color li:before {
+color:@maincontent_accent_color;
+}
+span.dropcap {
+color:@maincontent_accent_color;
+}
+.highlight.color {
+background:@maincontent_accent_color;
+}
+blockquote {
+border-left:3px solid @maincontent_accent_color;
+}
+div.dp_legend3 h4 {
+background:@maincontent_accent_color;
+}
+.dp_icon.accented {
+background-color:@maincontent_accent_color;
+}
+.divider_line_accented {
+border-bottom:1px solid @maincontent_accent_color;
+}
+.button_dp {
+background-color:@maincontent_accent_color;
+border-color:@maincontent_accent_color;
+}
+.button_dp.color {
+background-color:@maincontent_accent_color;
+border-color:@maincontent_accent_color;
+}
+.button_dp.dark:hover {
+background-color:@maincontent_accent_color;
+border-color:@maincontent_accent_color;
+}
+.button_dp.light:hover {
+background-color:@maincontent_accent_color;
+border-color:@maincontent_accent_color;
+}
+.button_dp.line {
+border-color:@maincontent_accent_color!important;
+}
+.button_dp.line span {
+color:@maincontent_accent_color;
+}
+.button_dp.line:hover {
+background-color:@maincontent_accent_color;
+}
+.button_dp.line-dark:hover {
+background-color:@maincontent_accent_color;
+border-color:@maincontent_accent_color;
+}
+.button {
+background:@maincontent_accent_color;
+}
+.premium .plan-top, .plan.premium, .plan.premium .plan-features {
+background-color:@maincontent_accent_color;
+}
+.plan-price {
+color:@maincontent_accent_color;
+}
+.vtabs li.current {
+background-color:@maincontent_accent_color;
+}
+.team-box-animated .back {
+background:@maincontent_accent_color;
+}
+.tipsy-inner {
+background-color:@maincontent_accent_color;
+}
+.tipsy-arrow-n {
+border-bottom-color:@maincontent_accent_color;
+}
+.tipsy-arrow-s {
+border-top-color:@maincontent_accent_color;
+}
+
+.tipsy-arrow-e {
+border-left-color:@maincontent_accent_color;
+}
+
+.tipsy-arrow-w {
+border-right-color:@maincontent_accent_color;
+}
+.jp-play-bar {
+background:@maincontent_accent_color;
+}
+.jp-volume-bar-value {
+background:@maincontent_accent_color;
+}
+.easyPieChart2 {
+background-color:@maincontent_accent_color;
+}
+.skill-bar span {
+background-color:@maincontent_accent_color;
+}
+.headline.big-centered h3:after {
+  background-color: @maincontent_accent_color;
+}
+.blog-item-wrap .post-content h2 a:hover {
+color:@maincontent_accent_color!important;
+}
+.post-teaser .text-block h1 a:hover {
+color:@maincontent_accent_color!important;
+}
+.post-teaser div.meta a:hover {
+color:@maincontent_accent_color!important;
+}
+.number-box .number-container {
+color:@maincontent_accent_color;
+-webkit-box-shadow:0 0 0 1px @maincontent_accent_color;
+-moz-box-shadow:0 0 0 1px @maincontent_accent_color;
+box-shadow:0 0 0 1px @maincontent_accent_color;
+}
+.number-box .number-container span {
+color:@maincontent_accent_color;
+}
+.number-box:hover .number-container {
+background-color:@maincontent_accent_color;
+}
+.timeline_item .timeline_node {
+border-color: @maincontent_accent_color;
+}
+.timeline_item .item_date {
+background:@maincontent_accent_color;
+}
+.timeline_sep span {
+background:@maincontent_accent_color;
+}
+.owl-theme .owl-controls .owl-buttons .owl-next:hover, .owl-theme .owl-controls .owl-buttons .owl-prev:hover {color: @maincontent_accent_color;}
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+	background-color: @maincontent_accent_color;
+}
+.flex-control-paging li a.flex-active { background: @maincontent_accent_color; }
+#gallery .flex-control-paging li a.flex-active { background: @maincontent_accent_color; }
+.incontent_content .flex-direction-nav .flex-next:hover {border-color:@maincontent_accent_color; background-color:@maincontent_accent_color;}
+.incontent_content .flex-direction-nav .flex-prev:hover {border-color:@maincontent_accent_color; background-color:@maincontent_accent_color;}
+.flexgallery .flexslider .flex-next:hover, .flexgallery .flexslider .flex-prev:hover {background-color:@maincontent_accent_color}
+.flexgallery .gallery-post-title {background-color:@maincontent_accent_color_07;}
+.eg-portfolio-gallery-style-container {background-color:@maincontent_accent_color!important;}
+.eg-portfolio-gallery-style-element-0:hover, .eg-portfolio-gallery-style-element-1:hover {color:@maincontent_accent_color!important}
+.esense-light .esg-navigationbutton:hover,
+.esense-light .esg-filterbutton:hover,
+.esense-light .esg-sortbutton:hover,
+.esense-light .esg-sortbutton-order:hover,
+.esense-light .esg-cartbutton a:hover,
+.esense-light .esg-filterbutton.selected,.headline.big-centered .deco .left-line, .headline.big-centered .deco .right-line {background-color:@maincontent_accent_color!important;border-color:@maincontent_accent_color!important;}
+.tp-caption a, .headline.big-centered .deco {color: @maincontent_accent_color}
+
+.esense-woocommerce-breadcrumbs a:active,
+.esense-woocommerce-breadcrumbs a:focus,
+.esense-woocommerce-breadcrumbs a:hover {
+	color: @maincontent_accent_color!important;
+}
+.woocommerce-main-image.zoom .esense-wc-zoom > span > span,
+.wc-product-overlay .esense-wc-view > span > span {
+	background: @maincontent_accent_color;
+	border:1px @maincontent_accent_color solid;
+}
+.woocommerce-main-image.zoom .esense-wc-zoom > span > span:hover,
+.wc-product-overlay .esense-wc-view > span > span:hover {
+	background:@maincontent_accent_color;
+	border-color:@maincontent_accent_color;
+}
+p.stock {
+ 	color: @maincontent_accent_color;
+}
+table.group_table td.price span.amount {
+    color: @maincontent_accent_color;
+}
+.woocommerce.box ins,
+.woocommerce.box span.amount {
+	color: @maincontent_accent_color;
+}
+div.product .woocommerce-tabs ul.tabs li.active, 
+#content div.product .woocommerce-tabs ul.tabs li.active {
+
+}
+.woocommerce-message,
+.woocommerce-error,
+.woocommerce-info {
+	background: @maincontent_accent_color;
+}
+#payment div.payment_box {
+	background: @maincontent_accent_color;
+}
+#payment div.payment_box::after {
+	border: 8px solid @maincontent_accent_color;
+}
+#payment ul.payment_methods {
+	border-bottom: 1px solid @maincontent_accent_color;
+}
+table.cart a.remove,
+#content table.cart a.remove {
+	background-color: @maincontent_accent_color;
+}
+.product-subtotal span.amount {
+ 	color: @maincontent_accent_color;
+}
+.cart-collaterals .cart_totals tr.total td,
+.cart-collaterals .cart_totals tr.total th{
+	border-top-color: @maincontent_accent_color;
+}
+.page-numbers li .current, .page-numbers a:hover {
+background: @maincontent_accent_color;
+border:1px solid @maincontent_accent_color;
+}
+.widget_price_filter .ui-slider .ui-slider-range {
+	background: @maincontent_accent_color;
+}
+.widget_price_filter .ui-slider .ui-slider-handle {
+	border: 2px solid @maincontent_accent_color;
+}
+.dp_shopping_cart .dp_shopping_cart_btn span{
+    background-color: @maincontent_accent_color;
+}
+.shopping_cart_dropdown span.total span{
+	    color: @maincontent_accent_color;
+}
+#esense-top-bar .dp_shopping_cart .dp_shopping_cart_btn span{
+    background-color: @maincontent_accent_color;
+}
+.product-compare a:hover, .product-wishlist a:hover {background-color:@maincontent_accent_color;}
+.yith-woocompare-widget .clear-all:hover {
+	background-color: @maincontent_accent_color;
+}
+#yith-ajaxsearchform #yith-searchsubmit:hover {
+background-color:@maincontent_accent_color;
+}
+.eg-blog-grayscale-wrapper:hover .eg-portfolio-grayscale-element-4, .eg-portfolio-grayscale-wrapper:hover .eg-portfolio-grayscale-element-4 {border-color:@maincontent_accent_color!important}
+.accent-color-2 {
+color:@maincontent_secondary_accent_color;
+}
+.accent-bg-2 {
+background-color:@maincontent_secondary_accent_color;
+}
+.accent-border-2 {
+border-color:@maincontent_secondary_accent_color;
+}
+.button_dp.line-dark {
+border:1px solid @maincontent_secondary_accent_color;
+}
+.btn:hover,.btn:active,.btn.active,.btn.disabled,.btn[disabled],button:hover,input[type=button]:hover,input[type=submit]:hover,button:active,input[type=button]:active,input[type=submit]:active,button.disabled,input[type=button].disabled,input[type=submit].disabled,a.esense-button:hover,a.esense-button:active,a.esense-button.active,a.esense-button.disabled,a.esense-button[disabled] {
+background-color:@maincontent_secondary_accent_color!important;
+}
+.btn:active,.btn.active,button:active,a.esense-button:active,a.esense-button.active
+input[type=button]:active,input[type=submit]:active, .process-box .symbol-container .front {
+background-color:@maincontent_secondary_accent_color;
+}
+.button_dp:hover {
+background-color:@maincontent_secondary_accent_color;
+border-color:@maincontent_secondary_accent_color;
+}
+.button_dp.color:hover {
+background-color:@maincontent_secondary_accent_color;
+border-color:@maincontent_secondary_accent_color;
+}
+
+.button_dp.dark {
+background-color:@maincontent_secondary_accent_color;
+border-color:@maincontent_secondary_accent_color;
+}
+.button_dp.black:hover,.button_dp.pink:hover,.button_dp.teal:hover,.button_dp.gray:hover,.button_dp.limon:hover,.button_dp.burgund:hover,.button_dp.orange:hover,.button_dp.purple:hover,.button_dp.coffee:hover,.button_dp.blue:hover {
+background-color:@maincontent_secondary_accent_color;
+border-color:@maincontent_secondary_accent_color;
+}
+.button_dp.line-dark span {
+color:@maincontent_secondary_accent_color;
+}
+.button:hover {
+background:@maincontent_secondary_accent_color;
+}
+body div.pp_default a.pp_next:hover, 
+body div.pp_default a.pp_previous:hover{
+	background-color: @maincontent_secondary_accent_color !important;
+}
+span.price {
+	color: @maincontent_secondary_accent_color;
+}
+.esense-product-desc .separate {
+background-color:@maincontent_secondary_accent_color;
+}
+.product-compare a, .product-wishlist a {
+	background-color:@maincontent_secondary_accent_color;
+}
+.toggleList:hover, 
+.toggleGrid:hover, 
+.toggleList.active, 
+.toggleGrid.active {
+   color: @maincontent_secondary_accent_color;
+}
+.yith-woocompare-widget .clear-all {
+	background-color:@maincontent_secondary_accent_color;
+}
+.wpb_tabs .wpb_tabs_nav .ui-tabs-active a {background-color:@maincontent_accent_color !important; border-color:@maincontent_accent_color !important;}
+.wpb_tabs .wpb_tabs_nav li:hover a { color:@maincontent_accent_color;}
+.wpb_tour .wpb_tabs_nav li:hover a {
+	 color: @maincontent_accent_color;
+}
+.wpb_tour .wpb_tabs_nav .ui-tabs-active {background-color:@maincontent_accent_color!important; border-color:@maincontent_accent_color!important;}
+.vc-carousel-indicators li {
+  border: 1px solid @maincontent_accent_color;
+  background-color: @maincontent_accent_color;
+}
+.vc-carousel-indicators .vc-active {
+  border-color: @maincontent_accent_color;
+}
+.wpb_gallery .flex-control-paging li a.flex-active { background: @maincontent_accent_color;}
+.theme-default .nivo-controlNav a.active, .esense-tabs-wrap > ol li.active,.esense-tabs-wrap > ol li.active:hover {
+	background-color: @maincontent_accent_color!important;
+}
+.accented .vc_bar {background-color: @maincontent_accent_color!important}
+
+.esense-breadcrumbs a {
+color:@maincontent_link_color;
+}
+.esense-breadcrumbs a:hover {
+color:@maincontent_hlink_color;
+}
+
+.double-bounce1, .double-bounce2 {
+  background-color: @maincontent_accent_color;
+ }
+.headline.medium h3:after, .headline.big h3:after {
+background-color:@maincontent_accent_color;
+}
+.box ul li:before {
+color: @maincontent_accent_color;
+}
+figure .text-overlay .info1 h5, .team-box .position, .testimonials h2, .button_dp.readmore span  {
+color:@maincontent_accent_color;
+}
+
+article section.content .portfolio-tabs li a,.blog-tabs li a {
+color:#999!important;
+}
+
+article section.content .portfolio-tabs li.active a, article section.content .blog-tabs li.active a, article section.content .portfolio-tabs li.active a:hover, article section.content .blog-tabs li.active a:hover {
+color:@maincontent_accent_color!important;
+}
+.team-box.vcard:hover, .team-box.vcard.highlited {
+background-color:@maincontent_accent_color;
+}
+
+
+
+
+.rounded-border.featured-box .icon-center i {
+color:@maincontent_accent_color;
+border-color: @maincontent_accent_color;
+}
+.featured-box:hover > .icon-center i {
+color:#fff;
+border-color: @maincontent_accent_color;
+background-color:@maincontent_accent_color;
+}
+.featured-box.no-border > .icon-center i {
+color:@maincontent_accent_color;
+}
+.featured-box.no-border:hover > .icon-center i {
+border-color: @maincontent_accent_color;
+background-color:@maincontent_accent_color;
+}
+.featured-box.no-border > .icon-lefted-big i {
+color:@maincontent_accent_color;
+}
+.rounded-border.featured-box .icon-lefted-big i {
+color:@maincontent_accent_color;
+border-color: @maincontent_accent_color;
+}
+.rounded-border.featured-box:hover .icon-lefted-big i {
+background-color: @maincontent_accent_color;
+}
+.rounded.featured-box .icon-lefted-big i {
+background-color: @maincontent_accent_color;
+border-color:@maincontent_accent_color;
+}
+
+.featured-box.no-border > .icon-lefted-small i {
+color:@maincontent_accent_color;
+}
+.rounded-border.featured-box .icon-lefted-small i {
+color:@maincontent_accent_color;
+border: 1px solid @maincontent_accent_color;
+}
+.rounded-border.featured-box:hover .icon-lefted-small i {
+background-color: @maincontent_accent_color;
+}
+.rounded.featured-box .icon-lefted-small i {
+background-color: @maincontent_accent_color;
+border-color:@maincontent_accent_color;
+}
+.featured-box.no-border > .icon-righted-big i {
+color:@maincontent_accent_color;
+}
+.rounded-border.featured-box .icon-righted-big i {
+color:@maincontent_accent_color;
+border-color:@maincontent_accent_color;
+}
+.rounded-border.featured-box:hover .icon-righted-big i {
+background-color: @maincontent_accent_color;
+}
+.rounded.featured-box .icon-righted-big i {
+background-color: @maincontent_accent_color;
+}
+.featured-box.no-border > .icon-righted-small i {
+color:@maincontent_accent_color;
+}
+.rounded-border.featured-box .icon-righted-small i {
+color:@maincontent_accent_color;
+border-color: @maincontent_accent_color;
+}
+.rounded-border.featured-box:hover .icon-righted-small i {
+background-color: @maincontent_accent_color;
+}
+.rounded.featured-box .icon-righted-small i {
+background-color: @maincontent_accent_color;
+border-color:@maincontent_accent_color;
+}
+.menu_metro .sf-menu li.root.menutab1 > .item-container{
+background-color: @menutab1_color;
+}
+.menu_metro .menutab1 .submenu , .menu_metro .menutab1 .submenu li {
+background-color: @menutab1_color;
+}
+.menu_metro .sf-menu li.root.menutab2 > .item-container{
+background-color: @menutab2_color;
+}
+.menu_metro .menutab2 .submenu , .menu_metro .menutab2 .submenu li {
+background-color: @menutab2_color;
+}
+.menu_metro .sf-menu li.root.menutab3 > .item-container{
+background-color: @menutab3_color;
+}
+.menu_metro .menutab3 .submenu , .menu_metro .menutab3 .submenu li {
+background-color: @menutab3_color;
+}
+.menu_metro .sf-menu li.root.menutab4 > .item-container{
+background-color: @menutab4_color;
+}
+.menu_metro .menutab4 .submenu , .menu_metro .menutab4 .submenu li {
+background-color: @menutab4_color;
+}
+.menu_metro .sf-menu li.root.menutab5 > .item-container{
+background-color: @menutab5_color;
+}
+.menu_metro .menutab5 .submenu , .menu_metro .menutab5 .submenu li {
+background-color: @menutab5_color;
+}
+.menu_metro .sf-menu li.root.menutab6 > .item-container{
+background-color: @menutab6_color;
+}
+.menu_metro .menutab6 .submenu , .menu_metro .menutab6 .submenu li {
+background-color: @menutab6_color;
+}
+.menu_metro .sf-menu li.root.menutab7 > .item-container{
+background-color: @menutab7_color;
+}
+.menu_metro .menutab7 .submenu ,.menu_metro .menutab7 .submenu li {
+background-color: @menutab7_color;
+}
+.menu_metro .sf-menu li.root.menutab8 > .item-container{
+background-color: @menutab8_color;
+}
+.menu_metro .menutab8 .submenu , .menu_metro .menutab8 .submenu li {
+background-color: @menutab8_color;
+}
+.menu_metro .sf-menu li.root.menutab9 > .item-container{
+background-color: @menutab9_color;
+}
+.menu_metro .menutab9 .submenu , .menu_metro .menutab9 .submenu li {
+background-color: @menutab9_color;
+}
+.menu_metro .esense-button-area {
+background-color: @menutab_buttons_color;
+}
+.search-overlay {
+	background-color: @searchoverlay_bgcolor;
+}
+.search-overlay #searchform  #s, .search-overlay #searchform input:-moz-placeholder {
+color: @searchoverlay_text_color !important;
+}
+.svg-fill {fill: @maincontent_accent_color;}
+
+article section.content ul.tribe-events-sub-nav a, article section.content .tribe-events-back a, article section.content .tribe-events-list-widget .tribe-events-widget-link a, article section.content .tribe-events-adv-list-widget .tribe-events-widget-link a {
+    color: #B2BABC !important;
+}
+article section.content ul.tribe-events-sub-nav a:hover, article section.content .tribe-events-back a:hover, article section.content .tribe-events-list-widget article section.content .tribe-events-widget-link a:hover, article section.content .tribe-events-adv-list-widget .tribe-events-widget-link a:hover
+ { 
+    color: #ffffff !important;
+}
+.woocommerce-page .button {
+    background-color: @maincontent_accent_color;
+    border-color: @maincontent_accent_color;
+}
+ul.products li.product .price {
+color: @maincontent_accent_color;
+}
+.select:hover .arrow, div.product .woocommerce-tabs ul.tabs li.active a, #content div.product .woocommerce-tabs ul.tabs li.active a 
+{
+    background-color:@maincontent_accent_color;
+	border-color:@maincontent_accent_color ;
+}
+.esense-page-wrap .esense-recent-post-widget a, .esense-page-wrap .widget_dp_comments a, .esense-page-wrap .esense-nsp-header a , .tribe-event-title a{
+    color: @maincontent_text_color !important;
+}
+  .esense-recent-post-widget a:hover, .widget_dp_comments a:hover, .esense-nsp-header a:hover, .tribe-event-title a:hover {
+    color:@maincontent_link_color !important;
+  }
+.team-box.vcard .social-bar li a:hover:before {
+ color: @maincontent_accent_color !important;
+ }
+.wpb_tabs .wpb_tabs_nav.diamond-navigation .ui-tabs-active, span.indico {
+background-color:@maincontent_accent_color;
+}
+#esense-mainbody header h2 a:hover, .wpb_accordion .wpb_accordion_wrapper .wpb_accordion_header a:hover, .toggle.faq .toggle_title:hover {
+color:@maincontent_accent_color;
+}

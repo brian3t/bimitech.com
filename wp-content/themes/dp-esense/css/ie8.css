@@ -1,0 +1,47 @@
+/**
+ *
+ * -------------------------------------------
+ * IE code fixes
+ * -------------------------------------------
+ *
+ **/
+
+/*
+ *
+ * 12. IE
+ *
+ *
+------------------------------------ */
+
+/* 12.1. IE8
+==================================== */
+
+.author-avatar img {
+	max-width: none!important;
+	width: auto!important;
+}
+
+
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="www"],
+input[type="tel"] {
+	line-height: 1.2!important;
+	padding-top: 8px!important;
+	padding-bottom: 8px!important;
+}
+#esense-head a.imageLogo, #esense-head a.imageLogo img {
+	max-width: none!important;
+	width: auto!important;
+}
+a.cssLogo, #esense-head a.cssLogo {
+	background: transparent url('../images/logo-ie8.png') no-repeat 0 0;
+}
+/* image logo fix */
+.imageLogo img {
+	max-width: auto!important;
+	width: auto!important;
+}
+

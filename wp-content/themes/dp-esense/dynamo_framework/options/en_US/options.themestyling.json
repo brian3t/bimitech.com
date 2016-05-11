@@ -1,0 +1,1187 @@
+[
+	{
+		"groupname": "Appearance",
+		"groupdesc": "You can set here style for many theme elements.",
+		"fields": [
+		]
+	},
+		{
+		"groupname": "General style",
+		"groupdesc": "You can set general page style.",
+		"fields": [{
+				"name": "maincontent_accent_color",
+				"type": "Color",
+				"label": "Main accent color",
+				"tooltip": "Select a default main accent color used for different page elements links, menu hover color etc. This color by default is used for all coloured elements but you can override it for some element bellow",
+				"default": "#E57D04",
+				"visibility": ""
+			},
+			{
+				"name": "maincontent_secondary_accent_color",
+				"type": "Color",
+				"label": "Secondary accent color",
+				"tooltip": "Select a default secondary accent color used for different page elements links, menu hover color etc. This color by default is used for all coloured elements but you can override it for some element bellow",
+				"default": "#000000",
+				"visibility": ""
+			},
+			{
+				"name": "page_bgcolor",
+				"type": "Color",
+				"label": "Page background color",
+				"tooltip": "Select a default page body background color.",
+				"default": "#ffffff"
+			},
+			{
+				"name": "page_pattern",
+				"type": "Background",
+				"label": "Page patern",
+				"tooltip": "Specify page body pattern.",
+				"class": "",
+				"visibility": "",
+				"default":"none",
+				"other": {
+					"folder": "patterns"
+				}
+			},
+			{
+				"name": "page_wrap_state",
+				"type": "Select",
+				"label": "Page layout",
+				"tooltip": "Select full width streched or boxed layout.",
+				"default": "stretched",
+				"visibility": "",
+				"other": {
+					"options": {
+						"stretched": "Stretched layout",
+						"boxed": "Boxed layout"
+					}
+				}
+			},
+			{
+				"name": "body_bgcolor",
+				"type": "Color",
+				"label": "Page body background color",
+				"tooltip": "Select a default page body background color.",
+				"default": "#ffffff",
+				"visibility": "page_wrap_state=boxed"
+			},
+			{
+				"name": "body_pattern",
+				"type": "Background",
+				"label": "Page body patern",
+				"tooltip": "Specify page body pattern.",
+				"class": "",
+				"visibility": "",
+				"default":"none",
+				"visibility": "page_wrap_state=boxed",
+				"other": {
+					"folder": "patterns"
+				}
+			},
+			{
+				"name": "pagewrap_bordercolor",
+				"type": "Color",
+				"label": "Page wrap border color",
+				"tooltip": "Select a default page wrap border color.",
+				"default": "#ffffff",
+				"visibility": "page_wrap_state=boxed"
+			},
+			{
+				"name": "body_bg_image_state",
+				"type": "Switcher",
+				"label": "Use body background image",
+				"tooltip": "Enable use body background image.",
+				"default": "N",
+				"visibility": "page_wrap_state=boxed"
+			},
+
+			{
+				"name": "body_bg_image",
+				"type": "Media",
+				"label": "Mainbody background image",
+				"tooltip": "Select the image for the body background.",
+				"default": "",
+				"class": "",
+				"visibility": "page_wrap_state=boxed,body_bg_image_state=Y"
+			},
+			{
+				"name": "paspartu_state",
+				"type": "Switcher",
+				"label": "Use paspartu?",
+				"tooltip": "Enable page paspartu",
+				"default": "N"
+			},
+			{
+				"name": "paspartu_bg_color",
+				"type": "Color",
+				"label": "Paspartu background color",
+				"tooltip": "Select a paspartu background color.",
+				"default": "#ffffff",
+				"visibility": "paspartu_state=Y"
+			},
+			{
+				"name": "paspartu_width",
+				"type": "Text",
+				"label": "Paspartu width",
+				"tooltip": "Specify paspartu width in px.",
+				"default": "30",
+				"class": "",
+				"visibility": "paspartu_state=Y"
+			},
+			{
+				"name": "general_style_save",
+				"type": "Save"
+			}
+
+					]
+	},
+	{
+		"groupname": "Top bar style",
+		"groupdesc": "You can set some style for top bar.",
+		"fields": [
+			{
+				"name": "top_bar_state",
+				"type": "Switcher",
+				"label": "Display top bar",
+				"tooltip": "Enable top bar display",
+				"default": "N"
+			},
+
+			{
+				"name": "top_bar_bg_color",
+				"type": "Color",
+				"label": "Top bar background color",
+				"tooltip": "Select a top bar background color.",
+				"default": "#000000",
+				"visibility": "top_bar_state=Y"
+			},
+			{
+				"name": "top_bar_text_color",
+				"type": "Color",
+				"label": "Top bar text color",
+				"tooltip": "Top bar text color.",
+				"default": "#ffffff",
+				"visibility": "top_bar_state=Y"
+			},
+			{
+				"name": "top_bar_link_color",
+				"type": "Color",
+				"label": "Top bar link color",
+				"tooltip": "Top bar link color.",
+				"default": "#fefefe",
+				"visibility": "top_bar_state=Y"
+			},
+			{
+				"name": "top_bar_hlink_color",
+				"type": "Color",
+				"label": "Top bar hover link color",
+				"tooltip": "Top bar hover link color.",
+				"default": "#ffffff",
+				"visibility": "top_bar_state=Y"
+			},
+			{
+				"name": "top_bar_icon_color",
+				"type": "Color",
+				"label": "Top bar icon color",
+				"tooltip": "Top bar icon color.",
+				"default": "#FFFFFF",
+				"visibility": "top_bar_state=Y"
+			},
+			{
+				"name": "social_links_top_bar_state",
+				"type": "Switcher",
+				"label": "Display social links in top bar",
+				"tooltip": "Enable display of social links in top bar.",
+				"default": "Y",
+				"class": "",
+				"visibility": "top_bar_state=Y"
+			},
+			{
+				"name": "language_switcher_top_bar_state",
+				"type": "Switcher",
+				"label": "Display langauage switcher in top bar",
+				"tooltip": "Enable display of langauage switcher in top. This switcher will be displayed only if WPML is installed.",
+				"default": "N",
+				"class": "",
+				"visibility": "top_bar_state=Y"
+			},
+			{
+				"name": "top_bar_cart_state",
+				"type": "Switcher",
+				"label": "Display dropdown cart in top bar",
+				"tooltip": "Enable display of dropdown cart in top bar. This will be displayed when Woocoomerce is installed",
+				"default": "N",
+				"class": "",
+				"visibility": "top_bar_state=Y"
+			},
+			{
+				"name": "top_bar_usermenu_state",
+				"type": "Switcher",
+				"label": "Display usermenu in top bar",
+				"tooltip": "Enable display of user menu in top bar.",
+				"default": "N",
+				"class": "",
+				"visibility": "top_bar_state=Y"
+			},
+			{
+				"name": "general_style_save",
+				"type": "Save"
+			}
+		]
+	},
+	{
+		"groupname": "Head and Main Menu Style",
+		"groupdesc": "You can set some style for head and main menu.",
+		"fields": [
+			{
+				"name": "branding_logo_type",
+				"type": "Select",
+				"label": "Theme logo type",
+				"tooltip": "Select the type of theme logo.",
+				"default": "css",
+				"class": "",
+				"visibility": "",
+				"other": {
+					"options": {
+						"css": "Defined in the CSS code",
+						"image": "Image logo",
+						"none": "None"
+					}
+				}
+			},
+			{
+				"name": "branding_logo_image",
+				"type": "Media",
+				"label": "Theme logo image",
+				"tooltip": "Select the image for the theme logo.",
+				"default": "",
+				"class": "",
+				"visibility": "branding_logo_type=image"
+			},
+			{
+				"name": "branding_logo_image_width_height",
+				"type": "WidthHeight",
+				"label": "Theme logo size",
+				"tooltip": "Specify the theme logo dimensions.",
+				"default": "",
+				"class": "",
+				"visibility": "branding_logo_type=image",
+				"other": {
+					"size": "2",
+					"unit": "px"
+				}
+			},
+			{
+				"name": "branding_logo_top_margin",
+				"type": "Text",
+				"label": "Theme logo top margin",
+				"tooltip": "Specify top margin of the main logo in px.",
+				"default": "40",
+				"class": "",
+				"visibility": "branding_logo_type=image"
+			},
+			{
+				"name": "branding_logo_bottom_margin",
+				"type": "Text",
+				"label": "Theme logo bottom margin",
+				"tooltip": "Specify bottom margin of the main logo in px.",
+				"default": "10",
+				"class": "",
+				"visibility": "branding_logo_type=image"
+			},
+			{
+				"name": "branding_logo_alt_text",
+				"type": "Text",
+				"label": "Logo alt text",
+				"tooltip": "Specify alt text for logo.",
+				"default": "",
+				"class": "",
+				"visibility": ""
+			},		
+			{
+				"name": "mainmenu_explained",
+				"type": "TextBlock",
+				"label": "Main menu and header default style. This setting will be used on all pages. But you can set individaual style for certain pages in custom page options panel."
+			},
+			{
+				"name": "mainmenu_explained",
+				"type": "TextBlock",
+				"class": "smallheader",
+				"label": "Main menu style",
+				"visibility": ""
+			},
+			{
+				"name": "main_menu_type",
+				"type": "Select",
+				"label": "Main menu type",
+				"tooltip": "Select style and position of main menu.",
+				"default": "top",
+				"class": "",
+				"visibility": "",
+				"other": {
+					"options": {
+						"top": "Menu top (default)",
+						"aside": "Off canvas menu",
+						"overlay": "Overlay menu"
+					}
+				}
+			},
+
+			{
+				"name": "mainmenu_top_explained",
+				"type": "TextBlock",
+				"class": "smallheader",
+				"label": "Top menu specific style",
+				"visibility": "main_menu_type=top"
+			},
+			{
+				"name": "top_main_menu_alignment",
+				"type": "Select",
+				"label": "Logo and menu style",
+				"tooltip": "Select between different top menu styles.",
+				"default": "default",
+				"class": "",
+				"visibility": "main_menu_type=top",
+				"other": {
+					"options": {
+						"default": "Right aligned (default)",
+						"menu_metro": "Metro style multicolor menu",
+						"menu_magazine" :"Magazine style menu (logo top left aligned and additional advertisment area)",
+						"menu_centered": "Logo and menu top centered",
+						"menu_splited": "Logo centered and menu splited both side"
+					}
+				}
+			},
+			{
+				"name": "menu_top_bg_color",
+				"type": "Color",
+				"label": "Head background color",
+				"tooltip": "Select a default head background color.",
+				"default": "transparent",
+				"visibility": "main_menu_type=top"
+			},
+			{
+				"name": "search_link",
+				"type": "Switcher",
+				"label": "Display search link",
+				"tooltip": "Enable display of the popup search link in header.",
+				"default": "N",
+				"class": "",
+				"visibility": "main_menu_type=top"
+			},
+			{
+				"name": "menu_cart_link",
+				"type": "Switcher",
+				"label": "Display dropdown cart link in menu",
+				"tooltip": "Enable display of dropdown cart link in menu.",
+				"default": "N",
+				"class": "",
+				"visibility": "main_menu_type=top"
+			},
+			{	
+				"name": "menu_language_switcher",
+				"type": "Switcher",
+				"label": "Display language switcher in menu menu",
+				"tooltip": "Enable display of language switcher in menu.",
+				"default": "N",
+				"class": "",
+				"visibility": "main_menu_type=top"
+			},
+			{
+				"name": "top_mainmenu_link_color",
+				"type": "Color",
+				"label": "Main menu link color",
+				"tooltip": "Select a default menu link color.",
+				"default": "#000000",
+				"visibility": "main_menu_type=top"
+			},
+			{
+				"name": "top_mainmenu_hlink_color",
+				"type": "Color",
+				"label": "Main menu hover link color",
+				"tooltip": "Select a default menu hover link color.",
+				"default": "#E57D04",
+				"visibility": "main_menu_type=top"
+			},
+			{
+				"name": "menutabs_allignment",
+				"type": "Select",
+				"label": "Metro menu Tabs text allignment",
+				"tooltip": "Select Metro menu Tabs text allignment.",
+				"default": "metromenucenter",
+				"visibility": "main_menu_type=top,top_main_menu_alignment=menu_metro",
+				"other": {
+					"options": {
+						"metromenucenter": "Center",
+						"metromenuleft": "Left"
+					}
+				}
+			},
+			{
+				"name": "menutab1_color",
+				"type": "Color",
+				"label": "Metro menu Tab 1 color",
+				"tooltip": "Select Metro menu Tab 1 color.",
+				"default": "#f3b804",
+				"visibility": "main_menu_type=top,top_main_menu_alignment=menu_metro"
+			},
+			{
+				"name": "menutab2_color",
+				"type": "Color",
+				"label": "Metro menu Tab 2 color",
+				"tooltip": "Select Metro menu Tab 2 color.",
+				"default": "#e57d04",
+				"visibility": "main_menu_type=top,top_main_menu_alignment=menu_metro"
+			},
+			{
+				"name": "menutab3_color",
+				"type": "Color",
+				"label": "Metro menu Tab 3 color",
+				"tooltip": "Select Metro menu Tab 3 color.",
+				"default": "#dd012f",
+				"visibility": "main_menu_type=top,top_main_menu_alignment=menu_metro"
+			},
+			{
+				"name": "menutab4_color",
+				"type": "Color",
+				"label": "Metro menu Tab 4 color",
+				"tooltip": "Select Metro menu Tab 4 color.",
+				"default": "#b10058",
+				"visibility": "main_menu_type=top,top_main_menu_alignment=menu_metro"
+			},
+			{
+				"name": "menutab5_color",
+				"type": "Color",
+				"label": "Metro menu Tab 5 color",
+				"tooltip": "Select Metro menu Tab 5 color.",
+				"default": "#7d388b",
+				"visibility": "main_menu_type=top,top_main_menu_alignment=menu_metro"
+			},
+			{
+				"name": "menutab6_color",
+				"type": "Color",
+				"label": "Metro menu Tab 6 color",
+				"tooltip": "Select Metro menu Tab 6 color.",
+				"default": "#3465aa",
+				"visibility": "main_menu_type=top,top_main_menu_alignment=menu_metro"
+			},
+			{
+				"name": "menutab7_color",
+				"type": "Color",
+				"label": "Metro menu Tab 7 color",
+				"tooltip": "Select Metro menu Tab 7 color.",
+				"default": "#09a274",
+				"visibility": "main_menu_type=top,top_main_menu_alignment=menu_metro"
+			},
+			{
+				"name": "menutab8_color",
+				"type": "Color",
+				"label": "Metro menu Tab 8 color",
+				"tooltip": "Select Metro menu Tab 8 color.",
+				"default": "#7bb753",
+				"visibility": "main_menu_type=top,top_main_menu_alignment=menu_metro"
+			},
+			{
+				"name": "menutab9_color",
+				"type": "Color",
+				"label": "Metro menu Tab 9 color",
+				"tooltip": "Select Metro menu Tab 9 color.",
+				"default": "#f3b804",
+				"visibility": "main_menu_type=top,top_main_menu_alignment=menu_metro"
+			},
+			{
+				"name": "menutab_buttons_color",
+				"type": "Color",
+				"label": "Buttons Tab color",
+				"tooltip": "Select buttons Tab color.",
+				"default": "#f3b804",
+				"visibility": "main_menu_type=top,top_main_menu_alignment=menu_metro"
+			},
+			{
+				"name": "submenu_bgcolor",
+				"type": "Color",
+				"label": "Submenu menu background color",
+				"tooltip": "Select a default submenu background color.",
+				"default": "#FFFFFF",
+				"visibility": "main_menu_type=top,top_main_menu_alignment=menu_metro"
+			},
+			{
+				"name": "submenu_link_color",
+				"type": "Color",
+				"label": "Submenu menu link color",
+				"tooltip": "Select a default submenu link color.",
+				"default": "#AFB4B9",
+				"visibility": "main_menu_type=top"
+			},
+			{
+				"name": "submenu_hlink_color",
+				"type": "Color",
+				"label": "Submenu menu hover link color",
+				"tooltip": "Select a default submenu hover link color.",
+				"default": "#AFB4B9",
+				"visibility": "main_menu_type=top"
+			},
+			{
+				"name": "submenu_hbg_color",
+				"type": "Color",
+				"label": "Submenu menu hover link background color",
+				"tooltip": "Select a default submenu hover link background color.",
+				"default": "#F6F6F6",
+				"visibility": "main_menu_type=top"
+			},
+			{
+				"name": "mainmenu_aside_explained",
+				"type": "TextBlock",
+				"class": "smallheader",
+				"label": "Off canvas menu style",
+				"visibility": "main_menu_type=aside"
+			},
+			{
+				"name": "aside_menu_sliding",
+				"type": "Switcher",
+				"label": "Sliding aside menu",
+				"tooltip": "Enable expandable (sliding) aside menu.",
+				"default": "N",
+				"visibility": "main_menu_type=aside"
+			},
+			{
+				"name": "aside_mainmenu_bg_color",
+				"type": "Color",
+				"label": "Aside menu background color",
+				"tooltip": "Select a default aside menu background color.",
+				"default": "#ffffff",
+				"visibility": "main_menu_type=aside"
+			},
+			{
+				"name": "main_logo_aside_state",
+				"type": "Switcher",
+				"label": "Display main logo",
+				"tooltip": "Enable display of main logo when aside menu.",
+				"default": "Y",
+				"visibility": "main_menu_type=aside"
+			},
+			{	"name": "aside_logo_image",
+				"type": "Media",
+				"label": "Aside logo image",
+				"tooltip": "Select the logo image for the aside menu.",
+				"default": "",
+				"class": "",
+				"visibility": "main_menu_type=aside"
+			},
+			{
+				"name": "aside_logo_image_width_height",
+				"type": "WidthHeight",
+				"label": "Aside logo size",
+				"tooltip": "Specify the aside logo dimensions.",
+				"default": "",
+				"class": "",
+				"visibility": "main_menu_type=aside",
+				"other": {
+					"size": "2",
+					"unit": "px"
+				}
+			},
+
+			{
+				"name": "aside_mainmenu_link_color",
+				"type": "Color",
+				"label": "Off canvas menu link color",
+				"tooltip": "Select a default aside menu link color.",
+				"default": "#ffffff",
+				"visibility": "main_menu_type=aside"
+			},
+			{
+				"name": "aside_mainmenu_hlink_color",
+				"type": "Color",
+				"label": "Off canvas menu hover link color",
+				"tooltip": "Select a default aside menu hover link color.",
+				"default": "#E57D04",
+				"visibility": "main_menu_type=aside"
+			},
+			{
+				"name": "social_links_aside_state",
+				"type": "Switcher",
+				"label": "Display social links in aside menu",
+				"tooltip": "Enable display of social links in aside menu.",
+				"default": "Y",
+				"visibility": "main_menu_type=aside"
+			},
+			{
+				"name": "language_switcher_aside_state",
+				"type": "Switcher",
+				"label": "Display langauage switcher in aside menu",
+				"tooltip": "Enable display of langauage switcher in aside menu. This switcher will be displayed only if WPML is installed.",
+				"default": "N",
+				"visibility": "main_menu_type=aside"
+			},
+			{
+				"name": "cart_aside_state",
+				"type": "Switcher",
+				"label": "Display dropdown cart in aside menu",
+				"tooltip": "Enable display of dropdown cart in aside menu. This will be displayed when Woocoomerce is installed",
+				"default": "Y",
+				"visibility": "main_menu_type=aside"
+			},
+			
+			{
+				"name": "mainmenu_overlay_explained",
+				"type": "TextBlock",
+				"class": "smallheader",
+				"label": "Overlay menu style",
+				"visibility": "main_menu_type=overlay"
+			},
+			{
+				"name": "overlay_mainmenu_bg_color",
+				"type": "Color",
+				"label": "Overlay menu background color",
+				"tooltip": "Select a default overlay menu background color.",
+				"default": "rgba(255,255,255,0.9)",
+				"visibility": "main_menu_type=overlay"
+			},
+			{
+				"name": "overlay_mainmenu_link_color",
+				"type": "Color",
+				"label": "Overlay menu link color",
+				"tooltip": "Select a default overlay menu link color.",
+				"default": "#ffffff",
+				"visibility": "main_menu_type=overlay"
+			},
+			{
+				"name": "overlay_mainmenu_hlink_color",
+				"type": "Color",
+				"label": "Overlay menu hover link color",
+				"tooltip": "Select a default overlay menu hover link color.",
+				"default": "#E57D04",
+				"visibility": "main_menu_type=overlay"
+			},
+			{
+				"name": "sticky_header_explained",
+				"type": "TextBlock",
+				"class": "smallheader",
+				"label": "Sticky header style",
+				"visibility": ""
+			},
+
+			{
+				"name": "sticky_header_state",
+				"type": "Switcher",
+				"label": "Use sticky header",
+				"tooltip": "Enable allways visible sticky navigation bar",
+				"default": "N",
+				"visibility": ""
+			},
+			{
+				"name": "sticky_header_bgcolor",
+				"type": "Color",
+				"label": "Sticky navigation bar background color",
+				"tooltip": "Select a default sticky navigation bar background color.",
+				"default": "#ffffff",
+				"visibility": "sticky_header_state=Y"
+			},
+			{
+				"name": "sticky_mainmenu_link_color",
+				"type": "Color",
+				"label": "Sticky menu link color",
+				"tooltip": "Select a default menu link color.",
+				"default": "#000000",
+				"visibility": "sticky_header_state=Y"
+			},
+			{
+				"name": "sticky_mainmenu_hlink_color",
+				"type": "Color",
+				"label": "Sticky menu hover link color",
+				"tooltip": "Select a default menu hover link color.",
+				"default": "#E57D04",
+				"visibility": "sticky_header_state=Y"
+			},
+			{
+				"name": "sticky_logo_image",
+				"type": "Media",
+				"label": "Sticky menu logo image",
+				"tooltip": "Select the image for the sticky menu. If you leave this field blank will be used main logo",
+				"default": "",
+				"class": "",
+				"visibility": "sticky_header_state=Y,branding_logo_type=image"
+			},
+			{
+				"name": "sticky_logo_image_width_height",
+				"type": "WidthHeight",
+				"label": "Sticky menu logo size",
+				"tooltip": "Specify the sticky menu logo dimensions.",
+				"default": "",
+				"class": "",
+				"visibility": "sticky_header_state=Y,branding_logo_type=image",
+				"other": {
+					"size": "2",
+					"unit": "px"
+				}
+			},
+			{
+				"name": "sticky_logo_top_margin",
+				"type": "Text",
+				"label": "Sticky menu logo top margin",
+				"tooltip": "Specify top margin of the main logo in px.",
+				"default": "30",
+				"class": "",
+				"visibility": "sticky_header_state=Y"
+			},
+			{
+				"name": "overlapping_explained",
+				"type": "TextBlock",
+				"class": "smallheader",
+				"label": "Overlapping header style",
+				"visibility": ""
+			},
+
+			{
+				"name": "overlapping_header_state",
+				"type": "Switcher",
+				"label": "Use header overlapping",
+				"tooltip": "Enable overlapping of main content by header (use transparent or semi transparent background of header when set to on)",
+				"default": "N",
+				"visibility": ""
+			},
+			{
+				"name": "default_overlapping_style",
+				"type": "Select",
+				"label": "Default overlapping style",
+				"tooltip": "Select default overlapping style.",
+				"default": "light",
+				"visibility": "overlapping_header_state=Y",
+				"other": {
+					"options": {
+						"light": "Light",
+						"dark": "Dark"
+					}
+				}
+			},
+			{
+				"name": "overlapping_header_bgcolor",
+				"type": "Color",
+				"label": "Overlapping header background color",
+				"tooltip": "Select a default overlapping header background color.",
+				"default": "transparent",
+				"visibility": "overlapping_header_state=Y"
+			},
+			{
+				"name": "overlapping_mainmenu_link_color_light",
+				"type": "Color",
+				"label": "Overlapping menu link color <i>(light style)</i>",
+				"tooltip": "Select a default menu link color for overlapping header .",
+				"default": "#ffffff",
+				"visibility": "overlapping_header_state=Y"
+			},
+			{
+				"name": "Overlapping_mainmenu_hlink_color_light",
+				"type": "Color",
+				"label": "Overlapping menu hover link color <i>(light style)</i>",
+				"tooltip": "Select a default menu hover link color for overlapping header <i>(light style)</i>.",
+				"default": "#E57D04",
+				"visibility": "overlapping_header_state=Y"
+			},
+			{
+				"name": "overlapping_mainmenu_link_color_dark",
+				"type": "Color",
+				"label": "Overlapping menu link color <i>(dark style)</i>",
+				"tooltip": "Select a default menu link color for overlapping header <i>(light style)</i>.",
+				"default": "#000000",
+				"visibility": "overlapping_header_state=Y"
+			},
+			{
+				"name": "Overlapping_mainmenu_hlink_color_dark",
+				"type": "Color",
+				"label": "Overlapping menu hover link color <i>(dark style)</i>",
+				"tooltip": "Select a default menu hover link color for overlapping header <i>(dark style)</i>.",
+				"default": "#E57D04",
+				"visibility": "overlapping_header_state=Y"
+			},
+			{
+				"name": "overlapping_logo_image_light",
+				"type": "Media",
+				"label": "Overlapping menu logo image <i>(light style)</i>",
+				"tooltip": "Select the image for the overlapping header <i>(light style)</i>. If you leave this field blank will be used main logo",
+				"default": "",
+				"class": "",
+				"visibility": "overlapping_header_state=Y"
+			},
+			{
+				"name": "overlapping_logo_image_dark",
+				"type": "Media",
+				"label": "Overlapping header logo image <i>(dark style)</i>",
+				"tooltip": "Select the image for the overlapping header <i>(dark style)</i>. If you leave this field blank will be used main logo",
+				"default": "",
+				"class": "",
+				"visibility": "overlapping_header_state=Y"
+			},
+			{
+				"name": "general_style_save",
+				"type": "Save"
+			}
+		]
+	},
+	
+	{
+		"groupname": "Subheader Area Style",
+		"groupdesc": "You can set here style subheader area.",
+		"fields": [
+{
+				"name": "subheader_size",
+				"type": "Select",
+				"label": "Subheader size",
+				"tooltip": "Select subheader size.",
+				"default": "big",
+				"visibility": "",
+				"other": {
+					"options": {
+						"small": "Small",
+						"big": "Big"
+					}
+				}
+			},
+			{
+				"name": "subheader_bgcolor",
+				"type": "Color",
+				"label": "Subheader background color",
+				"tooltip": "Select a default subheader background color.",
+				"default": "#e6e6e6"
+			},
+			{
+				"name": "subheader_area_bgimage",
+				"type": "Media",
+				"label": "Subheader area image",
+				"tooltip": "Select the image for the subheader area.",
+				"default": "",
+				"class": ""
+			},
+			{
+				"name": "subheader_pattern",
+				"type": "Background",
+				"label": "Subheader patern",
+				"tooltip": "Specify subheader pattern.",
+				"class": "",
+				"visibility": "",
+				"default":"none",
+				"other": {
+					"folder": "patterns"
+				}
+			},
+			{
+				"name": "subheader_text_color",
+				"type": "Color",
+				"label": "Subheader area text color",
+				"tooltip": "Select a default subheader area text color.",
+				"default": "#666666",
+				"visibility": ""
+			},
+			{
+				"name": "general_style_save",
+				"type": "Save"
+			}
+			
+		]
+		
+	},
+	
+	{
+		"groupname": "Expandable Elements Style",
+		"groupdesc": "You can set here style for dynamic expandable elements.",
+		"fields": [
+			{
+				"name": "expander_bgcolor",
+				"type": "Color",
+				"label": "Expandable sidebar background color",
+				"tooltip": "Select a default expandable sidebar background color.",
+				"default": "#454545"
+			},
+			{
+				"name": "expander_bgimage",
+				"type": "Media",
+				"label": "Expandable sidebar image",
+				"tooltip": "Select the image for the expandable sidebar.",
+				"default": "",
+				"class": ""
+			},
+			{
+				"name": "expander_pattern",
+				"type": "Background",
+				"label": "Expandable sidebar patern",
+				"tooltip": "Specify expandable sidebar pattern.",
+				"class": "",
+				"visibility": "",
+				"default":"none",
+				"other": {
+					"folder": "patterns"
+				}
+			},
+			{
+				"name": "expander_text_color",
+				"type": "Color",
+				"label": "Expandable sidebar text color",
+				"tooltip": "Select a default expandable sidebar text color.",
+				"default": "#ffffff",
+				"visibility": ""
+			},
+			{
+				"name": "expander_link_color",
+				"type": "Color",
+				"label": "Expandable sidebar link color",
+				"tooltip": "Select a default expandable sidebar link color.",
+				"default": "#8d8d8d",
+				"visibility": ""
+			},
+			{
+				"name": "expander_hlink_color",
+				"type": "Color",
+				"label": "Expandable sidebar link hover color",
+				"tooltip": "Select a default expandable sidebar link hover color.",
+				"default": "#ffffff",
+				"visibility": ""
+			},
+			{
+				"name": "searchoverlay_bgcolor",
+				"type": "Color",
+				"label": "Search overlay background color",
+				"tooltip": "Select a default search ovelay background color.",
+				"default": "#454545"
+			},
+			{
+				"name": "searchoverlay_text_color",
+				"type": "Color",
+				"label": "Search overlay text color",
+				"tooltip": "Select a default searchoverlay text color.",
+				"default": "#ffffff",
+				"visibility": ""
+			},
+			{
+				"name": "general_style_save",
+				"type": "Save"
+			}
+			
+		]
+		
+	},
+	
+		{
+		"groupname": "Main Content Style",
+		"groupdesc": "You can set here style main content.",
+		"fields": [
+			{
+				"name": "maincontent_text_color",
+				"type": "Color",
+				"label": "Main content text color",
+				"tooltip": "Select a default main content area text color.",
+				"default": "#555555",
+				"visibility": ""
+			},
+			{
+				"name": "maincontent_headers_color",
+				"type": "Color",
+				"label": "Main content headers color",
+				"tooltip": "Select a default main content area headers color.",
+				"default": "#666666",
+				"visibility": ""
+			},
+			{
+				"name": "maincontent_link_color",
+				"type": "Color",
+				"label": "Main content link color",
+				"tooltip": "Select a default main content link color.",
+				"default": "#E57D04",
+				"visibility": ""
+			},
+			{
+				"name": "maincontent_hlink_color",
+				"type": "Color",
+				"label": "Main content link hover color",
+				"tooltip": "Select a default main content hover link color.",
+				"default": "#000000",
+				"visibility": ""
+			},
+			{
+				"name": "general_style_save",
+				"type": "Save"
+			}
+			
+		]
+		
+	},
+	{
+		"groupname": "Footer Style",
+		"groupdesc": "You can set here style for footer.",
+		"fields": [
+					{
+				"name": "footer_bg_color",
+				"type": "Color",
+				"label": "Footer area background color",
+				"tooltip": "Select a footer background color.",
+				"default": "#202020",
+				"visibility": ""
+			},
+			{
+				"name": "footer_pattern",
+				"type": "Background",
+				"label": "Footer widget area patern",
+				"tooltip": "Select a default Footer widget area pattern.",
+				"class": "",
+				"default":"none",
+				"other": {
+					"folder": "patterns"
+				}
+			},
+			{
+				"name": "footer_bg_image",
+				"type": "Media",
+				"label": "Footer widget area background image",
+				"tooltip": "Select the background image for Footer widget area.",
+				"default": "",
+				"class": ""
+			},
+			{
+				"name": "footer_text_color",
+				"type": "Color",
+				"label": "Footer text color",
+				"tooltip": "Select a default footer text color.",
+				"default": "#cccccc",
+				"visibility": ""
+			},
+			{
+				"name": "footer_header_color",
+				"type": "Color",
+				"label": "Footer header color",
+				"tooltip": "Select a default footer header color.",
+				"default": "#ffffff",
+				"visibility": ""
+			},
+			{
+				"name": "footer_link_color",
+				"type": "Color",
+				"label": "Footer link color",
+				"tooltip": "Select a default footer link color.",
+				"default": "#a0a0a0",
+				"visibility": ""
+			},
+			{
+				"name": "footer_hlink_color",
+				"type": "Color",
+				"label": "Footer link hover color",
+				"tooltip": "Select a default footer hover link color.",
+				"default": "#E57D04",
+				"visibility": ""
+			}
+]
+		
+	},
+	{
+		"groupname": "Copyright Area Style",
+		"groupdesc": "You can set here style for copyright area.",
+		"fields": [
+			{
+				"name": "copyright_use_state",
+				"type": "Switcher",
+				"label": "Display copyright area",
+				"tooltip": "Enable display of copyright area.",
+				"default": "Y",
+				"class": "",
+				"visibility": ""
+			},
+			{
+				"name": "copyright_style",
+				"type": "Select",
+				"label": "Copyright area style",
+				"tooltip": "Select copyright area style.",
+				"default": "default",
+				"visibility": "copyright_use_state=Y",
+				"other": {
+					"options": {
+						"default": "Default",
+						"centered": "Centered"
+					}
+				}
+			},
+			{
+				"name": "copyright_bg_color",
+				"type": "Color",
+				"label": "Copyright area background color",
+				"tooltip": "Select a copyright area background color.",
+				"default": "#ffffff",
+				"visibility": "copyright_use_state=Y"
+			},
+					{
+				"name": "copyright_border_color",
+				"type": "Color",
+				"label": "Copyright area top border color",
+				"tooltip": "Select a copyright area background color.",
+				"default": "transparent",
+				"visibility": "copyright_use_state=Y"
+			},
+			{
+				"name": "copyright_text_color",
+				"type": "Color",
+				"label": "Copyright area text color",
+				"tooltip": "Select a default copyright area text color.",
+				"default": "#7777777",
+				"visibility": "copyright_use_state=Y"
+			},
+			{
+				"name": "copyright_link_color",
+				"type": "Color",
+				"label": "Copyright area link color",
+				"tooltip": "Select a default footer link color.",
+				"default": "#555555",
+				"visibility": "copyright_use_state=Y"
+			},
+			{
+				"name": "copyright_hlink_color",
+				"type": "Color",
+				"label": "Copyright area link hover color",
+				"tooltip": "Select a default footer hover link color.",
+				"default": "#E57D04",
+				"visibility": "copyright_use_state=Y"
+			},
+			{
+				"name": "social_icons_footer_state",
+				"type": "Switcher",
+				"label": "Display social icons in copyright area",
+				"tooltip": "Enable the display of the social icons in copyright area",
+				"default": "Y",
+				"class": "",
+				"visibility": "copyright_use_state=Y"
+			}
+
+]
+		
+	},
+	{
+		"groupname": "404 Page Style",
+		"groupdesc": "You can set here style for 404 page.",
+		"fields": [
+			{
+				"name": "404_bg_image_state",
+				"type": "Switcher",
+				"label": "Use custom 404 page setting",
+				"tooltip": "Enable use custom 404 page background image.",
+				"default": "N"
+			},
+			{
+				"name": "page404_text_color",
+				"type": "Color",
+				"label": "404 page text color",
+				"tooltip": "Select a 404 page text color.",
+				"default": "#ffffff",
+				"visibility": "404_bg_image_state=Y"
+			},
+			{
+				"name": "page404_bg_image",
+				"type": "Media",
+				"label": "404 page background image",
+				"tooltip": "Select the background image for 404 page.",
+				"default": "",
+				"class": "",
+				"visibility": "404_bg_image_state=Y"			
+				}
+
+]
+		
+	}
+
+]

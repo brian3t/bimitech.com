@@ -1,0 +1,25 @@
+/**
+ *
+ * -------------------------------------------
+ * Override
+ * -------------------------------------------
+ *
+ **/
+
+/*
+ *
+ * 15. Override
+ *
+ *
+------------------------------------ */
+
+/* 15.1. Overrided elements
+==================================== */
+
+@media (max-width: 992px) {
+.equalized-columns .vc_col-sm-3 {width:50%!important}
+}
+
+@media (max-width: 768px) {
+.equalized-columns .vc_col-sm-3 {width:100%!important}
+}

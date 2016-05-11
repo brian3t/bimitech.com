@@ -1,0 +1,234 @@
+/**
+ *
+ * -------------------------------------------
+ * Override plugins css
+ * -------------------------------------------
+ *
+ **/
+
+
+
+/* Revslider plugin overrided elements
+==================================== */
+
+
+.tp-caption a {
+    color: #E57D04
+}
+.tp-caption a:hover {
+    color: #2e2e2e !important
+}
+.tp-caption.upper {
+    font-size: 55px;
+    letter-spacing:-0.3px;
+    color: #fff;
+    text-transform: uppercase;
+	font-weight:800;
+	font-family: 'Raleway', sans-serif;
+	text-shadow:2px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.tp-caption.lower {
+    font-size: 22px;
+    color: rgba(255,255,255,0.5);
+    line-height:28px;
+	text-align:center;
+	font-family:"Times New Roman", Times, serif;
+	font-style:italic;
+	font-weight:100;
+	text-shadow:2px 1px 1px rgba(0, 0, 0, 0.5);
+}
+.tp-caption p {
+    font-size: 12px;
+    color: rgba(255,255,255,0.5);
+    line-height:18px;
+	text-align:center;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing:3px;
+	font-weight:300;
+	text-transform:uppercase;
+}
+.tp-caption.slide2 {
+    font-size: 36px;
+    color: #fff;
+   	font-weight:300;
+	font-family: 'Raleway', sans-serif;
+	text-shadow:2px 1px 1px rgba(0, 0, 0, 0.5);
+	line-height:48px;
+}
+.tp-caption.white-bg {
+    
+    color: #fff !important;
+    padding: 10px 20px;
+   
+}
+.tp-caption.black-bg {
+    
+    color: #000 !important;
+    padding: 10px 20px;
+	
+   
+}
+.tp-caption.upper-black {
+    font-size: 50px;
+    line-height: 1;
+    color: #000;
+    text-transform: uppercase;
+	font-weight:200;
+	border:3px solid rgba(48,48,48,1);
+}
+.tp-caption a.btn {
+    color: #fff
+}
+
+.tp-caption.largeboldwhite2, .largeboldwhite2 {
+font-size:60px;
+line-height:60px;
+font-weight:700;
+font-family: 'Raleway', sans-serif;
+color:#fff;
+text-decoration:none;
+background-color:transparent;
+text-transform:uppercase;
+letter-spacing:5px;
+margin:0 0 14px;
+border-width:0px;
+border-color:rgb(0, 0, 0);
+border-style:none;
+text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+.tp-caption.mediumlightblacksemi, .mediumlightblacksemi {
+font-size:30px;
+line-height:36px;
+font-weight:600;
+font-family: 'Raleway', sans-serif;
+color:rgba(0,0,0,.9);
+text-decoration:none;
+background-color:transparent;
+padding:0px 0px 0px 0px;
+border-width:0px;
+border-color:rgb(255, 214, 88);
+border-style:none;
+}
+
+.tp-caption.largeboldblacksemi, .largeboldblacksemi {
+font-size:64px;
+line-height:64px;
+font-weight:700;
+font-family: 'Raleway', sans-serif;
+color:rgba(0,0,0,.9);
+text-decoration:none;
+background-color:transparent;
+text-transform:uppercase;
+letter-spacing:3px;
+margin:0 0 14px;
+border-width:0px;
+border-color:rgb(0, 0, 0);
+border-style:none;
+}
+
+.tp-caption.mediumlightwhite, .mediumlightwhite {
+font-size:30px;
+line-height:36px;
+font-weight:300;
+font-family: 'Raleway', sans-serif;
+color:rgb(255, 255, 255);
+text-decoration:none;
+background-color:transparent;
+padding:0px;
+border-width:0px;
+border-color:rgb(255, 214, 88);
+border-style:none;
+}
+.tp-caption.modernmediumlightwithe, .modernmediumlightwithe {
+position:absolute;
+color:#fff;
+text-shadow:none;
+font-weight:400;
+font-size:24px;
+line-height:32px;
+font-family: 'Raleway', sans-serif;
+margin:0px;
+border-width:0px;
+border-style:none;
+white-space:nowrap;
+}
+.tp-caption.modernmediumlight, .modernmediumlight {
+position:absolute;
+color:#000;
+text-shadow:none;
+font-weight:400;
+font-size:24px;
+line-height:32px;
+font-family: 'Raleway', sans-serif;
+margin:0px;
+border-width:0px;
+border-style:none;
+white-space:nowrap;
+}
+.tp-caption.mediumposttitle, .mediumposttitle{
+	position: absolute;
+	color: #fff;
+	text-shadow: none;
+	font-weight: 300;
+	font-size: 30px;
+	line-height: 36px;
+	font-family: 'Raleway', sans-serif;
+	padding: 5px 10px 8px 10px;
+	margin: 0px;
+	border-width: 0px;
+	border-style: none;
+	background-color: #EB1E00;
+	letter-spacing: 0;
+	text-decoration: none;
+}
+.tp-caption.mediumposttitle a, .mediumposttitle a, .tp-caption.mediumposttitle a:hover, .mediumposttitle a:hover {
+color:#fff !important;
+}
+.tp-caption.mediumpostexcerpt, .mediumpostexcerpt{
+	position: absolute;
+	color: #fff;
+	text-shadow: none;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+    font-family: 'Raleway', sans-serif;
+	padding: 5px 10px 8px 10px;
+	margin: 0px;
+	border-width: 0px;
+	border-style: none;
+	background-color: rgba(0,0,0,.6);
+	letter-spacing: 0;
+	text-decoration: none;
+	word-wrap: break-word;
+	white-space:normal!important;
+}
+
+.slider-strip {
+	width:700px;
+	height:2000px;
+	background-color: rgba(129, 27, 60, 0.85);
+	 -ms-transform: rotate(35deg);
+    -webkit-transform: rotate(35deg); 
+     transform: rotate(35deg);
+	}
+.flexslider { margin: 0!important ;}
+
+.tp-bullets.preview1 						{ 	height: 21px; }
+.tp-bullets.preview1 .bullet 				{	background: rgba(0, 0, 0, 0.15) !important;
+											    -webkit-border-radius: 50%;
+											    border-radius: 50%;
+											    width: 8px !important;
+											    height: 8px !important;
+											    margin-right: 5px !important;
+												border:none!important;
+												color:rgba(255, 255, 255, 0.4);
+}
+.tp-bullets.preview1 .bullet.last 			{	margin-right: 0px; }
+.tp-bullets.preview1 .bullet:hover,
+.tp-bullets.preview1 .bullet.selected 		{	background: #aaa !important;
+												border:none!important;
+												 width: 8px !important;
+											    height: 8px !important;
+												color:#fff;
+}

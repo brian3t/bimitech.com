@@ -1,0 +1,52 @@
+[
+	{
+		"groupname": "Event Calendar General Settings",
+		"groupdesc": "Settings for the Event Calendar pages.",
+		"fields": [
+			{
+				"name": "tribe_show_subheader",
+				"type": "Switcher",
+				"label": "Display subheader on Event Calendar pages",
+				"tooltip": "You can enable/disable showing the subheader on Event Calendar pages",
+				"default": "Y"
+			},
+			{
+				"name": "tribe_pages_title",
+				"type": "Text",
+				"label": "Title for Event Calendar pages",
+				"tooltip": "Here you can set title which will be displayed on all Event Calendar pages.",
+				"default": "Events",
+				"class": "",
+				"visibility": "tribe_show_subheader=Y"
+			},
+			{
+				"name": "tribe_pages_subtitle",
+				"type": "Text",
+				"label": "Subtitle for Event Calendar pages",
+				"tooltip": "Here you can set subtitle which will be displayed on all Event Calendar pages.",
+				"default": "",
+				"class": "",
+				"visibility": "tribe_show_subheader=Y"
+			},
+			{
+				"name": "tribe_subheader_area_bgimage",
+				"type": "Media",
+				"label": "Subheader area image",
+				"tooltip": "Select the image for the subheader area on all Event Calendar pages.",
+				"default": "",
+				"class": "",
+				"visibility": "tribe_show_subheader=Y"
+			},
+			{
+				"name": "tribe_subheader_text_color",
+				"type": "Color",
+				"label": "Subheader text color",
+				"tooltip": "Select a default subheader text color on Events Calendar pages.",
+				"default": "#666666",
+				"visibility": "tribe_show_subheader=Y"
+			}
+			
+		]
+	}
+
+]

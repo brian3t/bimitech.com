@@ -1,0 +1,289 @@
+/**
+ *
+ * -------------------------------------------
+ * Tablet CSS file
+ * -------------------------------------------
+ * 
+ **/
+ 
+/*
+ *
+ * 10. Tablet code
+ *
+ *
+------------------------------------ */
+ 
+/* 10.1. Base elements
+==================================== */ 
+
+#esense-header {
+}
+
+.esense-subheader {min-height:200px;}
+
+/* sidebar */
+#esense-mainbody-columns {
+	display: block;
+}
+
+#esense-mainbody-columns > section,
+#esense-mainbody-columns > aside {
+	display: block;
+	overflow: hidden;
+	width: 100%!important;
+	padding: 0;
+}
+
+
+.boxed #esense-page-box {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+/* Archive page */
+.archivepage .widget.first {
+	margin-right: 2%;
+	margin-left: 0!important;
+}
+
+.archivepage .widget.first,
+.archivepage .widget.first + .widget {
+	margin-right: 0;
+	margin-left: 2%;
+	width: 48%;
+}
+
+.archivepage .widget.last {
+	margin: 0;
+	width: 100%;
+}
+
+/* images fix */
+#esense-mainbody img {
+	
+}
+
+/* column rules */
+#esense-sidebar .box {
+	float: left!important;
+	width: 50%!important;
+}
+
+.widget-area .col1 { width: 100%; }
+.widget-area .col2 { width: 50%; }
+.widget-area .col3 { width: 33.3%; }
+.widget-area .col4 { width: 50%; }
+.widget-area .col5 { width: 33.3%; }
+.widget-area .col6 { width: 33.3%; }
+
+.widget-area .box.last1 { width: 100%; }
+.widget-area .box.last2 { width: 50%; }
+.widget-area .box.last3 { width: 33.3%; }
+.widget-area .box.last4 { width: 50%; }
+.widget-area .box.last5 { width: 33.3%; }
+
+.widget-area .nth1 {
+	clear: both;
+}
+
+.widget-area .col6.last5.nth4,
+.widget-area .col6.last5.nth5 {
+	width: 50%;
+}
+
+/* 10.2. Header elements
+==================================== */
+
+#esense-navigation-wrapper, .esense-aside-navigation-wrapper {display:none!important;}
+#esense-mobile-header-wrapper {display:block;}
+.aside-menu-fixed #esense-page-box {padding-left:0px;}
+.esense-header-search, .esense-mobile-header-right {display:none;}
+
+/* 10.3. Other elements
+==================================== */
+.esense-columns > div {  
+    padding: 0 6px;  
+    }  
+
+/* 10.4. Main menu elements
+==================================== */ 
+
+.esense-mainmenu-toggle:hover {color:#E57D04}
+
+#esense-head .main-top-menu {display:none;}
+.logo_center_container {width:100%}
+
+
+/* 10.6. Device classes
+==================================== */
+
+.onlyDesktop {
+	display: none!important;
+}
+
+.onlyTablets {
+	display: block!important;
+}
+
+.onlySmartphones {
+	display: none!important;
+}
+
+.onlyTabltetsAndSmartphones {
+	display: block!important;
+}
+
+/* 10.7. Responsive tables
+==================================== */
+
+
+@media (max-width: 600px) {
+	article section table {
+		border: 1px solid #eee;
+		border-bottom: none;
+		max-width: 100%!important;
+		width: 100%!important;
+	}
+
+
+	article section table thead {
+		display: none;
+	}
+
+
+	article section table td {
+		border-top: 1px solid #eee;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		clear: both;
+		display: block;
+		float: right;
+		padding: 5px 0 5px 50%;
+		position: relative;
+		width: 100%;
+	}
+
+
+	article section table td:first-child {
+		border-top: none;
+	}
+
+
+	article section table tbody tr {
+		border-bottom: 2px solid #eee;
+	}
+
+
+	article section table td span.esense-table-label {
+		display: block;
+		font-size: 95%;
+		font-weight: bold;
+		left: 5px;
+		position: absolute;
+	}
+}
+/* 10.7. RTL Support
+==================================== */
+
+
+html[dir="rtl"] .archivepage .widget.first {
+	margin-right: 0;
+	margin-left: 2%!important;
+}
+
+
+html[dir="rtl"] .archivepage .widget.first,
+html[dir="rtl"] .archivepage .widget.first + .widget {
+	margin-right: 2%;
+	margin-left: 0;
+}
+
+
+html[dir="rtl"] #esense-sidebar .box {
+	float: right!important;
+}
+
+
+html[dir="rtl"] .esense-mainmenu-toggle {
+	float: left;
+}
+
+
+.portfolio-six .portfolio-item {
+	width:33.2%;
+	margin:0;
+	float:left;
+}
+.esense-wall.columns-5 .item, .esense-wall.columns-6 .item, .esense-wall.columns-8 .item {
+	width: 24%;
+	margin: .5%;
+}
+.esense-wall.columns-5.nomargin .item, .esense-wall.columns-6.nomargin .item, .esense-wall.columns-8.nomargin .item {
+	width: 25%;
+	margin: 0;
+}
+.item-info-overlay a.preview {bottom:10px;}
+
+.progress-line,.svg-container {display:none}
+
+
+
+/* Responsive Tables RTL Support */
+@media (max-width: 600px) {
+	html[dir="rtl"] article section table td {
+		float: left;
+		padding: 5px 50% 5px 0;
+	}
+
+
+	html[dir="rtl"] article section table td span.esense-table-label {
+		left: 0;
+		right: 5px;
+	}
+}
+
+.paspartu-enabled .paspartu-inner {
+padding:0;
+}
+.paspartu-enabled .paspartu-top {
+height:0px;
+}
+.paspartu-enabled.admin-bar .paspartu-top {
+top:32px;
+}
+.paspartu-enabled .paspartu-left{
+width:0px;
+}
+.paspartu-enabled .paspartu-right{
+width:0px;
+}
+.paspartu-enabled .paspartu-bottom {
+height:0px;
+}
+ul.products li.product {
+	width: 50%!important;
+}
+ul.products.product-columns-2 li.product, .columns-2 ul.products li.product  {
+	width: 50%!important;
+}
+ul.products.product-columns-3 li.product, .columns-3 ul.products li.product {
+	width: 50%!important;
+}
+ul.products.product-columns-4 li.product, .columns-4 ul.products li.product {
+	width: 50%!important;
+}
+ul.products.product-columns-5 li.product, .columns-5 ul.products li.product {
+	width: 50%!important;
+}
+ul.products.product-columns-6 li.product, .columns-6 ul.products li.product {
+	width: 50%!important;
+}
+ul.products.product-columns-8 li.product, .columns-8 ul.products li.product {
+	width: 50%!important;
+}
+ul.products li.first {
+	clear: none;
+}
+.responsive-counter .digit {font-size:60px!important;}

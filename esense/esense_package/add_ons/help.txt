@@ -1,0 +1,2 @@
+In this folder is placed some additional fonts. 
+Please upload this fonts in to wp-content/themes/neosense/fonts/ folder. Added fonts will be available Neosense admin panel --> typgraphy. 

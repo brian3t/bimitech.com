@@ -1,0 +1,12 @@
+[
+	["General Options", 	 	"options.basic",						"enabled",   													""],
+	["Typography", 				"options.fonts",						"enabled",   													""],
+	["Appearance", 				"options.themestyling",					"enabled",   													""],
+	["Content Options", 		"options.contentstyling",				"enabled",   													""],
+	["Advanced", 				"options.advanced",						"enabled",   													""],
+	["Social API", 				"options.socialapi",					"enabled",   													""],
+	["Branding Options", 		"options.themebranding",				"enabled",   													""],
+	["Woocommerce settings", 	"options.woocommerce",					"enabled",   						"woocommerce/woocommerce.php"],
+	["Event Calendar settings", "options.eventcalendar",				"enabled",   		"the-events-calendar/the-events-calendar.php"],
+	["Chronosly settings", 		"options.chronosly",					"enabled",   			"chronosly-events-calendar/chronosly.php"]
+]

@@ -1,0 +1,4217 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: DP Esense Functions\n"
+"POT-Creation-Date: 2016-04-26 23:08+0200\n"
+"PO-Revision-Date: 2016-04-26 23:08+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: esense-functions.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: esense-functions.php:68 inc/theme_options/options.importexport.php:21
+msgid "You don't have sufficient permissions to access this page!"
+msgstr ""
+
+#: inc/class.wordpress-importer.php:134 inc/class.wordpress-importer.php:143
+#: inc/class.wordpress-importer.php:194 inc/class.wordpress-importer.php:198
+#: inc/class.wordpress-importer.php:207
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: inc/class.wordpress-importer.php:135
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: inc/class.wordpress-importer.php:178
+msgid "All done."
+msgstr ""
+
+#: inc/class.wordpress-importer.php:178
+msgid "Have fun!"
+msgstr ""
+
+#: inc/class.wordpress-importer.php:179
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: inc/class.wordpress-importer.php:199
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: inc/class.wordpress-importer.php:215
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: inc/class.wordpress-importer.php:240
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: inc/class.wordpress-importer.php:266
+msgid "Assign Authors"
+msgstr ""
+
+#: inc/class.wordpress-importer.php:267
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+
+#: inc/class.wordpress-importer.php:269
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: inc/class.wordpress-importer.php:279
+msgid "Import Attachments"
+msgstr ""
+
+#: inc/class.wordpress-importer.php:282
+msgid "Download and import file attachments"
+msgstr ""
+
+#: inc/class.wordpress-importer.php:286
+msgid "Submit"
+msgstr ""
+
+#: inc/class.wordpress-importer.php:299
+msgid "Import author:"
+msgstr ""
+
+#: inc/class.wordpress-importer.php:310
+msgid "or create new user with login name:"
+msgstr ""
+
+#: inc/class.wordpress-importer.php:313
+msgid "as a new user:"
+msgstr ""
+
+#: inc/class.wordpress-importer.php:321
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: inc/class.wordpress-importer.php:323
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: inc/class.wordpress-importer.php:324
+msgid "- Select -"
+msgstr ""
+
+#: inc/class.wordpress-importer.php:374
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: inc/class.wordpress-importer.php:425
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: inc/class.wordpress-importer.php:465
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: inc/class.wordpress-importer.php:511 inc/class.wordpress-importer.php:652
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: inc/class.wordpress-importer.php:537
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: inc/class.wordpress-importer.php:559
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: inc/class.wordpress-importer.php:618
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: inc/class.wordpress-importer.php:783
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: inc/class.wordpress-importer.php:790
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: inc/class.wordpress-importer.php:855
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: inc/class.wordpress-importer.php:868
+msgid "Invalid file type"
+msgstr ""
+
+#: inc/class.wordpress-importer.php:912
+msgid "Remote server did not respond"
+msgstr ""
+
+#: inc/class.wordpress-importer.php:918
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: inc/class.wordpress-importer.php:925
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: inc/class.wordpress-importer.php:930
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: inc/class.wordpress-importer.php:936
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: inc/class.wordpress-importer.php:1037
+msgid "Import WordPress"
+msgstr ""
+
+#: inc/class.wordpress-importer.php:1044
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: inc/class.wordpress-importer.php:1059
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: inc/class.wordpress-importer.php:1060
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: inc/esense-demo-import.php:28
+msgid "An Error Occurred During Import"
+msgstr ""
+
+#: inc/esense-demo-import.php:31
+msgid "Content imported successfully"
+msgstr ""
+
+#: inc/esense-demo-import.php:35
+msgid "Error loading files"
+msgstr ""
+
+#: inc/esense-demo-import.php:88
+msgid "Sidebar does not exist in theme (using Inactive)"
+msgstr ""
+
+#: inc/esense-demo-import.php:110
+msgid "Site does not support widget"
+msgstr ""
+
+#: inc/esense-demo-import.php:133
+msgid "Widget already exists"
+msgstr ""
+
+#: inc/esense-demo-import.php:182
+msgid "Imported"
+msgstr ""
+
+#: inc/esense-demo-import.php:185
+msgid "Imported to Inactive"
+msgstr ""
+
+#: inc/esense-demo-import.php:192
+msgid "No Title"
+msgstr ""
+
+#: inc/esense-demo-import.php:314
+msgid "Sample Data Import"
+msgstr ""
+
+#: inc/esense-demo-import.php:329
+msgid "Sample Data Importer"
+msgstr ""
+
+#: inc/esense-demo-import.php:330 inc/esense-demo-import.php:373
+msgid "Import Demo Content"
+msgstr ""
+
+#: inc/esense-demo-import.php:334
+msgid "<b>Import</b><br/>Choose demo content you want to import</p>"
+msgstr ""
+
+#: inc/esense-demo-import.php:364
+msgid "Import attachments"
+msgstr ""
+
+#: inc/esense-demo-import.php:365
+msgid "Do you want to import media files?"
+msgstr ""
+
+#: inc/esense-demo-import.php:376
+msgid "The import process may take some time. Please be patient."
+msgstr ""
+
+#: inc/esense-demo-import.php:387
+msgid "Important notes:"
+msgstr ""
+
+#: inc/esense-demo-import.php:388
+msgid ""
+"Please note that import process will take time needed to download all "
+"attachments from demo web site."
+msgstr ""
+
+#: inc/esense-demo-import.php:389
+msgid ""
+"If you plan to import Revsliders, please install this plugin before you run "
+"import."
+msgstr ""
+
+#: inc/esense-demo-import.php:390
+msgid ""
+"If you plan to use shop, please install WooCommerce before you run import."
+msgstr ""
+
+#: inc/font_icon_manager/modules/icon_manager.php:128
+#: inc/font_icon_manager/modules/icon_manager.php:129
+msgid "DP Icon Manager"
+msgstr ""
+
+#: inc/font_icon_manager/modules/icon_manager.php:167
+msgid "DP Font Icon Manager"
+msgstr ""
+
+#: inc/font_icon_manager/modules/icon_manager.php:168
+msgid "Upload New Icons"
+msgstr ""
+
+#: inc/font_icon_manager/modules/icon_manager.php:187
+msgid "No font icons uploaded. Upload some font icons to display here."
+msgstr ""
+
+#: inc/font_icon_manager/modules/icon_manager.php:278
+msgid "Default Icons"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:10
+#: inc/metaboxes/metaboxes_functions.php:11
+#: inc/metaboxes/metaboxes_functions.php:12
+msgid "Featured Video"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:23
+msgid "Featured video link"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:25
+msgid "Just link, not embed code, this field is used for oEmbed."
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:72
+msgid "Post additional params"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:73
+#: inc/metaboxes/metaboxes_functions.php:77
+msgid "Page additional params"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:74
+msgid "Slide Setting"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:75
+msgid "Portfolio Item Setting"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:76
+msgid "Sidebar Description"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:125
+msgid "Show title:"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:127
+#: inc/metaboxes/metaboxes_functions.php:133
+#: inc/metaboxes/metaboxes_functions.php:241
+#: inc/metaboxes/metaboxes_functions.php:248
+#: inc/metaboxes/metaboxes_functions.php:259
+#: inc/metaboxes/metaboxes_functions.php:266
+#: inc/metaboxes/metaboxes_functions.php:273
+#: inc/metaboxes/metaboxes_functions.php:290
+#: inc/metaboxes/metaboxes_functions.php:302 inc/widgets/widgets.flickr.php:175
+#: inc/widgets/widgets.flickr.php:185
+#: inc/widgets/widgets.recent_portfolio.php:211
+#: inc/widgets/widgets.recent_portfolio.php:219
+#: inc/widgets/widgets.recent_portfolio.php:227
+#: inc/widgets/widgets.recent_posts.php:210
+#: inc/widgets/widgets.recent_posts.php:218
+#: inc/widgets/widgets.recent_posts.php:226 inc/widgets/widgets.tabs.php:248
+msgid "Enabled"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:128
+#: inc/metaboxes/metaboxes_functions.php:134
+#: inc/metaboxes/metaboxes_functions.php:240
+#: inc/metaboxes/metaboxes_functions.php:247
+#: inc/metaboxes/metaboxes_functions.php:260
+#: inc/metaboxes/metaboxes_functions.php:267
+#: inc/metaboxes/metaboxes_functions.php:274
+#: inc/metaboxes/metaboxes_functions.php:291
+#: inc/metaboxes/metaboxes_functions.php:303 inc/widgets/widgets.flickr.php:174
+#: inc/widgets/widgets.flickr.php:184
+#: inc/widgets/widgets.recent_portfolio.php:212
+#: inc/widgets/widgets.recent_portfolio.php:220
+#: inc/widgets/widgets.recent_portfolio.php:228
+#: inc/widgets/widgets.recent_posts.php:211
+#: inc/widgets/widgets.recent_posts.php:219
+#: inc/widgets/widgets.recent_posts.php:227 inc/widgets/widgets.tabs.php:251
+msgid "Disabled"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:131
+msgid "Featured image:"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:137
+msgid "Sidebar position:"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:139
+#: inc/metaboxes/metaboxes_functions.php:145
+#: inc/metaboxes/metaboxes_functions.php:152
+#: inc/metaboxes/metaboxes_functions.php:158
+#: inc/metaboxes/metaboxes_functions.php:165
+#: inc/metaboxes/metaboxes_functions.php:283
+#: inc/metaboxes/metaboxes_functions.php:307
+msgid "Default (as in general settings)"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:140
+msgid "Left"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:141
+msgid "Right"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:143
+msgid "Menu type:"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:146 inc/shortcodes/shortcodes.php:300
+#: inc/vc_extend/esense-extend-vc.php:675
+msgid "Top"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:147
+msgid "Aside"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:148
+msgid "Overlay"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:150
+msgid "Header overlaping:"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:153
+#: inc/vc_extend/esense-extend-vc.php:425
+#: inc/vc_extend/esense-extend-vc.php:713
+#: inc/vc_extend/esense-extend-vc.php:720
+#: inc/vc_extend/esense-extend-vc.php:1436
+#: inc/vc_extend/esense-extend-vc.php:1463
+#: inc/vc_extend/esense-extend-vc.php:1590
+#: inc/vc_extend/esense-extend-vc.php:1597
+#: inc/vc_extend/esense-extend-vc.php:4914
+msgid "Yes"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:154
+msgid "No"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:156
+msgid "Header overlapping style:"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:159
+#: inc/widgets/widgets.newsflash.php:228
+msgid "Light"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:160
+#: inc/widgets/widgets.newsflash.php:231
+msgid "Dark"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:163
+msgid "Breadcrumb display:"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:166
+#: inc/metaboxes/metaboxes_functions.php:208
+msgid "Enable"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:167
+#: inc/metaboxes/metaboxes_functions.php:209
+#: inc/vc_extend/esense-extend-vc.php:607
+#: inc/vc_extend/esense-extend-vc.php:781
+#: inc/vc_extend/esense-extend-vc.php:857
+msgid "Disable"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:169
+#: inc/widgets/widget_rules/widget-rules.php:244
+msgid "Custom CSS class: "
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:174
+msgid "Blog pages custom setting"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:176
+#: inc/metaboxes/metaboxes_functions.php:221
+msgid "Category: &nbsp;"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:178
+#: inc/metaboxes/metaboxes_functions.php:223
+msgid ""
+"You can specify category or coma separated list of categories witch will be "
+"used on this page. If you leave this field empty will be displayed posts "
+"from all categories."
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:180
+#: inc/metaboxes/metaboxes_functions.php:225
+msgid "Items per page: &nbsp;"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:182
+#: inc/metaboxes/metaboxes_functions.php:227
+msgid ""
+"You can specify items per page witch will be used on this page. If you leave "
+"this field empty will be used general setting."
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:187
+msgid "Portfolio pages custom setting"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:189
+msgid "Columns count: &nbsp;"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:191
+msgid "2 columns"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:192
+msgid "3 columns"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:193
+msgid "4 columns"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:194
+msgid "5 columns"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:195
+msgid "6 columns"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:197
+msgid "You can specify columns count for this portfolio page."
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:199
+msgid "Page style: &nbsp;"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:201
+msgid "White background"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:202
+msgid "Gray background"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:204
+msgid "You can specify page background for this portfolio page."
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:206
+msgid "Use category filter: &nbsp;"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:211
+msgid "You can enable fullwidth for this portfolio page."
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:213
+msgid "Grid style: &nbsp;"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:215
+msgid "Classic"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:216
+msgid "Thumbnail grid"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:217
+msgid "Thumbnail grid no margin"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:219
+msgid "You can style for this portfolio page."
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:229
+msgid "Thumb Size:"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:231
+msgid "Horizontal 4:3"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:232
+msgid "Vertical 3:4"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:233
+msgid "Square"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:234
+msgid "Original dimensions"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:236
+msgid "You can specify thumb dimensions used on this page."
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:238
+msgid "Lightbox icon in overlay:"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:243
+msgid "If enabled lightbox link icon will be visble in overlay on this page."
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:245
+msgid "Link icon in overlay:"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:250
+msgid ""
+"If enabled link to portfolio item single view icon will be visble in overlay "
+"on this page."
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:255
+msgid "Contact page settings"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:257
+msgid "Show name field:"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:264
+msgid "Show e-mail field:"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:271
+msgid "Show \"send copy\":"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:279
+msgid "Paspartu custom style"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:280
+msgid "Here can you set custom layout of paspartu for this post/page"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:281
+msgid "Paspartu setting:"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:284
+#: inc/metaboxes/portfolio_meta_box.php:64
+msgid "Custom"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:288
+msgid "Use paspartu:"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:292
+msgid "Here you can enable or disable paspartu only for this page."
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:293
+msgid "Custom background color for paspartu:"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:298
+msgid "Subheader area custom style"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:299
+msgid "Here can you set custom layout of subheader area for this post/page"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:300
+msgid "Use subheader:"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:304
+msgid "If you enable this you can also use custom title and subtitle"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:305
+msgid "Subheader size:"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:308
+msgid "Small"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:309
+msgid "Big"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:310
+msgid "Here you can change subheader size for tis page."
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:314
+msgid "Custom title in header:"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:318
+msgid "Custom subtitle in header:"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:321
+msgid "Custom background color for subheader:"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:323
+msgid "Custom text color for subheader:"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:326
+msgid "Custom background image for subheader area:"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:328
+msgid "Upload image"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:329
+msgid "Remove Image"
+msgstr ""
+
+#: inc/metaboxes/metaboxes_functions.php:330
+msgid "Recomended width 1680 px"
+msgstr ""
+
+#: inc/metaboxes/portfolio_meta_box.php:44
+msgid ""
+"Define item short description <span>Will be used as subtitle in portfolio "
+"grid view</span>"
+msgstr ""
+
+#: inc/metaboxes/portfolio_meta_box.php:48
+msgid ""
+"Define media holder size <span>This settings have no affect when you select "
+"custom item type bellow</span>"
+msgstr ""
+
+#: inc/metaboxes/portfolio_meta_box.php:51
+msgid "Medium"
+msgstr ""
+
+#: inc/metaboxes/portfolio_meta_box.php:52
+msgid "Full width"
+msgstr ""
+
+#: inc/metaboxes/portfolio_meta_box.php:55
+msgid ""
+"Define the type of portfolio item <span>(This choice determines the type of "
+"displayable content)</span>"
+msgstr ""
+
+#: inc/metaboxes/portfolio_meta_box.php:60
+msgid "Single Image"
+msgstr ""
+
+#: inc/metaboxes/portfolio_meta_box.php:61
+msgid "Multiple image"
+msgstr ""
+
+#: inc/metaboxes/portfolio_meta_box.php:62
+msgid "Gallery"
+msgstr ""
+
+#: inc/metaboxes/portfolio_meta_box.php:63
+msgid "Embeded media"
+msgstr ""
+
+#: inc/metaboxes/portfolio_meta_box.php:70
+msgid ""
+"Item additional images <span>(only for multiple images item type)</span>"
+msgstr ""
+
+#: inc/metaboxes/portfolio_meta_box.php:71
+msgid "<span>Enter additional images for this item using media button.</span>"
+msgstr ""
+
+#: inc/metaboxes/portfolio_meta_box.php:78
+msgid "Date of project <span>(optional)</span>"
+msgstr ""
+
+#: inc/metaboxes/portfolio_meta_box.php:82
+msgid "Client name <span>(optional)</span>"
+msgstr ""
+
+#: inc/metaboxes/portfolio_meta_box.php:86
+msgid "WWW <span>(optional)</span>"
+msgstr ""
+
+#: inc/metaboxes/portfolio_meta_box.php:90
+msgid "Launch project URL <span>(optional)</span>"
+msgstr ""
+
+#: inc/metaboxes/sidebar_meta_box.php:8
+msgid ""
+"Add an optional description. Will be displayed when adding widgets to this "
+"widget area."
+msgstr ""
+
+#: inc/metaboxes/slide_meta_box.php:34
+msgid ""
+"Define the type of slide <span>(This choice determines the type of "
+"displayable content)</span>"
+msgstr ""
+
+#: inc/metaboxes/slide_meta_box.php:36
+msgid ""
+"<i><b>Note!</b><br/>An ''<b>Content Slide</b>'' will output the post content "
+"entered above in the main content. <br/>An ''<b>Image Slide</b>'' will use "
+"the featured image for the slide area. Post content above will be completely "
+"ignored. But you can enter in the fields that will appear below if you "
+"choose this type of slide, a description of the image and a link. </i> "
+msgstr ""
+
+#: inc/metaboxes/slide_meta_box.php:39 inc/post_types/slide.php:110
+msgid "Image Slide"
+msgstr ""
+
+#: inc/metaboxes/slide_meta_box.php:40 inc/post_types/slide.php:111
+msgid "Content Slide"
+msgstr ""
+
+#: inc/metaboxes/slide_meta_box.php:45
+msgid "Description <span>(optional)</span>"
+msgstr ""
+
+#: inc/metaboxes/slide_meta_box.php:49
+msgid ""
+"<span>Enter in a description you want to show over the image. Leave blank if "
+"you do not want a description to show.</span>"
+msgstr ""
+
+#: inc/metaboxes/slide_meta_box.php:51
+msgid "Image Link <span>(optional)</span>"
+msgstr ""
+
+#: inc/metaboxes/slide_meta_box.php:55
+msgid ""
+"<span>Enter where you'd like this image slide to link to. Leave this option "
+"blank if you do not want this slide to be clickable.</span>"
+msgstr ""
+
+#: inc/parsers.php:42 inc/parsers.php:72 inc/parsers.php:80
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: inc/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: inc/parsers.php:84 inc/parsers.php:89 inc/parsers.php:279
+#: inc/parsers.php:468
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: inc/post_types/portfolio.php:13
+msgctxt "post type general name"
+msgid "Portfolio"
+msgstr ""
+
+#: inc/post_types/portfolio.php:14
+msgctxt "post type singular name"
+msgid "Portfolio"
+msgstr ""
+
+#: inc/post_types/portfolio.php:15
+msgctxt "portfolio"
+msgid "Add New"
+msgstr ""
+
+#: inc/post_types/portfolio.php:16
+msgid "Add New Portfolio Item"
+msgstr ""
+
+#: inc/post_types/portfolio.php:17
+msgid "Edit Portfolio Item"
+msgstr ""
+
+#: inc/post_types/portfolio.php:18
+msgid "New Portfolio Item"
+msgstr ""
+
+#: inc/post_types/portfolio.php:19
+msgid "Preview Portfolio Item"
+msgstr ""
+
+#: inc/post_types/portfolio.php:20
+msgid "Search Portfolio"
+msgstr ""
+
+#: inc/post_types/portfolio.php:21
+msgid "No portfolio found"
+msgstr ""
+
+#: inc/post_types/portfolio.php:22
+msgid "No portfolio items found in Trash."
+msgstr ""
+
+#: inc/post_types/portfolio.php:27 inc/post_types/portfolio.php:29
+msgid "Portfolio"
+msgstr ""
+
+#: inc/post_types/portfolio.php:54
+msgid "Portfolio Categories"
+msgstr ""
+
+#: inc/post_types/portfolio.php:55
+msgid "All Categories"
+msgstr ""
+
+#: inc/post_types/portfolio.php:56
+msgid "Add New Category"
+msgstr ""
+
+#: inc/post_types/portfolio.php:57
+msgid "New Category Name"
+msgstr ""
+
+#: inc/post_types/portfolio.php:77
+msgid "Portfolio Item Title"
+msgstr ""
+
+#: inc/post_types/portfolio.php:78 inc/vc_extend/esense-extend-vc.php:4403
+#: inc/widgets/widgets.newsflash.php:251
+#: inc/woocommerce/myaccount/my-orders.php:33
+#: inc/woocommerce/myaccount/my-orders.php:52
+msgid "Date"
+msgstr ""
+
+#: inc/post_types/portfolio.php:79 inc/vc_extend/esense-extend-vc.php:4582
+#: inc/vc_extend/esense-extend-vc.php:4659
+#: inc/vc_extend/esense-extend-vc.php:4770
+#: inc/vc_extend/esense-extend-vc.php:4846
+msgid "Categories"
+msgstr ""
+
+#: inc/post_types/portfolio.php:80 inc/post_types/slide.php:79
+#: inc/vc_extend/esense-extend-vc.php:2271
+#: inc/vc_extend/esense-extend-vc.php:2494
+#: inc/vc_extend/esense-extend-vc.php:3936
+msgid "Image"
+msgstr ""
+
+#: inc/post_types/sidebar.php:11
+msgctxt "post type general name"
+msgid "Custom Sidebars"
+msgstr ""
+
+#: inc/post_types/sidebar.php:12
+msgctxt "post type singular name"
+msgid "Sidebar"
+msgstr ""
+
+#: inc/post_types/sidebar.php:13
+msgctxt "sidebar"
+msgid "Add New"
+msgstr ""
+
+#: inc/post_types/sidebar.php:14
+msgid "Add New Sidebar"
+msgstr ""
+
+#: inc/post_types/sidebar.php:15
+msgid "Edit Sidebar"
+msgstr ""
+
+#: inc/post_types/sidebar.php:16
+msgid "New Sidebar"
+msgstr ""
+
+#: inc/post_types/sidebar.php:17
+msgid "Preview Sidebar"
+msgstr ""
+
+#: inc/post_types/sidebar.php:18
+msgid "Search Sidebars"
+msgstr ""
+
+#: inc/post_types/sidebar.php:19
+msgid "No sidebars found."
+msgstr ""
+
+#: inc/post_types/sidebar.php:20
+msgid "No sidebars found in Trash."
+msgstr ""
+
+#: inc/post_types/sidebar.php:26
+msgid "Custom Sidebars"
+msgstr ""
+
+#: inc/post_types/sidebar.php:28
+msgid "Sidebar"
+msgstr ""
+
+#: inc/post_types/sidebar.php:53
+msgid "Sidebar name"
+msgstr ""
+
+#: inc/post_types/slide.php:11
+msgctxt "post type general name"
+msgid "Slides"
+msgstr ""
+
+#: inc/post_types/slide.php:12
+msgctxt "post type singular name"
+msgid "Slide"
+msgstr ""
+
+#: inc/post_types/slide.php:13
+msgctxt "slide"
+msgid "Add New"
+msgstr ""
+
+#: inc/post_types/slide.php:14
+msgid "Add New Slide"
+msgstr ""
+
+#: inc/post_types/slide.php:15
+msgid "Edit Slide"
+msgstr ""
+
+#: inc/post_types/slide.php:16
+msgid "New Slide"
+msgstr ""
+
+#: inc/post_types/slide.php:17
+msgid "Preview Slide"
+msgstr ""
+
+#: inc/post_types/slide.php:18
+msgid "Search Slides"
+msgstr ""
+
+#: inc/post_types/slide.php:19
+msgid "No slides found."
+msgstr ""
+
+#: inc/post_types/slide.php:20
+msgid "No slides found in Trash."
+msgstr ""
+
+#: inc/post_types/slide.php:26
+msgid "Slides"
+msgstr ""
+
+#: inc/post_types/slide.php:28 inc/widgets/widgets.newsflash.php:300
+msgid "Slide"
+msgstr ""
+
+#: inc/post_types/slide.php:55
+msgid "Slideshows"
+msgstr ""
+
+#: inc/post_types/slide.php:56
+msgid "All Slideshows"
+msgstr ""
+
+#: inc/post_types/slide.php:57
+msgid "Add New Slideshow"
+msgstr ""
+
+#: inc/post_types/slide.php:58
+msgid "New Slideshow Name"
+msgstr ""
+
+#: inc/post_types/slide.php:76
+msgid "Slide Title"
+msgstr ""
+
+#: inc/post_types/slide.php:77 inc/vc_extend/esense-extend-vc.php:181
+msgid "Slideshow"
+msgstr ""
+
+#: inc/post_types/slide.php:78
+msgid "Slide Type"
+msgstr ""
+
+#: inc/post_types/slide.php:93
+msgid "Oops! This is an image slide, but you forgot a featured image."
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:1955 inc/shortcodes/shortcodes.php:2038
+#: inc/shortcodes/shortcodes.php:2158
+msgid "No Comments"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:1957 inc/shortcodes/shortcodes.php:2040
+#: inc/shortcodes/shortcodes.php:2160
+msgid " Comments"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:1959 inc/shortcodes/shortcodes.php:2042
+#: inc/shortcodes/shortcodes.php:2162
+msgid "1 Comment"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:2029
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:2046
+msgid "Comments are off for this post."
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:2273
+msgid "You don't have any Slides to display."
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:2385
+msgid "Days"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:2386
+msgid "Hours"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:2387
+msgid "Minutes"
+msgstr ""
+
+#: inc/shortcodes/shortcodes.php:2388
+msgid "Seconds"
+msgstr ""
+
+#: inc/template.php:32
+msgid "Customize theme"
+msgstr ""
+
+#: inc/template.php:66
+msgid "Saving&hellip;"
+msgstr ""
+
+#: inc/template.php:66
+msgid "Save settings"
+msgstr ""
+
+#: inc/template.php:66
+msgid "Please check the form!"
+msgstr ""
+
+#: inc/theme_options/functions.php:40
+msgid "Template options"
+msgstr ""
+
+#: inc/theme_options/functions.php:57
+msgid "Import/Export"
+msgstr ""
+
+#: inc/theme_options/options.importexport.php:26
+msgid "Based on the Dynamo WP framework"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:144
+msgid "CSS Animation"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:176
+msgid "Same window"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:177
+msgid "New window"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:191
+#: inc/widgets/widget_rules/widget-rules.php:148
+msgid "Category"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:201
+msgid "Portfolio category"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:211
+#: inc/vc_extend/esense-extend-vc.php:2113
+#: inc/vc_extend/esense-extend-vc.php:5040
+msgid "Menu"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:409
+msgid "Content Type"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:418
+#, php-format
+msgid ""
+"This settings affected only when \"Full width\" page template is used. Here "
+"you can decide if row content should be boxed in page grid or 100% screen "
+"width.  "
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:422
+msgid "No columns padding?"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:424
+msgid "If checked columns in row will be displayed with no paddings."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:436
+msgid "Enable / Disable paralax effect for background image"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:442
+msgid "Parallax Speed"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:445
+msgid ""
+"The movement speed, value should be between 0.1 and 1.0. A lower number "
+"means slower scrolling speed. Be mindful of the <strong>background size</"
+"strong> and the <strong>dimensions</strong> of your background image when "
+"setting this value. Faster scrolling means that the image will move faster, "
+"make sure that your background image has enough width or height for the "
+"offset."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:452
+msgid "Video background"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:456
+#: inc/widgets/widget_rules/widget-rules.php:96
+msgid "None"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:457
+msgid "HTML5 video background"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:458
+msgid "Youtube video background"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:460
+msgid "Select a background video type for your row"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:531
+msgid "Muted"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:532
+msgid "Unmuted"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:535
+msgid "Select a video audio default stand"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:554
+msgid "Enable color and pattern overlay for this row"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:559
+#: inc/vc_extend/esense-extend-vc.php:4958
+msgid "Overlay color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:561
+msgid "Select color for overlay."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:568
+msgid "Overlay pattern"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:578
+#: inc/vc_extend/esense-extend-vc.php:613
+#: inc/vc_extend/esense-extend-vc.php:724
+#: inc/vc_extend/esense-extend-vc.php:787
+#: inc/vc_extend/esense-extend-vc.php:914
+#: inc/vc_extend/esense-extend-vc.php:1100
+#: inc/vc_extend/esense-extend-vc.php:1176
+#: inc/vc_extend/esense-extend-vc.php:2326
+#: inc/vc_extend/esense-extend-vc.php:2508
+#: inc/vc_extend/esense-extend-vc.php:2576
+#: inc/vc_extend/esense-extend-vc.php:2630
+#: inc/vc_extend/esense-extend-vc.php:2699
+#: inc/vc_extend/esense-extend-vc.php:3259
+#: inc/vc_extend/esense-extend-vc.php:3380
+#: inc/vc_extend/esense-extend-vc.php:3682
+#: inc/vc_extend/esense-extend-vc.php:3821
+#: inc/vc_extend/esense-extend-vc.php:3916
+#: inc/vc_extend/esense-extend-vc.php:4053
+#: inc/vc_extend/esense-extend-vc.php:4159
+#: inc/vc_extend/esense-extend-vc.php:4325
+#: inc/vc_extend/esense-extend-vc.php:4366
+#: inc/vc_extend/esense-extend-vc.php:4436
+#: inc/vc_extend/esense-extend-vc.php:4472
+#: inc/vc_extend/esense-extend-vc.php:5004
+#: inc/vc_extend/esense-extend-vc.php:5049
+msgid "Extra class name"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:580
+#: inc/vc_extend/esense-extend-vc.php:789
+#: inc/vc_extend/esense-extend-vc.php:916
+#: inc/vc_extend/esense-extend-vc.php:1102
+#: inc/vc_extend/esense-extend-vc.php:1178
+#: inc/vc_extend/esense-extend-vc.php:2328
+#: inc/vc_extend/esense-extend-vc.php:2510
+#: inc/vc_extend/esense-extend-vc.php:2578
+#: inc/vc_extend/esense-extend-vc.php:2632
+#: inc/vc_extend/esense-extend-vc.php:2701
+#: inc/vc_extend/esense-extend-vc.php:3261
+#: inc/vc_extend/esense-extend-vc.php:3382
+#: inc/vc_extend/esense-extend-vc.php:3685
+#: inc/vc_extend/esense-extend-vc.php:3823
+#: inc/vc_extend/esense-extend-vc.php:3918
+#: inc/vc_extend/esense-extend-vc.php:4055
+#: inc/vc_extend/esense-extend-vc.php:4161
+#: inc/vc_extend/esense-extend-vc.php:4327
+#: inc/vc_extend/esense-extend-vc.php:4368
+#: inc/vc_extend/esense-extend-vc.php:4438
+#: inc/vc_extend/esense-extend-vc.php:4474
+#: inc/vc_extend/esense-extend-vc.php:5006
+#: inc/vc_extend/esense-extend-vc.php:5051
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:588 inc/widgets/widgets.tabs.php:20
+msgid "DP Tabs"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:593
+#: inc/vc_extend/esense-extend-vc.php:692
+#: inc/vc_extend/esense-extend-vc.php:766
+#: inc/vc_extend/esense-extend-vc.php:929
+#: inc/vc_extend/esense-extend-vc.php:952
+#: inc/vc_extend/esense-extend-vc.php:1068
+#: inc/vc_extend/esense-extend-vc.php:1188
+#: inc/vc_extend/esense-extend-vc.php:1230
+#: inc/vc_extend/esense-extend-vc.php:1313
+#: inc/vc_extend/esense-extend-vc.php:1403
+#: inc/vc_extend/esense-extend-vc.php:1679
+#: inc/vc_extend/esense-extend-vc.php:1841
+#: inc/vc_extend/esense-extend-vc.php:1897
+#: inc/vc_extend/esense-extend-vc.php:2015
+#: inc/vc_extend/esense-extend-vc.php:2137
+#: inc/vc_extend/esense-extend-vc.php:2223
+#: inc/vc_extend/esense-extend-vc.php:2338
+#: inc/vc_extend/esense-extend-vc.php:2474
+#: inc/vc_extend/esense-extend-vc.php:2521
+#: inc/vc_extend/esense-extend-vc.php:2588
+#: inc/vc_extend/esense-extend-vc.php:2673
+#: inc/vc_extend/esense-extend-vc.php:2783
+#: inc/vc_extend/esense-extend-vc.php:3050
+#: inc/vc_extend/esense-extend-vc.php:3131
+#: inc/vc_extend/esense-extend-vc.php:3272
+#: inc/vc_extend/esense-extend-vc.php:3393
+#: inc/vc_extend/esense-extend-vc.php:3699
+#: inc/vc_extend/esense-extend-vc.php:3834
+#: inc/vc_extend/esense-extend-vc.php:4024
+#: inc/vc_extend/esense-extend-vc.php:4071
+#: inc/vc_extend/esense-extend-vc.php:4172
+#: inc/vc_extend/esense-extend-vc.php:4338
+#: inc/vc_extend/esense-extend-vc.php:4491
+#: inc/vc_extend/esense-extend-vc.php:4571
+#: inc/vc_extend/esense-extend-vc.php:4632
+#: inc/vc_extend/esense-extend-vc.php:4759
+#: inc/vc_extend/esense-extend-vc.php:4820
+#: inc/vc_extend/esense-extend-vc.php:4870
+#: inc/vc_extend/esense-extend-vc.php:4890
+#: inc/vc_extend/esense-extend-vc.php:5034
+msgid "by Dynamicpress"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:593
+#: inc/vc_extend/esense-extend-vc.php:692
+#: inc/vc_extend/esense-extend-vc.php:766
+#: inc/vc_extend/esense-extend-vc.php:811
+#: inc/vc_extend/esense-extend-vc.php:929
+#: inc/vc_extend/esense-extend-vc.php:952
+#: inc/vc_extend/esense-extend-vc.php:1068
+#: inc/vc_extend/esense-extend-vc.php:1112
+#: inc/vc_extend/esense-extend-vc.php:1188
+#: inc/vc_extend/esense-extend-vc.php:1230
+#: inc/vc_extend/esense-extend-vc.php:1313
+#: inc/vc_extend/esense-extend-vc.php:1403
+#: inc/vc_extend/esense-extend-vc.php:1841
+#: inc/vc_extend/esense-extend-vc.php:2223
+#: inc/vc_extend/esense-extend-vc.php:2338
+#: inc/vc_extend/esense-extend-vc.php:2474
+#: inc/vc_extend/esense-extend-vc.php:2521
+#: inc/vc_extend/esense-extend-vc.php:2557
+#: inc/vc_extend/esense-extend-vc.php:2588
+#: inc/vc_extend/esense-extend-vc.php:2673
+#: inc/vc_extend/esense-extend-vc.php:2783
+#: inc/vc_extend/esense-extend-vc.php:3050
+#: inc/vc_extend/esense-extend-vc.php:3131
+#: inc/vc_extend/esense-extend-vc.php:3206
+#: inc/vc_extend/esense-extend-vc.php:3272
+#: inc/vc_extend/esense-extend-vc.php:3327
+#: inc/vc_extend/esense-extend-vc.php:3393
+#: inc/vc_extend/esense-extend-vc.php:3501
+#: inc/vc_extend/esense-extend-vc.php:3699
+#: inc/vc_extend/esense-extend-vc.php:3721
+#: inc/vc_extend/esense-extend-vc.php:3834
+#: inc/vc_extend/esense-extend-vc.php:3960
+#: inc/vc_extend/esense-extend-vc.php:4024
+#: inc/vc_extend/esense-extend-vc.php:4071
+#: inc/vc_extend/esense-extend-vc.php:4172
+#: inc/vc_extend/esense-extend-vc.php:4266
+#: inc/vc_extend/esense-extend-vc.php:4338
+#: inc/vc_extend/esense-extend-vc.php:4429
+#: inc/vc_extend/esense-extend-vc.php:4491
+#: inc/vc_extend/esense-extend-vc.php:4571
+#: inc/vc_extend/esense-extend-vc.php:4632
+#: inc/vc_extend/esense-extend-vc.php:4759
+#: inc/vc_extend/esense-extend-vc.php:4820
+#: inc/vc_extend/esense-extend-vc.php:4870
+#: inc/vc_extend/esense-extend-vc.php:4890
+#: inc/vc_extend/esense-extend-vc.php:5034
+#: inc/widgets/widgets.newsflash.php:266 inc/widgets/widgets.newsflash.php:277
+msgid "Content"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:594
+msgid "Tabbed content"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:598
+#: inc/vc_extend/esense-extend-vc.php:697
+#: inc/vc_extend/esense-extend-vc.php:772
+#: inc/vc_extend/esense-extend-vc.php:816
+#: inc/vc_extend/esense-extend-vc.php:1117
+msgid "Widget title"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:600
+#: inc/vc_extend/esense-extend-vc.php:699
+msgid "Enter text used as widget title (Note: located above content element)."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:604
+msgid "Auto rotate"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:609
+msgid "Auto rotate tabs each X seconds."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:615
+#: inc/vc_extend/esense-extend-vc.php:726
+msgid ""
+"Style particular content element differently - add a class name and refer to "
+"it in custom CSS."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:626
+msgid "Tab 1"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:627
+msgid "Tab 2"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:638
+#: inc/vc_extend/esense-extend-vc.php:748
+#: inc/vc_extend/esense-extend-vc.php:1085
+#: inc/vc_extend/esense-extend-vc.php:1485
+#: inc/vc_extend/esense-extend-vc.php:1793
+#: inc/vc_extend/esense-extend-vc.php:1922
+#: inc/vc_extend/esense-extend-vc.php:2366
+#: inc/vc_extend/esense-extend-vc.php:2549
+#: inc/vc_extend/esense-extend-vc.php:3167
+#: inc/vc_extend/esense-extend-vc.php:3415
+#: inc/vc_extend/esense-extend-vc.php:3714
+#: inc/vc_extend/esense-extend-vc.php:4227
+msgid "Icon"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:644
+msgid "Subtitle"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:647
+msgid "This field will be used only by custom diamond skin"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:652
+msgid "Fullwidth"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:661
+msgid "This setting will work only by tabs count lower then 9 tabs"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:676
+msgid "Bottom"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:687
+msgid "DP Accordion"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:693
+msgid "Collapsible content panels"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:703
+msgid "Active section"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:706
+msgid ""
+"Enter section number to be active on load or enter \"false\" to collapse all "
+"sections."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:710
+msgid "Allow collapse all sections?"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:712
+msgid "If checked, it is allowed to collapse all sections."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:717
+msgid "Disable keyboard interactions?"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:719
+msgid ""
+"If checked, disables keyboard arrow interactions (Keys: Left, Up, Right, "
+"Down, Space)."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:734
+msgid "Add section"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:738
+msgid "Section 1"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:739
+msgid "Section 2"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:760
+msgid "DP Vertical Tabs"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:768
+msgid "Vertical tabbed content"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:774
+#: inc/vc_extend/esense-extend-vc.php:818
+#: inc/vc_extend/esense-extend-vc.php:1119
+msgid ""
+"Enter text which will be used as widget title. Leave blank if no title is "
+"needed."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:778
+#: inc/vc_extend/esense-extend-vc.php:854
+msgid "Auto rotate slides"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:783
+#: inc/vc_extend/esense-extend-vc.php:859
+msgid "Auto rotate slides each X seconds."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:800
+msgid "Slide 1"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:801
+msgid "Slide 2"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:808
+msgid "Image Gallery"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:812
+msgid "Responsive image gallery"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:822
+msgid "Gallery type"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:826
+msgid "Flex slider fade"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:827
+msgid "Flex slider slide"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:828
+msgid "Nivo slider"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:829
+msgid "Nivo slider with thumb nav"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:830
+msgid "Image grid"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:833
+msgid "Select gallery type."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:837
+msgid "Slideshow navigation type"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:846
+msgid "Select navigation type for slideshow."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:867
+#: inc/vc_extend/esense-extend-vc.php:2593
+#: inc/vc_extend/esense-extend-vc.php:3090
+msgid "Images"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:870
+#: inc/vc_extend/esense-extend-vc.php:2596
+#: inc/vc_extend/esense-extend-vc.php:3093
+msgid "Select images from media library."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:874
+msgid "Image size"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:876
+msgid ""
+"Enter image size. Example: thumbnail, medium, large, full or other sizes "
+"defined by current theme. Alternatively enter image size in pixels: 200x100 "
+"(Width x Height). Leave empty to use \"thumbnail\" size."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:880
+msgid "On click"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:884
+msgid "Open prettyPhoto"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:885
+msgid "Do nothing"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:886
+msgid "Open custom link"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:889
+msgid "Define action for onclick event if needed."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:893
+msgid "Custom links"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:895
+msgid ""
+"Enter links for each slide here. Divide links with linebreaks (Enter) . "
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:903
+msgid "Custom link target"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:905
+msgid "Select where to open  custom links."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:925
+msgid "Spacer"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:930
+msgid "Blank space at a certain height "
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:935
+msgid "Size in px"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:948
+msgid "DP Headline"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:953
+msgid "Headline block"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:957
+#: inc/vc_extend/esense-extend-vc.php:1722
+#: inc/vc_extend/esense-extend-vc.php:2229
+msgid "Style"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:970
+msgid "Headline title"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:974
+msgid "This is header"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:978
+msgid "Headline subtitle"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:986
+msgid "Headline alignment"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1000
+msgid "Subtitle size"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1012
+msgid "Subtitle position"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1023
+msgid "Underline style"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1043
+msgid "Force custom text color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1045
+msgid "Select custom color for header."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1049
+msgid "Force custom underline/separator color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1051
+msgid "Select custom color for underline/separator."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1056
+#: inc/vc_extend/esense-extend-vc.php:2461
+msgid "Custom CSS class"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1065
+msgid "FAQ"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1069
+msgid "Toggle element with icon"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1074
+#: inc/vc_extend/esense-extend-vc.php:1195
+#: inc/vc_extend/esense-extend-vc.php:1291
+#: inc/vc_extend/esense-extend-vc.php:1382
+#: inc/vc_extend/esense-extend-vc.php:1408
+#: inc/vc_extend/esense-extend-vc.php:2542
+#: inc/vc_extend/esense-extend-vc.php:2760
+#: inc/vc_extend/esense-extend-vc.php:3112
+#: inc/vc_extend/esense-extend-vc.php:3198
+#: inc/vc_extend/esense-extend-vc.php:3304
+#: inc/vc_extend/esense-extend-vc.php:3704
+#: inc/vc_extend/esense-extend-vc.php:3922
+#: inc/vc_extend/esense-extend-vc.php:4177
+#: inc/vc_extend/esense-extend-vc.php:4422
+#: inc/vc_extend/esense-extend-vc.php:4920
+#: inc/widgets/widgets.newsflash.php:252 inc/widgets/widgets.newsflash.php:263
+msgid "Title"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1077
+msgid "FAQ title"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1079
+msgid "FAQ block title."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1093
+msgid "FAQ content"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1095
+msgid "<p>FAQ content goes here, click edit button to change this text.</p>"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1096
+msgid "FAQ block content."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1109
+msgid "Progress Bar"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1113
+#: inc/vc_extend/esense-extend-vc.php:1189
+msgid "Animated progress bar"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1123
+msgid "Graphic values"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1125
+msgid ""
+"Input graph values here. Divide values with linebreaks (Enter). Example: 90|"
+"Development"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1130
+msgid "Units"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1132
+msgid ""
+"Enter measurement units (if needed) Eg. %, px, points, etc. Graph value and "
+"unit will be appended to the graph title."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1136
+#: inc/vc_extend/esense-extend-vc.php:1219
+#: inc/vc_extend/esense-extend-vc.php:1270
+#: inc/vc_extend/esense-extend-vc.php:1354
+msgid "Bar color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1140
+msgid "Grey"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1141
+msgid "Blue"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1142
+msgid "Turquoise"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1143
+msgid "Green"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1144
+msgid "Orange"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1145
+msgid "Red"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1146
+msgid "Black"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1147
+msgid "Custom Color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1150
+msgid "Select bar background color."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1155
+msgid "Bar custom color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1157
+msgid "Select custom background color for bars."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1162
+msgid "Text custom color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1164
+msgid "Select custom text color for bars."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1168
+msgid "Options"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1171
+msgid "Add Stripes?"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1185
+msgid "DP Progress Bar"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1203
+msgid "Title Color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1210
+#: inc/vc_extend/esense-extend-vc.php:1255
+#: inc/vc_extend/esense-extend-vc.php:1339
+msgid "Percentage"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1227
+msgid "DP Pie Chart"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1236
+#: inc/vc_extend/esense-extend-vc.php:1320
+#: inc/vc_extend/esense-extend-vc.php:1687
+#: inc/vc_extend/esense-extend-vc.php:1849
+msgid "Size"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1246
+#: inc/vc_extend/esense-extend-vc.php:1330
+msgid "Bar line width"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1263
+#: inc/vc_extend/esense-extend-vc.php:1347
+msgid "Percent color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1277
+#: inc/vc_extend/esense-extend-vc.php:1361
+msgid "Track color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1284
+#: inc/vc_extend/esense-extend-vc.php:1375
+#: inc/vc_extend/esense-extend-vc.php:3738
+#: inc/vc_extend/esense-extend-vc.php:4940
+msgid "Text color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1294
+#: inc/vc_extend/esense-extend-vc.php:1385
+msgid "Pie Chart title"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1299
+#: inc/vc_extend/esense-extend-vc.php:1390
+#: inc/vc_extend/esense-extend-vc.php:2320
+#: inc/vc_extend/esense-extend-vc.php:3118
+msgid "Description"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1301
+#: inc/vc_extend/esense-extend-vc.php:1392
+msgid "<p>I am Pie Chart description.</p>"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1310
+msgid "DP Pie Chart 2"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1315
+msgid "Chart with background"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1368
+#: inc/vc_extend/esense-extend-vc.php:3729
+#: inc/vc_extend/esense-extend-vc.php:4949
+msgid "Background color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1400
+msgid "Pricing Column"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1404
+msgid "Pricing column for Pricing Table "
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1414
+msgid "Subitle"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1421
+msgid "Column style"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1434
+msgid "Highlight initialy?"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1437
+msgid "Check this box if you will highlight this column on page load."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1443
+msgid "Price background color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1446
+msgid "Select price area background color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1452
+msgid "Price text color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1455
+msgid "Select price area text color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1460
+msgid "Use image or icon?"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1464
+msgid "Check this box if you will use additional icon or image in this column"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1469
+msgid "Image type"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1478
+#: inc/vc_extend/esense-extend-vc.php:3408
+msgid "Use an existing font icon or upload a custom image."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1494
+#: inc/vc_extend/esense-extend-vc.php:3423
+msgid "Icon size"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1506
+#: inc/vc_extend/esense-extend-vc.php:3435
+msgid "Icon Color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1510
+#: inc/vc_extend/esense-extend-vc.php:1534
+#: inc/vc_extend/esense-extend-vc.php:3439
+#: inc/vc_extend/esense-extend-vc.php:3464
+msgid "Select background color for icon."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1516
+#: inc/vc_extend/esense-extend-vc.php:3445
+msgid "Icon Badge Style"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1530
+#: inc/vc_extend/esense-extend-vc.php:3460
+msgid "Badge Background Color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1540
+msgid "Upload Image:"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1544
+#: inc/vc_extend/esense-extend-vc.php:3474
+msgid "Upload the custom image icon."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1549
+msgid "Price"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1555
+msgid "Currency"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1561
+msgid "Currency position"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1574
+msgid "Price subtitle"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1581
+msgid "Column contentt"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1584
+msgid "Enter column content here"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1588
+msgid "Use arrowed style?"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1595
+msgid "Use ribbon?"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1602
+msgid "Ribbon text"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1609
+msgid "Ribbon background color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1612
+msgid "Select ribbon background color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1618
+msgid "Ribbon text color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1621
+msgid "Select ribbon text color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1626
+#: inc/vc_extend/esense-extend-vc.php:1813
+msgid "Link"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1632
+#: inc/vc_extend/esense-extend-vc.php:3219
+#: inc/vc_extend/esense-extend-vc.php:3340
+#: inc/vc_extend/esense-extend-vc.php:3566
+#: inc/vc_extend/esense-extend-vc.php:3874
+#: inc/vc_extend/esense-extend-vc.php:4278
+msgid "Button text"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1634
+msgid "Buy Now"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1639
+#: inc/vc_extend/esense-extend-vc.php:3575
+#: inc/vc_extend/esense-extend-vc.php:3881
+msgid "Button style "
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1668
+#: inc/vc_extend/esense-extend-vc.php:3605
+#: inc/vc_extend/esense-extend-vc.php:3910
+msgid "Select button style."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1677
+msgid "DP Button"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1681
+msgid "Custom button with icon "
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1703
+msgid "Button Title"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1707
+msgid "Button title"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1712
+msgid "Button Subtitle"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1716
+msgid "Button subtitle"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1757
+#: inc/vc_extend/esense-extend-vc.php:1942
+#: inc/vc_extend/esense-extend-vc.php:2040
+msgid "Button background color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1760
+#: inc/vc_extend/esense-extend-vc.php:1945
+#: inc/vc_extend/esense-extend-vc.php:2043
+msgid "Select button background color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1766
+msgid "Button text color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1769
+#: inc/vc_extend/esense-extend-vc.php:1953
+#: inc/vc_extend/esense-extend-vc.php:2051
+msgid "Select button text color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1775
+msgid "Button hover state background color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1778
+msgid "Select hover state background color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1784
+msgid "Hover state text color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1787
+msgid "Select hover state text color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1799
+msgid "Button alignment"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1820
+#: inc/vc_extend/esense-extend-vc.php:1997
+#: inc/vc_extend/esense-extend-vc.php:3627
+msgid "Open in"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1837
+msgid "DP Button Group"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1844
+msgid "Bootsrap style button group container"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1862
+#: inc/vc_extend/esense-extend-vc.php:3784
+msgid "Border radius"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1863
+msgid "Border radius in px "
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1871
+msgid "Group Alignment"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1895
+msgid "Button"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1899
+msgid "Button in button group"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1905
+#: inc/vc_extend/esense-extend-vc.php:1909
+#: inc/vc_extend/esense-extend-vc.php:2023
+#: inc/vc_extend/esense-extend-vc.php:2027
+msgid "Button Text"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1914
+#: inc/vc_extend/esense-extend-vc.php:2032
+msgid "Button Subtext"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1929
+msgid "Icon position"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1950
+#: inc/vc_extend/esense-extend-vc.php:2048
+msgid "Button Text Color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1958
+#: inc/vc_extend/esense-extend-vc.php:2056
+msgid "Button Border Color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1961
+#: inc/vc_extend/esense-extend-vc.php:2059
+msgid "Select button border color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1966
+#: inc/vc_extend/esense-extend-vc.php:2064
+msgid "Button hover background color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1969
+#: inc/vc_extend/esense-extend-vc.php:2067
+msgid "Select button hover background color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1974
+#: inc/vc_extend/esense-extend-vc.php:2072
+msgid "Button hover text Color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1977
+#: inc/vc_extend/esense-extend-vc.php:2075
+msgid "Select button hover text color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1982
+#: inc/vc_extend/esense-extend-vc.php:2080
+msgid "Button Hover Border Color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1985
+#: inc/vc_extend/esense-extend-vc.php:2083
+msgid "Select button hover border color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:1990
+msgid "Button Link"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2013
+msgid "Dropdown Button"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2017
+msgid "Dropdown Button in button group"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2087
+msgid "Dropdown Mode"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2100
+msgid "Dropdown Source"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2123
+msgid "HTML content"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2126
+msgid "This is sample dropdown HTML"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2135
+msgid "Button Separator"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2139
+msgid "Button separator"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2145
+msgid "Separator width"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2146
+msgid "Widt of separator in px "
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2155
+#: inc/vc_extend/esense-extend-vc.php:2180
+#: inc/vc_extend/esense-extend-vc.php:4459
+msgid "Separator background color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2158
+#: inc/vc_extend/esense-extend-vc.php:2183
+msgid "Select separator background color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2170
+msgid "Separator badge text Text"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2174
+msgid "or"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2189
+msgid "Separator Text Color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2192
+msgid "Select separator text color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2198
+msgid "Separator Border Color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2201
+msgid "Select separator border color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2220
+msgid "Team box"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2224
+msgid "Team member presentation box"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2249
+msgid "Back side background color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2252
+msgid "Select back side background color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2257
+#: inc/vc_extend/esense-extend-vc.php:2479
+#: inc/vc_extend/esense-extend-vc.php:4876
+msgid "Name"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2260
+#: inc/vc_extend/esense-extend-vc.php:2483
+msgid "John Smith"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2264
+#: inc/vc_extend/esense-extend-vc.php:2487
+msgid "Position"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2267
+msgid "Chief Executive Officer / CEO"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2274
+#: inc/vc_extend/esense-extend-vc.php:2497
+#: inc/vc_extend/esense-extend-vc.php:2996
+#: inc/vc_extend/esense-extend-vc.php:3031
+#: inc/vc_extend/esense-extend-vc.php:3058
+#: inc/vc_extend/esense-extend-vc.php:3939
+msgid "Select image from media library."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2278
+msgid "Twitter link"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2280
+#: inc/vc_extend/esense-extend-vc.php:2286
+#: inc/vc_extend/esense-extend-vc.php:2292
+#: inc/vc_extend/esense-extend-vc.php:2298
+#: inc/vc_extend/esense-extend-vc.php:2304
+#: inc/vc_extend/esense-extend-vc.php:2310
+#: inc/vc_extend/esense-extend-vc.php:2316
+msgid "If you leave this field blank link will be not displayed"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2284
+msgid "Facebook link"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2290
+msgid "Google+ link"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2296
+msgid "Linkedin link"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2302
+msgid "RSS link"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2308
+msgid "Flickr"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2314
+msgid "Dribble link"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2322
+msgid "<p>Team member activity description</p>"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2335
+msgid "DP Counter"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2340
+msgid "Animated counter"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2345
+msgid "General style"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2358
+#: inc/vc_extend/esense-extend-vc.php:2361
+msgid "Counter title"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2373
+#: inc/vc_extend/esense-extend-vc.php:2985
+msgid "Icon color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2381
+msgid "Icon badge color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2389
+#: inc/vc_extend/esense-extend-vc.php:3153
+msgid "Icon badge style"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2405
+msgid "Icon fontsize"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2406
+msgid "Icon fontsize in px "
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2416
+msgid "Counter number value"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2422
+msgid "Number value by witch animation will be stopped"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2429
+msgid "Number sufix"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2436
+msgid "Number color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2443
+msgid "Number fontsize"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2448
+msgid "Number fontsize in px"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2454
+msgid "Title color color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2471
+msgid "Testimonial"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2475
+msgid "Testimonial with client image"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2490
+msgid "CEO"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2501
+msgid "Testimonial content"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2503
+msgid "Client testimonial content."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2518
+msgid "Notification Box"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2522
+msgid "Box with notifications"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2527
+#: inc/vc_extend/esense-extend-vc.php:3137
+#: inc/vc_extend/esense-extend-vc.php:3278
+#: inc/vc_extend/esense-extend-vc.php:4030
+#: inc/vc_extend/esense-extend-vc.php:4213
+msgid "Type"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2537
+msgid "Select box style"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2544
+msgid "Success!"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2552
+msgid "Select icon to display before message"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2559
+msgid "Your message comes here."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2564
+msgid "Sticky?"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2572
+msgid "If selected yes box will be closeable"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2585
+msgid "DP Gallery"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2589
+msgid "Simple image grid gallery with lightbox"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2600
+#: inc/vc_extend/esense-extend-vc.php:4643
+#: inc/vc_extend/esense-extend-vc.php:4825
+msgid "Columns count"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2660
+msgid "Add images"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2669
+msgid "DP Social Links"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2676
+msgid "Social icons block"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2680
+msgid "Badge type"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2692
+#: inc/vc_extend/esense-extend-vc.php:3175
+msgid "Custom icon color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2695
+msgid "If you leave it blank icons will be by default #333"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2707
+msgid "DP Social Icon"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2711
+msgid "Single social icon"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2716
+msgid "Icon type"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2762
+msgid "If you wish add title of link displayed in tooltip type it here"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2766
+msgid "Icon link"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2779
+msgid "DP Google Map"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2786
+msgid "Google map with multiple markers"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2790
+msgid "Map center determined by"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2801
+msgid "Map center address"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2803
+msgid "Enter address of map center point."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2808
+msgid "Map center latitude"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2810
+msgid ""
+"Enter latitude of map center point. You can use this <a href='http://www."
+"latlong.net/' target='_blank'>link</a>"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2815
+msgid "Map center longtitude"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2817
+msgid ""
+"Enter longtitude of map center point. You can use this <a href='http://www."
+"latlong.net/' target='_blank'>link</a>"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2823
+msgid "Map height"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2828
+#, php-format
+msgid ""
+"Map width is allways 100% of parent container but width must be determined."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2833
+msgid "Zoom Level"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2841
+msgid "Use Map Control?"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2884
+msgid "Custom map style"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2913
+msgid "DP Google Map Location"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2917
+msgid "Google map location"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2922
+msgid "Location determined by"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2933
+msgid "Location address"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2935
+msgid "Enter address of location."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2940
+msgid "Location latitude"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2942
+msgid ""
+"Enter latitude of location. You can use this <a href='http://www.latlong."
+"net/' target='_blank'>link</a>"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2947
+msgid "Location longtitude"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2949
+msgid ""
+"Enter longtitude of location. You can use this <a href='http://www.latlong."
+"net/' target='_blank'>link</a>"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2954
+msgid "Marker type"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2967
+msgid "Marker color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2970
+msgid "Select color for marker"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2976
+msgid "Marker Icon"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2988
+msgid "Select color for icon"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:2993
+msgid "Custom marker image"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3001
+msgid "Use infobox for marker"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3013
+msgid "Info Box Title"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3020
+msgid "Info Box Content"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3027
+msgid "Infobox image"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3047
+msgid "Lightbox thumb"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3051
+msgid "Simple image as lightbox link"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3055
+msgid "Thumb image"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3062
+msgid "Overlay icon type"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3072
+msgid "Select icon to display in thumb fancy overlay."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3076
+msgid "Lightbox content type"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3086
+msgid "Select content type to display in lightbox."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3098
+msgid "Video URL (Link to video lightbox video content)"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3100
+msgid "Link to video content to display in lightbox."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3105
+msgid "Iframe content URL"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3107
+msgid "Link to external content to display in lightbox."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3114
+msgid "Title of image to display in lightbox window"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3120
+msgid "Description of image to display in lightbox window"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3128
+msgid "Featured Box"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3132
+msgid "Box with animated icons"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3178
+msgid "Select custom color color for this box"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3183
+msgid "Custom hover state icon color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3186
+msgid "Select custom hover state icon color for this box"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3191
+msgid "Custom text color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3194
+msgid "Select custom text color for this box"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3201
+msgid "Faetured Box"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3213
+#: inc/vc_extend/esense-extend-vc.php:3334
+#: inc/vc_extend/esense-extend-vc.php:3559
+#: inc/vc_extend/esense-extend-vc.php:4272
+msgid "Button link"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3215
+#: inc/vc_extend/esense-extend-vc.php:3336
+#: inc/vc_extend/esense-extend-vc.php:4274
+msgid "If you leave this foeld blank 'Read more' button will be not dispaled"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3225
+#: inc/vc_extend/esense-extend-vc.php:3346
+#: inc/vc_extend/esense-extend-vc.php:4284
+msgid "Button Style"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3269
+msgid "Number Box"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3273
+msgid "Box with animated number"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3292
+#: inc/vc_extend/esense-extend-vc.php:3765
+#: inc/vc_extend/esense-extend-vc.php:4186
+msgid "Border style"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3308
+msgid "Faeture Box"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3312
+#: inc/vc_extend/esense-extend-vc.php:4236
+msgid "Number"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3320
+msgid "Custom number color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3323
+msgid "Select custom number color for this box"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3330
+msgid "Number box content."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3390
+msgid "Flip Box"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3394
+msgid "Flipping box"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3399
+msgid "Icon type:"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3470
+msgid "Upload Image Icon:"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3481
+msgid "Image Width"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3488
+msgid "Set image width"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3493
+#: inc/vc_extend/esense-extend-vc.php:3526
+msgid "Front title"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3504
+msgid "Front side content of this FlipBox."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3509
+msgid "Front text color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3513
+msgid "Select text color for front side."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3518
+msgid "Front background color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3522
+msgid "Select background color for front side."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3533
+msgid "Back Side Content"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3537
+msgid "Back side content of this FlipBox."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3542
+msgid "Back text color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3546
+msgid "Select text color for back side."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3551
+msgid "Back background color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3555
+msgid "Select background color for back side."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3562
+msgid "If you leave this field blank 'Read more' button will be not dispaled"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3611
+msgid "Button Size"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3643
+msgid "Flip Animation Type "
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3651
+msgid "Select Flip type for this flip box."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3656
+msgid "Set Box Height"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3665
+msgid "Select height option for this box."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3670
+msgid "Box Height"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3677
+msgid "Provide box height"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3695
+msgid "DP Text Box"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3700
+msgid "Text box with background, border etc"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3708
+msgid "Text Box"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3723
+msgid "Text box content."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3733
+#: inc/vc_extend/esense-extend-vc.php:3742
+msgid "Select custom background color for text box"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3747
+msgid "Border color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3751
+msgid "Select custom border color for text box"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3755
+msgid "Border width"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3760
+msgid "Border width in px"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3789
+msgid "Border radius in px"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3794
+msgid "Header background color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3798
+msgid "Select custom background color for front of service box"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3803
+msgid "Header text color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3807
+#: inc/vc_extend/esense-extend-vc.php:3816
+msgid "Select custom color for header text"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3812
+msgid "Icon custom color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3831
+msgid "DP Teaser"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3835
+msgid "Text box with image and link"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3840
+msgid "Source"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3853
+msgid "Icons in overlay"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3925
+msgid "Teaser title"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3931
+#: inc/vc_extend/esense-extend-vc.php:3944
+#: inc/vc_extend/esense-extend-vc.php:3956
+#: inc/vc_extend/esense-extend-vc.php:3967
+#: inc/vc_extend/esense-extend-vc.php:3978
+msgid "Custom content setting"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3948
+msgid "Big Image"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3951
+msgid ""
+"Select image from media library.This image will be displayed in lightbox. If "
+"you leave it blank lightbox link will be not displayed."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3962
+msgid "Teaser content."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3971
+msgid "Teaser link"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3973
+msgid "Enter URL if you want display read more button on bottom."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3982
+msgid "Post or portfolio item"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3984
+#: inc/vc_extend/esense-extend-vc.php:4044
+msgid "Add post by title. Start typing post title to find right post"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3994
+#: inc/vc_extend/esense-extend-vc.php:4006
+msgid "Post content setting"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:3998
+msgid "Excerpt characters limit"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4000
+msgid ""
+"How many characters should be displayed in post excerpt (default is 100)"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4021
+msgid "DP Teaser Horizontal"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4025
+msgid "Display fancy post based teaser block"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4042
+#: inc/widgets/widget_rules/widget-rules.php:147
+msgid "Post"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4068
+msgid "DP Countdown"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4074
+msgid "Countdown timer"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4079
+msgid "Countdown Timer Style"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4083
+msgid "Digit and Unit Up and Down"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4084
+msgid "Digit and Unit Side by Side"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4087
+msgid "Select style for countdown timer."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4093
+msgid "Target Time For Countdown"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4097
+msgid "Date and time format (yyyy/mm/dd hh:mm:ss)."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4102
+msgid "Timer Digit Text Color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4109
+msgid "Timer Digit Text Size"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4118
+msgid "Timer Digit Text Style"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4131
+msgid "Timer Unit Text Color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4138
+msgid "Timer Unit Text Size"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4147
+msgid "Timer Unit Text Style"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4169
+#: inc/vc_extend/esense-extend-vc.php:4181
+msgid "Process Box"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4173
+msgid "Box in process diagram"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4199
+msgid "Symbol size"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4245
+msgid "Symbol color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4252
+msgid "Symbol hover color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4259
+msgid "Process line color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4268
+msgid "Featured box content."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4317
+msgid "Finish process diagram?"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4319
+msgid ""
+"If it is last process position process line will be not displayed after this "
+"position."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4320
+msgid "Yes, please"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4334
+msgid "DP Timeline"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4341
+msgid "Timeline container"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4346
+msgid "Line type"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4360
+msgid "Line color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4374
+msgid "DP Timeline Item"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4378
+msgid "Single timeline item"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4384
+msgid "Item position"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4397
+msgid "Node color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4409
+msgid "Date background color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4416
+msgid "Date text color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4431
+msgid "Item content."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4443
+msgid "DP Timeline Seprator"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4447
+msgid "Timeline item separator"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4452
+msgid "Separator text"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4466
+msgid "Separator text color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4488
+msgid "OWL Carousel"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4492
+msgid "OWL Carousel using slide custom post type"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4497
+#: inc/vc_extend/esense-extend-vc.php:4588
+#: inc/vc_extend/esense-extend-vc.php:4637
+#: inc/vc_extend/esense-extend-vc.php:4776
+msgid "Items"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4499
+#: inc/vc_extend/esense-extend-vc.php:4590
+#: inc/vc_extend/esense-extend-vc.php:4778
+msgid "Items to display on normal screen width > 1200px"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4503
+#: inc/vc_extend/esense-extend-vc.php:4594
+#: inc/vc_extend/esense-extend-vc.php:4782
+msgid "Items on desktop"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4505
+#: inc/vc_extend/esense-extend-vc.php:4596
+#: inc/vc_extend/esense-extend-vc.php:4784
+msgid "Items to display on desktop screen width < 1200px"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4509
+#: inc/vc_extend/esense-extend-vc.php:4600
+#: inc/vc_extend/esense-extend-vc.php:4788
+msgid "Items on small desktop"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4511
+#: inc/vc_extend/esense-extend-vc.php:4602
+#: inc/vc_extend/esense-extend-vc.php:4790
+msgid ""
+"Items to display on desktop screen width < 980px. If you leave this field "
+"blank will be used setting from first not empty field above."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4515
+#: inc/vc_extend/esense-extend-vc.php:4606
+#: inc/vc_extend/esense-extend-vc.php:4794
+msgid "Items on tablet"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4517
+#: inc/vc_extend/esense-extend-vc.php:4608
+#: inc/vc_extend/esense-extend-vc.php:4796
+msgid ""
+"Items to display on tablet screen width < 768px. If you leave this field "
+"blank will be used setting from first not empty field above."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4521
+#: inc/vc_extend/esense-extend-vc.php:4612
+#: inc/vc_extend/esense-extend-vc.php:4800
+msgid "Items on mobile devices"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4523
+#: inc/vc_extend/esense-extend-vc.php:4614
+#: inc/vc_extend/esense-extend-vc.php:4802
+msgid ""
+"Items to display on mobile devices width < 479px. If you leave this field "
+"blank will be used setting from first not empty field above."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4528
+msgid "Item margin"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4536
+#: inc/vc_extend/esense-extend-vc.php:4618
+#: inc/vc_extend/esense-extend-vc.php:4806
+msgid "Autoplay"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4538
+#: inc/vc_extend/esense-extend-vc.php:4620
+#: inc/vc_extend/esense-extend-vc.php:4808
+msgid "Set autoplay speed in ms. If you leave blank autoplay will be disabled."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4542
+msgid "Show navigation arrows"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4553
+msgid "Show pagination bullets"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4568
+msgid "Portfolio carousel"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4572
+#: inc/vc_extend/esense-extend-vc.php:4760
+msgid "Portfolio items carousel"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4576
+#: inc/vc_extend/esense-extend-vc.php:4764
+msgid "Items in carousel total"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4578
+#: inc/vc_extend/esense-extend-vc.php:4766
+msgid "How many items should be included in carousel"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4584
+#: inc/vc_extend/esense-extend-vc.php:4661
+#: inc/vc_extend/esense-extend-vc.php:4772
+#: inc/vc_extend/esense-extend-vc.php:4848
+msgid ""
+"Coma separated list of categories to display. If you leave this field blank "
+"all items will be displayed."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4629
+msgid "Portfolio Grid"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4633
+msgid "Portfolio items grid"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4639
+msgid "How many items should be displayed"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4665
+msgid "Thumb dimension"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4680
+#: inc/vc_extend/esense-extend-vc.php:4852
+msgid "Display category filter"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4692
+msgid "Display lightbox icon in overlay"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4704
+msgid "Display link icon in overlay"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4716
+msgid "Display title in overlay"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4728
+msgid "Display categories in overlay"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4741
+msgid "Display short description in overlay"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4756
+msgid "Blog carousel"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4817
+msgid "Blog Grid"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4821
+msgid "Blog items grid"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4841
+msgid "Total items count"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4867
+msgid "Anchor"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4871
+msgid "Anchor in content"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4886
+msgid "Modal Box"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4891
+msgid "Modal boxes displayed in overlay"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4896
+msgid "Modal box trigger"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4898
+msgid "Modal box link label"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4899
+msgid ""
+"In this field place link for modal box content. Any HTML code and shortcodes "
+"is accepted."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4905
+msgid "Modal box content"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4907
+msgid ""
+"<p>I am test modal box text block. Click edit button to change this text.</p>"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4912
+msgid "Use popup box title?"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4923
+msgid "Modal Box Title"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4929
+msgid "Popup width"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4943
+msgid "Set modal box text color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4952
+msgid "Set modal box background color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4961
+msgid "Set overlay background color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4967
+msgid "Title text color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4970
+msgid "Set modal box title text color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4977
+msgid "Title background color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4980
+msgid "Set modal box title background color"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:4986
+msgid "Animation type"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:5000
+msgid "Select notification position on screen"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:5031
+msgid "DP DotMenu"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:5036
+msgid "Use this element to add vertical dot navigation"
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:5044
+msgid ""
+"Custom menus not found. Please visit <b>Appearance > Menus</b> page to "
+"create new menu."
+msgstr ""
+
+#: inc/vc_extend/esense-extend-vc.php:5044
+msgid "Select menu"
+msgstr ""
+
+#: inc/vc_extend/vc_templates/vc_accordion_tab.php:5
+msgid "Section"
+msgstr ""
+
+#: inc/vc_extend/vc_templates/vc_accordion_tab.php:14
+msgid "Empty section. Edit page to add content here."
+msgstr ""
+
+#: inc/vc_extend/vc_templates/vc_cta_button2.php:11
+msgid "Text on the button"
+msgstr ""
+
+#: inc/vc_extend/vc_templates/vc_tabs.php:66
+msgid "Previous slide"
+msgstr ""
+
+#: inc/vc_extend/vc_templates/vc_tabs.php:66
+msgid "Next slide"
+msgstr ""
+
+#: inc/vc_extend/vc_templates/vc_toggle.php:4
+msgid "Click to toggle"
+msgstr ""
+
+#: inc/widgets/widget_rules/widget-rules.php:126
+msgid "No styles available"
+msgstr ""
+
+#: inc/widgets/widget_rules/widget-rules.php:129
+msgid "Widget rules"
+msgstr ""
+
+#: inc/widgets/widget_rules/widget-rules.php:133
+msgid "Visible at: "
+msgstr ""
+
+#: inc/widgets/widget_rules/widget-rules.php:136
+msgid "All pages"
+msgstr ""
+
+#: inc/widgets/widget_rules/widget-rules.php:137
+msgid "All pages except:"
+msgstr ""
+
+#: inc/widgets/widget_rules/widget-rules.php:138
+msgid "No pages except:"
+msgstr ""
+
+#: inc/widgets/widget_rules/widget-rules.php:142
+msgid "Select page to add"
+msgstr ""
+
+#: inc/widgets/widget_rules/widget-rules.php:145
+msgid "Homepage"
+msgstr ""
+
+#: inc/widgets/widget_rules/widget-rules.php:146
+msgid "Page"
+msgstr ""
+
+#: inc/widgets/widget_rules/widget-rules.php:149
+msgid "Category with descendants"
+msgstr ""
+
+#: inc/widgets/widget_rules/widget-rules.php:150
+msgid "Tag"
+msgstr ""
+
+#: inc/widgets/widget_rules/widget-rules.php:151
+msgid "Archive"
+msgstr ""
+
+#: inc/widgets/widget_rules/widget-rules.php:152
+#: inc/widgets/widgets.newsflash.php:250
+msgid "Author"
+msgstr ""
+
+#: inc/widgets/widget_rules/widget-rules.php:153
+msgid "Page Template"
+msgstr ""
+
+#: inc/widgets/widget_rules/widget-rules.php:154
+msgid "Taxonomy"
+msgstr ""
+
+#: inc/widgets/widget_rules/widget-rules.php:155
+msgid "Post type"
+msgstr ""
+
+#: inc/widgets/widget_rules/widget-rules.php:156
+msgid "Search page"
+msgstr ""
+
+#: inc/widgets/widget_rules/widget-rules.php:157
+msgid "404 page"
+msgstr ""
+
+#: inc/widgets/widget_rules/widget-rules.php:161
+msgid "Page ID/Title/slug:"
+msgstr ""
+
+#: inc/widgets/widget_rules/widget-rules.php:167
+msgid "Post ID/Title/slug:"
+msgstr ""
+
+#: inc/widgets/widget_rules/widget-rules.php:173
+msgid "Category ID/Name/slug:"
+msgstr ""
+
+#: inc/widgets/widget_rules/widget-rules.php:179
+msgid "Category ID:"
+msgstr ""
+
+#: inc/widgets/widget_rules/widget-rules.php:185
+msgid "Tag ID/Name:"
+msgstr ""
+
+#: inc/widgets/widget_rules/widget-rules.php:191
+msgid "Author:"
+msgstr ""
+
+#: inc/widgets/widget_rules/widget-rules.php:197
+msgid "Template:"
+msgstr ""
+
+#: inc/widgets/widget_rules/widget-rules.php:203
+msgid "Taxonomy:"
+msgstr ""
+
+#: inc/widgets/widget_rules/widget-rules.php:209
+msgid "Taxonomy term:"
+msgstr ""
+
+#: inc/widgets/widget_rules/widget-rules.php:215
+msgid "Post type:"
+msgstr ""
+
+#: inc/widgets/widget_rules/widget-rules.php:220
+msgid "Add page"
+msgstr ""
+
+#: inc/widgets/widget_rules/widget-rules.php:225
+msgid "Selected pages"
+msgstr ""
+
+#: inc/widgets/widget_rules/widget-rules.php:226
+msgid "No pages"
+msgstr ""
+
+#: inc/widgets/widget_rules/widget-rules.php:234
+msgid "Widget style: "
+msgstr ""
+
+#: inc/widgets/widget_rules/widget-rules.php:250
+msgid "Visible on: "
+msgstr ""
+
+#: inc/widgets/widget_rules/widget-rules.php:252
+msgid "All devices"
+msgstr ""
+
+#: inc/widgets/widget_rules/widget-rules.php:253
+msgid "Desktop"
+msgstr ""
+
+#: inc/widgets/widget_rules/widget-rules.php:254
+msgid "Tablets"
+msgstr ""
+
+#: inc/widgets/widget_rules/widget-rules.php:255
+msgid "Smartphones"
+msgstr ""
+
+#: inc/widgets/widget_rules/widget-rules.php:256
+msgid "Tablets/Smartphones"
+msgstr ""
+
+#: inc/widgets/widget_rules/widget-rules.php:257
+msgid "Desktop/Tablets"
+msgstr ""
+
+#: inc/widgets/widget_rules/widget-rules.php:263
+msgid "Visible for: "
+msgstr ""
+
+#: inc/widgets/widget_rules/widget-rules.php:265
+msgid "All users"
+msgstr ""
+
+#: inc/widgets/widget_rules/widget-rules.php:266
+msgid "Only guests"
+msgstr ""
+
+#: inc/widgets/widget_rules/widget-rules.php:267
+msgid "Only registered users"
+msgstr ""
+
+#: inc/widgets/widget_rules/widget-rules.php:268
+msgid "Only administrator"
+msgstr ""
+
+#: inc/widgets/widgets.comments.php:20
+msgid "DP Comments"
+msgstr ""
+
+#: inc/widgets/widgets.comments.php:23
+msgid "Use this widget to show recent comments with avatars"
+msgstr ""
+
+#: inc/widgets/widgets.comments.php:55
+msgid "Latest Comments"
+msgstr ""
+
+#: inc/widgets/widgets.comments.php:190 inc/widgets/widgets.flickr.php:151
+#: inc/widgets/widgets.newsflash.php:221
+#: inc/widgets/widgets.recent_portfolio.php:186
+#: inc/widgets/widgets.recent_posts.php:185 inc/widgets/widgets.tabs.php:214
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/widgets.comments.php:195
+msgid "Avatar size:"
+msgstr ""
+
+#: inc/widgets/widgets.comments.php:200
+msgid "Word count:"
+msgstr ""
+
+#: inc/widgets/widgets.comments.php:205
+msgid "Number of comments:"
+msgstr ""
+
+#: inc/widgets/widgets.flickr.php:20
+msgid "DP Flickr Gallery"
+msgstr ""
+
+#: inc/widgets/widgets.flickr.php:23
+msgid "Use this widget to show gallery from Flickr"
+msgstr ""
+
+#: inc/widgets/widgets.flickr.php:156
+msgid "Flickr user ID:"
+msgstr ""
+
+#: inc/widgets/widgets.flickr.php:161
+msgid "Image count limit:"
+msgstr ""
+
+#: inc/widgets/widgets.flickr.php:166
+msgid "Image size (px):"
+msgstr ""
+
+#: inc/widgets/widgets.flickr.php:171
+msgid "Show image title:"
+msgstr ""
+
+#: inc/widgets/widgets.flickr.php:181
+msgid "Show link to flickr stream:"
+msgstr ""
+
+#: inc/widgets/widgets.newsflash.php:19
+msgid "DP NewsFlash"
+msgstr ""
+
+#: inc/widgets/widgets.newsflash.php:22
+msgid "Use this widget to show news flash"
+msgstr ""
+
+#: inc/widgets/widgets.newsflash.php:225
+msgid "Style:"
+msgstr ""
+
+#: inc/widgets/widgets.newsflash.php:236
+msgid "Posts Category:"
+msgstr ""
+
+#: inc/widgets/widgets.newsflash.php:244
+msgid "Max Number of Posts:"
+msgstr ""
+
+#: inc/widgets/widgets.newsflash.php:248
+msgid "Order:"
+msgstr ""
+
+#: inc/widgets/widgets.newsflash.php:253
+msgid "Modified"
+msgstr ""
+
+#: inc/widgets/widgets.newsflash.php:254
+msgid "Menu Order"
+msgstr ""
+
+#: inc/widgets/widgets.newsflash.php:255
+msgid "Parent"
+msgstr ""
+
+#: inc/widgets/widgets.newsflash.php:260
+msgid "Use Title or Content:"
+msgstr ""
+
+#: inc/widgets/widgets.newsflash.php:271
+msgid "Content Type:"
+msgstr ""
+
+#: inc/widgets/widgets.newsflash.php:274
+msgid "Excerpt"
+msgstr ""
+
+#: inc/widgets/widgets.newsflash.php:282
+msgid "PreText Label:"
+msgstr ""
+
+#: inc/widgets/widgets.newsflash.php:286
+msgid "Show Controls:"
+msgstr ""
+
+#: inc/widgets/widgets.newsflash.php:289
+msgid "On"
+msgstr ""
+
+#: inc/widgets/widgets.newsflash.php:292
+msgid "Off"
+msgstr ""
+
+#: inc/widgets/widgets.newsflash.php:297
+msgid "Animation:"
+msgstr ""
+
+#: inc/widgets/widgets.newsflash.php:303
+msgid "Fade"
+msgstr ""
+
+#: inc/widgets/widgets.newsflash.php:308
+msgid "Animation direction:"
+msgstr ""
+
+#: inc/widgets/widgets.newsflash.php:311
+msgid "Horizontal"
+msgstr ""
+
+#: inc/widgets/widgets.newsflash.php:314
+msgid "Vertical"
+msgstr ""
+
+#: inc/widgets/widgets.newsflash.php:319
+msgid "Transition duration (ms):"
+msgstr ""
+
+#: inc/widgets/widgets.newsflash.php:323
+msgid "Transition delay (ms):"
+msgstr ""
+
+#: inc/widgets/widgets.newsflash.php:327
+msgid "News Indent (px):"
+msgstr ""
+
+#: inc/widgets/widgets.newsflash.php:331
+msgid "Preview Length (characters):"
+msgstr ""
+
+#: inc/widgets/widgets.recent_portfolio.php:19
+msgid "DP Recent Portfolio"
+msgstr ""
+
+#: inc/widgets/widgets.recent_portfolio.php:22
+msgid "Use this widget to show recent portfolio items"
+msgstr ""
+
+#: inc/widgets/widgets.recent_portfolio.php:191
+msgid "Portfolio category:"
+msgstr ""
+
+#: inc/widgets/widgets.recent_portfolio.php:196
+#: inc/widgets/widgets.recent_posts.php:195
+msgid "Item count:"
+msgstr ""
+
+#: inc/widgets/widgets.recent_portfolio.php:200
+#: inc/widgets/widgets.recent_posts.php:199
+msgid "Word limit in excerpt:"
+msgstr ""
+
+#: inc/widgets/widgets.recent_portfolio.php:204
+#: inc/widgets/widgets.recent_posts.php:203
+msgid "Thumnail width (px):"
+msgstr ""
+
+#: inc/widgets/widgets.recent_portfolio.php:208
+#: inc/widgets/widgets.recent_posts.php:207
+msgid "Show featured image:"
+msgstr ""
+
+#: inc/widgets/widgets.recent_portfolio.php:216
+#: inc/widgets/widgets.recent_posts.php:215
+msgid "Show post title:"
+msgstr ""
+
+#: inc/widgets/widgets.recent_portfolio.php:224
+#: inc/widgets/widgets.recent_posts.php:223
+msgid "Show date:"
+msgstr ""
+
+#: inc/widgets/widgets.recent_posts.php:19
+msgid "DP Recent Posts"
+msgstr ""
+
+#: inc/widgets/widgets.recent_posts.php:22
+msgid "Use this widget to show recent posts"
+msgstr ""
+
+#: inc/widgets/widgets.recent_posts.php:190
+msgid "Posts category:"
+msgstr ""
+
+#: inc/widgets/widgets.tabs.php:23
+msgid "Use this widget to show tabs created form the selected sidebar"
+msgstr ""
+
+#: inc/widgets/widgets.tabs.php:129
+msgid "No title specified!"
+msgstr ""
+
+#: inc/widgets/widgets.tabs.php:219
+msgid "Tabs source:"
+msgstr ""
+
+#: inc/widgets/widgets.tabs.php:231
+msgid "Tabs activator event:"
+msgstr ""
+
+#: inc/widgets/widgets.tabs.php:235
+msgid "Click"
+msgstr ""
+
+#: inc/widgets/widgets.tabs.php:238
+msgid "Hover"
+msgstr ""
+
+#: inc/widgets/widgets.tabs.php:244
+msgid "Auto animation:"
+msgstr ""
+
+#: inc/widgets/widgets.tabs.php:257
+msgid "Animation speed (ms):"
+msgstr ""
+
+#: inc/widgets/widgets.tabs.php:262
+msgid "Animation interval (ms):"
+msgstr ""
+
+#: inc/woocommerce/loop/sale-flash.php:17
+#: inc/woocommerce/single-product/sale-flash.php:17
+msgid "Sale!"
+msgstr ""
+
+#: inc/woocommerce/myaccount/my-orders.php:26
+msgid "Recent Orders"
+msgstr ""
+
+#: inc/woocommerce/myaccount/my-orders.php:32
+#: inc/woocommerce/myaccount/my-orders.php:47
+msgid "Order"
+msgstr ""
+
+#: inc/woocommerce/myaccount/my-orders.php:34
+#: inc/woocommerce/myaccount/my-orders.php:55
+msgid "Status"
+msgstr ""
+
+#: inc/woocommerce/myaccount/my-orders.php:35
+#: inc/woocommerce/myaccount/my-orders.php:58
+#: inc/woocommerce/wc_dropdown_cart.php:59
+msgid "Total"
+msgstr ""
+
+#: inc/woocommerce/myaccount/my-orders.php:59
+#, php-format
+msgid "%s for %s item"
+msgid_plural "%s for %s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/woocommerce/myaccount/my-orders.php:68
+msgid "Pay"
+msgstr ""
+
+#: inc/woocommerce/myaccount/my-orders.php:74
+msgid "Cancel"
+msgstr ""
+
+#: inc/woocommerce/myaccount/my-orders.php:79
+msgid "View"
+msgstr ""
+
+#: inc/woocommerce/single-product/product-image.php:15
+msgid "zoom"
+msgstr ""
+
+#: inc/woocommerce/single-product/product-image.php:36
+msgid "ZOOM"
+msgstr ""
+
+#: inc/woocommerce/wc_dropdown_cart.php:51
+msgid "No products in the cart."
+msgstr ""
+
+#: inc/woocommerce/wc_dropdown_cart.php:58
+msgid "VIEW CART"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "DP Esense Functions"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.dynamicpress.eu"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Plugin which adds custom functions (post types , shortcodes) used in "
+"Dynamicpress themes."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Dynamicpress"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.dynamicpress.eu/"
+msgstr ""

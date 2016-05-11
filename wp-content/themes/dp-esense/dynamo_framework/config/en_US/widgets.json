@@ -1,0 +1,142 @@
+[	
+	{
+		"name": "Sidebar",
+		"id": "sidebar",
+		"description": "Sidebar column",
+		"before_widget": "<div id=\"%1$s\" class=\"box %2$s\">",
+		"after_widget": "</div>",
+		"before_title": "<h3 class=\"box-title\"><span>",
+		"after_title": "</span></h3>"
+	},
+	{
+		"name": "Expandable sidebar",
+		"id": "aside",
+		"description": "Expandable sidebar area",
+		"before_widget": "<div id=\"%1$s\" class=\"box %2$s\">",
+		"after_widget": "</div>",
+		"before_title": "<h3 class=\"box-title\"><span>",
+		"after_title": "</span></h3>"
+	},
+	{
+		"name": "Woocommerce Sidebar",
+		"id": "woosidebar",
+		"description": "Sidebar column only for Woocmmerce pages",
+		"before_widget": "<div id=\"%1$s\" class=\"box %2$s\">",
+		"after_widget": "</div>",
+		"before_title": "<h3 class=\"box-title\"><span>",
+		"after_title": "</span></h3>"
+	},
+	{
+		"name": "Slideshow",
+		"id": "slideshow",
+		"description": "Widgets area for full width slideshow",
+		"before_widget": "<div id=\"%1$s\" class=\"box %2$s\"><div>",
+		"after_widget": "</div></div>",
+		"before_title": "",
+		"after_title": ""
+	},
+	{
+		"name": "Mainbody",
+		"id": "mainbody",
+		"description": "Widgets area used only if is enabled in the theme options instead of showing posts",
+		"before_widget": "<div id=\"%1$s\" class=\"box %2$s\">",
+		"after_widget": "</div>",
+		"before_title": "<h3 class=\"box-title\"><span>",
+		"after_title": "</span></h3>"
+	},
+	{
+		"name": "Footer",
+		"id": "footer",
+		"description": "Footer widget area",
+		"before_widget": "<div id=\"%1$s\" class=\"box %2$s\">",
+		"after_widget": "</div>",
+		"before_title": "<h3 class=\"box-title\"><span>",
+		"after_title": "</span></h3>",
+		"amount": "6"
+	},
+	{
+		"name": "Footer Left",
+		"id": "footer1",
+		"description": "Left footer widget area",
+		"before_widget": "<div id=\"%1$s\" class=\"box %2$s\">",
+		"after_widget": "</div>",
+		"before_title": "<h3 class=\"box-title\"><span>",
+		"after_title": "</span></h3>",
+		"amount": "1"
+	},
+	{
+		"name": "Footer Middle",
+		"id": "footer2",
+		"description": "Middle footer widget area",
+		"before_widget": "<div id=\"%1$s\" class=\"box %2$s\">",
+		"after_widget": "</div>",
+		"before_title": "<h3 class=\"box-title\"><span>",
+		"after_title": "</span></h3>",
+		"amount": "2"
+	},
+	{
+		"name": "Footer Right",
+		"id": "footer3",
+		"description": "Right footer widget area",
+		"before_widget": "<div id=\"%1$s\" class=\"box %2$s\">",
+		"after_widget": "</div>",
+		"before_title": "<h3 class=\"box-title\"><span>",
+		"after_title": "</span></h3>",
+		"amount": "1"
+	},
+	{
+		"name": "Top Menu Add",
+		"id": "topmenuadd",
+		"description": "Widgets area for use magazine menu style add",
+		"before_widget": "",
+		"after_widget": "",
+		"before_title": "",
+		"after_title": ""
+	},
+	{
+		"name": "Tab I",
+		"id": "tab1",
+		"description": "Widgets area for use in the Esense Tabs widget",
+		"before_widget": "",
+		"after_widget": "",
+		"before_title": "",
+		"after_title": ""
+	},
+	{
+		"name": "Tab II",
+		"id": "tab2",
+		"description": "Widgets area for use in the Esense Tabs widget",
+		"before_widget": "",
+		"after_widget": "",
+		"before_title": "",
+		"after_title": ""
+	},
+	{
+		"name": "Tab III",
+		"id": "tab3",
+		"description": "Widgets area for use in the Esense Tabs widget",
+		"before_widget": "",
+		"after_widget": "",
+		"before_title": "",
+		"after_title": ""
+	},
+		{
+		"name": "Megamenu Widget I",
+		"id": "megamenu1",
+		"description": "Widgets area for use in megamenu",
+		"before_widget": "",
+		"after_widget": "",
+		"before_title": "",
+		"after_title": ""
+	},
+	{
+		"name": "Megamenu Widget II",
+		"id": "megamenu2",
+		"description": "Widgets area for use in megamenu",
+		"before_widget": "",
+		"after_widget": "",
+		"before_title": "",
+		"after_title": ""
+	}
+
+]

@@ -1,0 +1,32 @@
+[
+	{
+		"main": false,
+		"location": "user-menu",
+		"name": "User menu",
+		"description": "User menu in top bar"
+	},
+	{
+		"main": true,
+		"location": "mainmenu",
+		"name": "Main menu",
+		"description": "Main menu"
+	},
+	{
+		"main": true,
+		"location": "mainmenu-left",
+		"name": "Left Main menu",
+		"description": "Left Main menu"
+	},
+	{
+		"main": true,
+		"location": "mainmenu-right",
+		"name": "Right Main menu",
+		"description": "Right Main menu"
+	},
+	{
+		"main": false,
+		"location": "footer-menu",
+		"name": "Footer menu",
+		"description": "Footer menu"
+	}
+]
