@@ -3119,7 +3119,7 @@ height:auto;
 }
 .menu_metro .sf-menu li.root > .item-container{
 min-width:90px;
-height:90px;
+height:30px;
 background-color: #f3b804;
 }
 .menu_metro .sf-menu li a {
@@ -3149,7 +3149,7 @@ padding-left:7px;
 .menu_metro .sf-menu li.root >  .item-container a .menu-title {
 display:block;
 width:100%;
-margin-top:58px;
+margin-top:5px;
 left:0px;
 font-weight:400;
 letter-spacing:1px;
@@ -3159,7 +3159,7 @@ box-sizing:border-box;
 }
 .menu_metro .esense-button-area {
 min-width:60px;
-height:90px;
+height:30px;
 background-color: #48394B;
 padding:0 8px;
 margin:17px 0 0 5px;
@@ -3173,10 +3173,10 @@ transition:none;
 .menu_metro .esense-button-area a {
 display:inline-block;
 width:25px;
-height:90px;
+height:30px;
 }
 .menu_metro .esense-button-area a:before {
-	line-height:90px;
+	line-height:30px;
 }
 
 .menu_metro .sf-menu ul {
