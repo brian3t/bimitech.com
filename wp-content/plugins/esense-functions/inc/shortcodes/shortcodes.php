@@ -2588,9 +2588,9 @@ function dp_buttongroup_sep( $atts, $content = null ) {
 function dp_googlemap1( $atts, $content = null ) {
 	extract(shortcode_atts(array(
 		'centertype' => 'address',
-		'address' => 'London',
-		'lat' => '51.507113',
-		'long' => '0',
+		'address' => 'San Jose CA 95129',
+		'lat' => '37.297403',
+		'long' => '-122.000141',
 		'height' => '300',
 		'zoom' => '14',
 		'mapcontrol' => '',
@@ -2602,7 +2602,7 @@ function dp_googlemap1( $atts, $content = null ) {
 		'customtheme' => '',
 		), $atts));
 	$js = $mapoutput =  $options = $styles = "";
-    wp_register_script('google-map-api-js', 'http://maps.google.com/maps/api/js?sensor=false', array(), false);
+    wp_register_script('google-map-api-js', 'http://maps.google.com/maps/api/js?key=AIzaSyBPeYraJ4H0BiuD1IQanQFlY1npx114ZpM', array(), false);
 	wp_enqueue_script('google-map-api-js');
 	wp_register_script('gmap3-js', get_template_directory_uri().'/js/gmap3.min.js', array('jquery'),false);
 	wp_enqueue_script('gmap3-js');
@@ -2652,9 +2652,9 @@ function dp_googlemap_marker( $atts, $content = null ) {
 	extract(shortcode_atts(array(
 		'parentid' => '',
 		'locationtype' => 'address',
-		'address' => 'London',
-		'lat' => '51.507113',
-		'long' => '0',
+		'address' => 'San Jose, CA 95129',
+		'lat' => '37.297403',
+		'long' => '-122.000141',
 		'markertype' => 'simple',
 		'markercolor' => '#c52b5d',
 		'icon' => '',

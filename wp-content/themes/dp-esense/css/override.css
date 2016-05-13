@@ -23,3 +23,10 @@
 @media (max-width: 768px) {
 .equalized-columns .vc_col-sm-3 {width:100%!important}
 }
+h2.wpb_heading.wpb_singleimage_heading {
+    height: 67px;
+}
+body, article > .content{padding: 10px 0 10px 0}
+.team-box img{height: 300px; width: auto}
+#esense-footer-wrap{margin-top: 8px}
+.menu_metro .esense-button-area{display: none}

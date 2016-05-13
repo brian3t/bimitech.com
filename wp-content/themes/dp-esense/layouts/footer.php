@@ -88,7 +88,7 @@ if(get_option($esense_tpl->name . "_copyright_style") == 'centered') $iscopyrigh
  			<div class="centered-block-middle">
   				<div class="centered-block-inner">
         <div class="esense-copyrights"> 
-<div class="esense-copyrights-text"><?php echo str_replace('\\', '', htmlspecialchars_decode(get_option($esense_tpl->name . '_template_copyright_text', ''))); ?></div>
+<div class="esense-copyrights-text">Built in 2016 by <a href="http://superbappsolutions.com" target="_blank">SuperbAppSolutions</a></div>
         </div>
         </div>
        </div>
@@ -104,7 +104,7 @@ if(get_option($esense_tpl->name . "_copyright_style") == 'centered') $iscopyrigh
         <?php } ?>
 
         <div class="esense-copyrights"> 
-        <div class="esense-copyrights-text"><?php echo str_replace('\\', '', htmlspecialchars_decode(get_option($esense_tpl->name . '_template_copyright_text', ''))); ?></div>
+        <div class="esense-copyrights-text">Built in 2016 by <a href="http://superbappsolutions.com" target="_blank">SuperbAppSolutions</a></div>
             <?php if ( has_nav_menu( 'footer-menu' ) ) {?>
 			<div id="esense-footer-menu"><?php esense_menu('footer-menu', 'esense-footer-menu', array('walker' => new Esense_MenuWalker()), 'footer-menu'); ?></div>
             <?php } ?>
